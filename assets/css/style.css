@@ -937,7 +937,7 @@ a.toggle-menu{
     font-size: 1.5rem;
   }
   .banner-bg {
-    background: url(../img/home-banner.png) no-repeat center right;
+    background: url(../img/home-banner-mob.png) no-repeat center right;
     background-position: 0 0px;
     background-size: auto;
     height: auto;

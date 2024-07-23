@@ -46,6 +46,27 @@
                                   </div>
                               </div>
                           </li>
+
+                          <li class="banner-bg">
+                              <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
+                                  <div class="text-center">
+                                    <div class="main-title-white">BlitzTrader </div>
+                                    <div class="second-title-white"> 
+                                          Algorithmic Trading Redefined
+                                          Power, Simplicity and BlitzTrader
+                                    </div>
+
+                                    <div class="small-text-white py-4-d px-4"> 
+                                          BlitzTrader empowers clients to conquer the markets with a low-latency, multi-market, multi-asset trading platform. Our groundbreaking strategy development framework streamlines the process, enabling rapid development, testing, deployment, and management of sophisticated trading strategies across any electronic marketplace. 
+                                    </div>
+
+                                    <div class="btn-mg">
+                                      <button class="dark-btn">Get Started</button>
+                                      <button class="light-btn">Documentation</button>
+                                    </div>
+                                  </div>
+                              </div>
+                          </li>
                           <!-- <li class="banner-bg-2">
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
@@ -116,7 +137,7 @@
       <div class="d-flex justify-content-between mob-col pt-5">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/algorithmic.svg">
+              <img src="assets/img/algorithmic.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -146,7 +167,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/fix.svg">
+              <img src="assets/img/fix.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -177,7 +198,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/exchange.svg">
+              <img src="assets/img/exchange.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -210,7 +231,7 @@
       <div class="d-flex justify-content-between mob-col">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/trading.svg">
+              <img src="assets/img/trading.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -240,7 +261,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/market.svg">
+              <img src="assets/img/market.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -271,7 +292,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/scalable.svg">
+              <img src="assets/img/scalable.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -304,7 +325,7 @@
       <div class="d-flex justify-content-between mob-col pb-4">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/strategies.svg">
+              <img src="assets/img/strategies.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -334,7 +355,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/HFT.svg">
+              <img src="assets/img/HFT.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -364,7 +385,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/order.svg">
+              <img src="assets/img/order.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -396,37 +417,30 @@
       </div>
   </section>
 
-  <section class="container py-5">    
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-6">
-        <p class="sec-title">
-          Innovation, Transformation <br> and Disruption in your  <br> <span class="span-title">Automated Trading</span>
-        </p>
-      </div>
+  <section class="py-5" style="background: #011F3D;">    
+    <div class="container">
+      <div class="row ">
+        <div class="col-12 col-md-6 col-lg-6">
+          <img class="first-comma" src="assets/img/first-comma.png">
+          <p class="sec-title white">
+            Innovation, Transformation <br> and Disruption in your  <br> <span class="span-title white">Automated Trading</span>
+          </p>
 
-      <div class="col-12 col-md-6 col-lg-6">
-        <p class="para-text">
-          We provides reusable trading software frameworks, components and custom software development services that save lot of your effort and capital in development of customized automated trading solution and drive a profitability and success for you.
-        </p>
-      </div>
-    </div>
-  </section>
+          <div class="medium-title white pb-5">Partnerships that create & grow.</div>
 
-  <section class="container py-5">    
-    <div class="row">
-      <div class="col-12 col-md-7 col-lg-7">
-        <img src="assets/img/create-grow.svg">
-      </div>
+          <p class="para-text white font-weight-300">
+            We provides reusable trading software frameworks, components and custom software development services that save lot of your effort and capital in development of customized automated trading solution and drive a profitability and success for you.
+          </p>
+        </div>
 
-      <div class="col-12 col-md-5 col-lg-5 div-center">
-        <p class="sec-title">
-          Business <br> Partnerships that <br> <span class="span-title">create & grow.</span>
-        </p>
+        <div class="col-12 col-md-6 col-lg-6 div-center"> 
+            <img src="assets/img/create-grow.svg">
+        </div>
       </div>
     </div>
-  </section>
+  </section> 
 
-  <section class="container py-5">    
+<!--   <section class="container py-5">    
     <div class="row pt-5">
       <div class="col-12 col-md-5 col-lg-5">
         <p class="medium-title">
@@ -440,7 +454,7 @@
       </div>
 
       <div class="col-12 col-md-7 col-lg-7 border-left-5 mob-mg">
-        <p class="para-text ps-5">
+        <p class="para-text  centerps-5">
           "Because we were in the cloud, we were able to stand things up in about 48 hours that otherwise would have taken us months to do."
         </p>
         <p class="medium-title ps-5">
@@ -450,9 +464,9 @@
       </div> 
 
     </div>
-  </section>
+  </section> -->
   
-  <section class="bg-gray py-6">  
+  <section class="py-5">  
     <div class="container">  
       <div class="text-center">
         <p class="sec-title">
@@ -463,7 +477,7 @@
             Experience the power of our comprehensive trading library and framework, designed to revolutionize your trading <br> system development. Cut costs and time to market drastically compared to building from scratch in .NET <br> technology. Unleash your trading potential like never before.
         </p>
       </div>  
-      <div class="row bg-gray">
+      <div class="row  ">
         <div class="col-12 col-md-7 col-lg-7 div-center">
           <img src="assets/img/qxfinLib-img.svg">
         </div>
@@ -572,7 +586,7 @@
     </div>
   </section>
 
-  <section class="container py-6">    
+  <section class="container py-5">    
     <div class="text-center">
       <p class="sec-title">
           Blitz<span class="span-title">Trader</span>
@@ -586,211 +600,255 @@
           BlitzTrader empowers professional quants and active traders to bring their algorithmic trading ideas to life. It's a comprehensive platform that streamlines the entire algorithmic trading process, from strategy development to real-time execution across multiple assets and exchanges/brokers.. With BlitzTrader, developers can build complex trading strategies and execution models in a matter of hours to days.
       </p>
     </div>   
-  </section>
 
-  <section class="container h-80 mob"> 
-      <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">Why to Choose BlitzTrader</button>
-        <button class="tablinks" onclick="openTab(event, 'secondTab')">Asset Neutral, High Performance, Scalable, Open Architecture</button>
-        <button class="tablinks" onclick="openTab(event, 'thirdTab')">Flexible and Powerful Customization</button>
-
-        <button class="tablinks" onclick="openTab(event, 'fourthTab')" id="defaultOpen">Open Framework and SDK</button>
-        <button class="tablinks" onclick="openTab(event, 'fifthTab')">Loosely Coupled Market Data Feed Components</button>
-        <button class="tablinks" onclick="openTab(event, 'sixthTab')">Framework and Libraries</button>
-
-        <button class="tablinks" onclick="openTab(event, 'seventhTab')">Advanced Trade Execution Capabilities</button>
-        <button class="tablinks" onclick="openTab(event, 'eighthTab')">Integration with External system</button>
-      </div>
-
-      <div id="firstTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.</p>
-      </div>
-
-      <div id="secondTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">BlitzTrader's architecture is designed to accommodate various asset classes with high performance and scalability, ensuring seamless integration and operation in any trading environment.</p> 
-      </div>
-
-      <div id="thirdTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">Our platform offers robust customization options to adapt to changing market conditions and evolving trading business needs, empowering traders to stay ahead of the curve.</p>
-      </div>
-
-      <div id="fourthTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">Developers can leverage our open framework and SDK to develop and integrate powerful algorithmic strategies and market connectivity adapters tailored to their specific requirements.</p>
-      </div>
-
-      <div id="fifthTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">BlitzTrader features loosely coupled market data feed components and a dissemination infrastructure, providing traders with real-time, accurate market data for informed decision-making.</p>
-      </div>
-
-      <div id="sixthTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">We provide a comprehensive suite of frameworks and libraries for TimeData Series, Technical Indicators, and options pricing, enabling traders to conduct advanced analysis and modeling with ease.</p> 
-      </div>
-
-      <div id="seventhTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">Our platform offers advanced trade execution capabilities that can be easily customized and integrated into trading strategies, allowing for efficient order routing and execution. Our execution framework empowers your strategy to quote at any level, on any order side, and at any price point.</p>
-      </div>
-
-      <div id="eighthTab" class="tabcontent">
-        <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-        <p class="para-text">BlitzTrader Strategies are developed using .NET programming languages, opening up immense possibilities for you to connect with any external system for signals or advanced calculations. This makes the system open and customizable without any limitations.</p>
-      </div> 
-  </section>
-
-  <div class="container accordion desk" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Why to Choose BlitzTrader
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-          <div class="para-text">
-            BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Asset Neutral, High Performance, Scalable, Open Architecture
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Flexible and Powerful Customization
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingfour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
-            Open Framework and SDK
-          </button>
-        </h2>
-        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div> 
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingfive">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedfive" aria-expanded="false" aria-controls="collapsedfive">
-          Loosely Coupled Market Data Feed Components
-        </button>
-      </h2>
-      <div id="collapsedfive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div>  
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingsix">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedsix" aria-expanded="false" aria-controls="collapseThree">
-          Framework and Libraries
-        </button>
-      </h2>
-      <div id="collapsedsix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-            <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingseven">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedseven" aria-expanded="false" aria-controls="collapseseven">
-          Advanced Trade Execution Capabilities
-        </button>
-      </h2>
-      <div id="collapsedseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div>  
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingeight">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedeight" aria-expanded="false" aria-controls="collapseeight">
-          Integration with External system
-        </button>
-      </h2>
-      <div id="collapsedeight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-            <center> <img class="w-75" src="assets/img/image-trade.png"></center>
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="container py-5 pt-6">
     <div class="row py-6">
-      <div class="col-12 col-md-6 col-lg-6 div-center">
-        <img src="assets/img/consulting.png">
+      <div class="col-lg-5 mob">
+        <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#snit" role="tab" aria-controls="home" aria-selected="true">
+              Why to Choose BlitzTrader
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs" role="tab" aria-controls="profile" aria-selected="false">Asset Neutral, High Performance, Scalable, Open Architecture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " id="home-tab" data-toggle="tab" href="#snit3" role="tab" aria-controls="home" aria-selected="true">Flexible and Powerful Customization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs4" role="tab" aria-controls="profile" aria-selected="false">Open Framework and SDK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " id="home-tab" data-toggle="tab" href="#snit5" role="tab" aria-controls="home" aria-selected="true">Loosely Coupled Market Data Feed Components</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs6" role="tab" aria-controls="profile" aria-selected="false">Framework and Libraries</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " id="home-tab" data-toggle="tab" href="#snit7" role="tab" aria-controls="home" aria-selected="true">Advanced Trade Execution Capabilities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs8" role="tab" aria-controls="profile" aria-selected="false">Integration with External system</a>
+          </li>
+
+        </ul>
       </div>
-      <div class="col-12 col-md-6 col-lg-6">
-        <p class="sec-title">
-          <span class="span-title">QuantXpress</span> Consulting and Professional Services
-        </p>
+      <div class="col-lg-7 mob">
+        <div class="tab-content" id="experienceTabContent">
 
-        <p class="medium-title py-3">
-          QuantXpress Technologies is a leading technology firm specializing in algorithmic trading and trade lifecycle automation.
-          We are your one-stop shop for all your algorithmic trading needs.
-        </p>
+          <div class="tab-pane fade show active text-left text-light" id="snit" role="tabpanel" aria-labelledby="home-tab">
+            <p class="para-text center">
+              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
+            </p>
+          </div>
 
-        <p class="para-text py-3">
-          With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking custom trading software development, algorithmic trading, high-frequency trading (HFT), custom quantitative strategies development on Blitz, exchange connectivity, FIX Engine, and market data solutions. Our team also specializes in electronic connectivity solutions for all major Indian and global exchanges. Trust QuantXpress to elevate your trading experience and optimize your performance in today's dynamic markets.
-        </p>
+          <div class="tab-pane fade text-left text-light" id="devs" role="tabpanel" aria-labelledby="profile-tab">
+            <p class="para-text center">
+              BlitzTrader's architecture is designed to accommodate various asset classes with high performance and scalability, ensuring seamless integration and operation in any trading environment.
+            </p>
+          </div>
 
-        <button class="dark-btn_2 mob-mt-5 "> Learn More</button>
+          <div class="tab-pane fade text-left text-light" id="snit3" role="tabpanel" aria-labelledby="home-tab3">
+            <p class="para-text  center">
+              Our platform offers robust customization options to adapt to changing market conditions and evolving trading business needs, empowering traders to stay ahead of the curve.
+            </p>
+          </div>
+
+          <div class="tab-pane fade text-left text-light" id="devs4" role="tabpanel" aria-labelledby="profile-tab4">
+            <p class="para-text  center">
+              Developers can leverage our open framework and SDK to develop and integrate powerful algorithmic strategies and market connectivity adapters tailored to their specific requirements.
+            </p>
+          </div>
+
+          <div class="tab-pane fade text-left text-light" id="snit5" role="tabpanel" aria-labelledby="home-tab5">
+            <p class="para-text  center">
+              BlitzTrader features loosely coupled market data feed components and a dissemination infrastructure, providing traders with real-time, accurate market data for informed decision-making.
+            </p>
+          </div>
+
+          <div class="tab-pane fade text-left text-light" id="devs6" role="tabpanel" aria-labelledby="profile-tab6">
+            <p class="para-text  center">
+               We provide a comprehensive suite of frameworks and libraries for TimeData Series, Technical Indicators, and options pricing, enabling traders to conduct advanced analysis and modeling with ease.
+            </p>
+          </div>
+
+          <div class="tab-pane fade text-left text-light" id="snit7" role="tabpanel" aria-labelledby="home-tab7">
+            <p class="para-text  center">
+              Our platform offers advanced trade execution capabilities that can be easily customized and integrated into trading strategies, allowing for efficient order routing and execution. Our execution framework empowers your strategy to quote at any level, on any order side, and at any price point.
+            </p>
+          </div>
+
+          <div class="tab-pane fade text-left text-light" id="devs8" role="tabpanel" aria-labelledby="profile-tab8">
+            <p class="para-text  center">
+              BlitzTrader Strategies are developed using .NET programming languages, opening up immense possibilities for you to connect with any external system for signals or advanced calculations. This makes the system open and customizable without any limitations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container accordion desk" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Why to Choose BlitzTrader
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body"> 
+            <div class="para-text">
+              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Asset Neutral, High Performance, Scalable, Open Architecture
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               
+              <div class="para-text">
+                BlitzTrader's architecture is designed to accommodate various asset classes with high performance and scalability, ensuring seamless integration and operation in any trading environment.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Flexible and Powerful Customization
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               
+              <div class="para-text">
+                
+                Our platform offers robust customization options to adapt to changing market conditions and evolving trading business needs, empowering traders to stay ahead of the curve.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingfour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+              Open Framework and SDK
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               
+              <div class="para-text">
+                
+                Developers can leverage our open framework and SDK to develop and integrate powerful algorithmic strategies and market connectivity adapters tailored to their specific requirements.
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingfive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedfive" aria-expanded="false" aria-controls="collapsedfive">
+            Loosely Coupled Market Data Feed Components
+          </button>
+        </h2>
+        <div id="collapsedfive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               
+              <div class="para-text">
+                
+                BlitzTrader features loosely coupled market data feed components and a dissemination infrastructure, providing traders with real-time, accurate market data for informed decision-making.
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingsix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedsix" aria-expanded="false" aria-controls="collapseThree">
+            Framework and Libraries
+          </button>
+        </h2>
+        <div id="collapsedsix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+               
+              <div class="para-text">
+                 
+                 Our platform offers advanced trade execution capabilities that can be easily customized and integrated into trading strategies, allowing for efficient order routing and execution. Our execution framework empowers your strategy to quote at any level, on any order side, and at any price point.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingseven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedseven" aria-expanded="false" aria-controls="collapseseven">
+            Advanced Trade Execution Capabilities
+          </button>
+        </h2>
+        <div id="collapsedseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               
+              <div class="para-text">
+                
+                BlitzTrader Strategies are developed using .NET programming languages, opening up immense possibilities for you to connect with any external system for signals or advanced calculations. This makes the system open and customizable without any limitations.
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingeight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedeight" aria-expanded="false" aria-controls="collapseeight">
+            Integration with External system
+          </button>
+        </h2>
+        <div id="collapsedeight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+               
+              <div class="para-text">
+                 
+                 Our platform offers robust customization options to adapt to changing market conditions and evolving trading business needs, empowering traders to stay ahead of the curve.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  
+  
+  <section class="bg-gray py-5 ">  
+    <div class="container">  
+      <div class="row  ">
+        
+        <div class="col-12 col-md-6 col-lg-6 div-center">
+          <p class="sec-title">
+            <span class="span-title">QuantXpress</span> Consulting and Professional Services
+          </p>
+
+          <p class="para-text py-3">
+            QuantXpress Technologies is a leading technology firm specializing in algorithmic trading and trade lifecycle automation.
+            We are your one-stop shop for all your algorithmic trading needs.
+          </p>
+
+          <!-- <p class="para-text  centerpy-3">
+            With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking custom trading software development, algorithmic trading, high-frequency trading (HFT), custom quantitative strategies development on Blitz, exchange connectivity, FIX Engine, and market data solutions. Our team also specializes in electronic connectivity solutions for all major Indian and global exchanges. Trust QuantXpress to elevate your trading experience and optimize your performance in today's dynamic markets.
+          </p> -->
+
+          <button class="dark-btn_2 mob-mt-5 "> Learn More</button>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 div-center">
+          <img src="assets/img/consulting.png">
+        </div>
       </div>
     </div>
   </section>
   
   <section class="container py-5">
-    <div class="row">
+    <div class="row pt-5">
       <div class="col-12 col-md-5 col-lg-5 div-center">
         <p class="sec-title">
            What Our <span class="span-title"><br>Customers Says</span>
@@ -925,7 +983,7 @@
     </div>
   </section>
 
-  <section class="container py-6">    
+  <section class="container py-5">    
     <div class="text-center">
       <p class="sec-title">
           <span class="span-title">Career </span>Opportunities
@@ -940,7 +998,7 @@
       <img src="assets/img/career.svg">
     </div>   
 
-    <div class="row pt-5 py-6">
+    <div class="row pt-5 py-5">
       <div class="col-12 col-md-5 col-lg-5">
         <div class="para-text mob-pt-15">
           Join our team at QuantXpress Technologies to shape the future of trading automation and build a meaningful career. We aspire to be at the forefront of innovation and entrepreneurship, where your talents and ideas can thrive.
@@ -986,12 +1044,12 @@
   </section>
 
   <footer class="main-footer">
-        <div class="container">
+        <div class="container-fluid px-5-footer">
             <div class="footer-content">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12 footer-column">
+                    <div class="col-lg-4 col-md-4 col-12 footer-column">
                         <div class="logo-widget footer-widget">
-                            <figure class="logo-box"><a href="#"><img src="https://i.ibb.co/QDy827D/ak-logo.png" alt=""></a></figure>
+                            <figure class="logo-box"><a href="#"><img src="assets/img/logo.png" alt=""></a></figure>
                             <div class="text">
                                 <p>QuantXpress Technologies delivers cutting-edge, high-performance, asset neutral algorithmic and execution management system.</p>
                             </div>
@@ -1003,19 +1061,29 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-12 offset-lg-2 footer-column">
+                    <div class="col-lg-2 col-md-2 col-12 ps-5 footer-column">
                         <div class="service-widget footer-widget">
-                            <div class="footer-title">Services</div>
-                            <ul class="list">
-                                <li><a href="#">Water Surve</a></li>
-                                <li><a href="#">Education for all</a></li>
-                                <li><a href="#">Food Serving</a></li>
-                                <li><a href="#">Animal Saves</a></li>
-                                <li><a href="#">Help Orphan</a></li>
+                            <div class="footer-title">Products</div>
+                            <ul class="list"> 
+                                <li><a href="#">BlitTrader</a></li>
+                                <li><a href="#">QX.FinLib</a></li>
+                                <li><a href="#">QX.FIXEngine</a></li>
+                                <li><a href="#">QX.MDS</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                    <div class="col-lg-2 col-md-2 col-12 ps-5 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="footer-title">Important links</div>
+                            <ul class="list"> 
+                                <li><a href="#">About QuantXpress</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact Us Orphan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 offset-lg-1 footer-widget">
                         <div class="contact-widget footer-widget">
                             <div class="footer-title">Contacts</div>
                             <div class="text">
@@ -1050,6 +1118,10 @@
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js'></script>
 
   <script  src="assets/js/script.js"></script>
 </body> 

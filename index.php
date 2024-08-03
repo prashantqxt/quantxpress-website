@@ -1004,7 +1004,7 @@
           Join our team at QuantXpress Technologies to shape the future of trading automation and build a meaningful career. We aspire to be at the forefront of innovation and entrepreneurship, where your talents and ideas can thrive.
         </div>
 
-        <button class="dark-btn_2 mob-mt-5  mt-5">View All Roles</button>
+        <a href="career.php"><button class="dark-btn_2 mob-mt-5  mt-5">View All Roles</button></a>
       </div>
       <div class="col-12 col-md-7 col-lg-7">
         <ul class="career-list">
@@ -1031,105 +1031,26 @@
         </ul>
       </div>
     </div>
-  </section>
+  </section> 
 
-  <section class="text-center bg-cta">
-    <div class="cta-heading">Start Your Automation Journey Now!</div>
+  <?php include 'footer.php';?>
 
-    <div class="cta-text">
-      Lets us address your challenges and empower your <br> trading with state of art technology
-    </div>
-
-    <div><button class="dark-btn_2 mob-mt-5 ">Learn More</button></div>
-  </section>
-
-  <footer class="main-footer">
-        <div class="container-fluid px-5-footer">
-            <div class="footer-content">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12 footer-column">
-                        <div class="logo-widget footer-widget">
-                            <figure class="logo-box"><a href="#"><img src="assets/img/logo.png" alt=""></a></figure>
-                            <div class="text">
-                                <p>QuantXpress Technologies delivers cutting-edge, high-performance, asset neutral algorithmic and execution management system.</p>
-                            </div>
-                            <ul class="footer-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-12 ps-5 footer-column">
-                        <div class="service-widget footer-widget">
-                            <div class="footer-title">Products</div>
-                            <ul class="list"> 
-                                <li><a href="#">BlitTrader</a></li>
-                                <li><a href="#">QX.FinLib</a></li>
-                                <li><a href="#">QX.FIXEngine</a></li>
-                                <li><a href="#">QX.MDS</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-12 ps-5 footer-column">
-                        <div class="service-widget footer-widget">
-                            <div class="footer-title">Important links</div>
-                            <ul class="list"> 
-                                <li><a href="#">About QuantXpress</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="#">Contact Us Orphan</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-12 offset-lg-1 footer-widget">
-                        <div class="contact-widget footer-widget">
-                            <div class="footer-title">Contacts</div>
-                            <div class="text">
-                                <p>11/16 Kumar City, Kalyani Nagar, Pune-14 India</p>
-                                <p>+91 122 332 3010</p>
-                                <p>info@example.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- main-footer end -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-5 col-12 column">
-                    <div class="copyright">QuantXpress Technologies Pvt. Ltd.  &copy; 2024 All Right Reserved</div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-12 column">
-                    <ul class="footer-nav copyright">
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="www.chetansawle.site">Designed & Developed by  Chetan Sawle</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js'></script>
 
   <script  src="assets/js/script.js"></script>
+  <script type="text/javascript">
+    $(function () {
+       $('.toggle-menu').click(function(){
+        $('.exo-menu').toggleClass('display');
+       });
+    });
+  </script>
 </body> 
-<script type="text/javascript">
-  $(function () {
-     $('.toggle-menu').click(function(){
-      $('.exo-menu').toggleClass('display');
-     });
-  });
-</script>
 </html>

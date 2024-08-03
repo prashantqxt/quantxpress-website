@@ -3,9 +3,8 @@
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1"/>
    <head>
-      <meta charset="UTF-8"/>
-      <title>Digital Transformation Solutions &amp; Services | Software AG</title>
-      
+      <meta charset="UTF-8"/> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link rel="stylesheet" type="text/css" href="assets/css/header.css">
       <script>
          var en_corp= "/en_corporate"; 
@@ -50,7 +49,7 @@
 
    </head>
    <body>  
-      <div id="sag__content" data-wcmmode="non-wcmmode">
+      <div id="sag__content" class="fix-header" data-wcmmode="non-wcmmode">
          <div class="header-v2">
             <div id="header-v2-parent-Id" class="header-v2-parent input__colorselect-text-background-text-component-color2">
                <div id="child-div-1-Id" class="child-div-1">
@@ -58,7 +57,7 @@
                      <div>
                         <div class="logo-v1">
                            <div class="logoImage  ">
-                              <a href="#" title="Software AG logo linking to home page" target="_self" data-attrib-type="image" data-attrib-name="Software AG logo linking to home page">
+                              <a href="#" title="Software AG logo linking to home page"  data-attrib-type="image" data-attrib-name="Software AG logo linking to home page">
                               <img src="assets/img/logo.png" alt="logo" srcset="" class="headerv1__logo"/>
                               </a>
                            </div>
@@ -71,11 +70,13 @@
                      <nav class="navlistcontainer ">
                         <ul class="listitems-container justify-center">
                            <li class="listitem nav-mlink">
-                              <div class="listitem-wrapper">
-                                 <span class="listlabel ">
-                                    Home 
-                                 </span>
-                              </div>
+                              <a href="index.php">
+                                 <div class="listitem-wrapper">
+                                    <span class="listlabel ">
+                                       Home 
+                                    </span>
+                                 </div>
+                              </a>
                            </li>
                            <li class="listitem nav-mlink">
                               <div class="listitem-wrapper">
@@ -84,139 +85,127 @@
                                     <i class="fa fa-angle-down"></i>
                                  </span>
                               </div>
-                              <div class="template" id="templateA">
+                              <div class="template" id="templateB">
                                  <div class="nav-back-mobile">
                                     <svg class="a-icon a-icon--to-top">
                                        <use xlink:href="#to-top"></use>
                                     </svg>
                                     Back
                                  </div>
-                                 <!-- Template A -->
-                                 <div class="template-leftcolumn">
-                                    <!-- ********SECTION A********** -->
-                                    <section id="sectiona" class="template-section"> 
-                                       <div class="navitem-wrapper">
-                                          <div class="navitemcol">
+                                 <!-- Template B -->
+                                 <!-- ********SECTION A********** -->
+                                 <section id="sectiona" class="template-section">
+                                    <!-- section A Label dynamic for each section -->
+                                    <div class="linklist-wrapper">
+                                       <div class="linklist-container"> 
+                                          <div class="linklistcol">
                                              <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                                                <div class="navitem aem-GridColumn aem-GridColumn--default--12">
-                                                   <a href="blitztrader.php" target="_self">
-                                                      <div class="nav-item-A-wrapper">
-                                                         <div class="navItem_col-A">
-                                                            <img src="assets/img/algorithmic.svg" alt="Alt Text for Icon" class="svgicon "/>
-                                                         </div>
-                                                         <div class="navItem_col-B">
-                                                            <div class="navItem-A_headline title-space">
-                                                               <div><span class="a-subtitle-large">BlitTrader</span><br /></div>
-                                                            </div>
-                                                            <div class="navItem-A_description">
-                                                               <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br />
-                                                                  </span>
-                                                               </div>
-                                                            </div>
-                                                         </div>
+                                                <div class="navlist aem-GridColumn aem-GridColumn--default--12">
+                                                   <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
+                                                      <div class="navList_col-A">
+                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
                                                       </div>
-                                                   </a>
-                                                   <a href="#" target="_self">
-                                                   </a>
-                                                   <a href="#" target="_self">
-                                                   </a>
-                                                </div>
-                                                <div class="navitem aem-GridColumn aem-GridColumn--default--12">
-                                                   <a href="qx.finlib.php" target="_self">
-                                                      <div class="nav-item-A-wrapper">
-                                                         <div class="navItem_col-A">
-                                                            <img src="assets/img/algorithmic.svg" alt="Alt Text for Icon" class="svgicon "/>
+                                                      <div class="navList_col-B">
+                                                         <div class="navList-headline nav-list_title-space">
+                                                            <a href="blitztrader.php" >
+                                                               <div><span class="a-subtitle-large"> BlitTrader</span></div>
+                                                            </a>
                                                          </div>
-                                                         <div class="navItem_col-B">
-                                                            <div class="navItem-A_headline title-space">
-                                                               <div><span class="a-bodycopy-regular"></span><span class="a-subtitle-large">QX.FinLib</span></div>
-                                                            </div>
-                                                            <div class="navItem-A_description">
-                                                               <span class="a-caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="#" target="_self">
-                                                   </a>
-                                                   <a href="#" target="_self">
-                                                   </a>
-                                                </div> 
-                                             </div>
-                                          </div>
-                                          <div class="navitemcol">
-                                             <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                                                <div class="navitem aem-GridColumn aem-GridColumn--default--12">
-                                                   <a href="qx.fixengine.php" target="_self">
-                                                      <div class="nav-item-A-wrapper">
-                                                         <div class="navItem_col-A">
-                                                            <img src="assets/img/algorithmic.svg" alt="Alt Text for Icon" class="svgicon "/>
-                                                         </div>
-                                                         <div class="navItem_col-B">
-                                                            <div class="navItem-A_headline title-space">
-                                                               <span class="a-bodycopy-regular"></span><span class="a-subtitle-large">QX.FIXEngine</span><br />
-                                                            </div>
-                                                            <div class="navItem-A_description">
-                                                               <span class="a-caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="#" target="_self">
-                                                   </a>
-                                                   <a href="#" target="_self">
-                                                   </a>
-                                                </div>
-                                                <div class="navitem aem-GridColumn aem-GridColumn--default--12">
-                                                   <a href="qx.mds.php" target="_self">
-                                                      <div class="nav-item-A-wrapper">
-                                                         <div class="navItem_col-A">
-                                                            <img src="assets/img/algorithmic.svg" alt="Alt Text for Icon" class="svgicon "/>
-                                                         </div>
-                                                         <div class="navItem_col-B">
-                                                            <div class="navItem-A_headline title-space">
-                                                               <div><span class="a-bodycopy-regular"></span><span class="a-subtitle-large">QX.MDS</span></div>
-                                                            </div>
-                                                            <div class="navItem-A_description">
-                                                               <span class="a-caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </a> 
-                                                </div> 
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </section>
-                                 </div>
-                                 <div class="template-rightcolumn">
-                                    <div class="sectionc-wrapper input__colorselect-background-color10">
-                                       <section id="sectionc" class="template-section">
-                                           
-                                          <div class="navteaser-wrapper">
-                                             <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                                                <div class="navteaser aem-GridColumn aem-GridColumn--default--12">
-                                                   <div class="nav-teaser-wrapper large">
-                                                      <div class="nav-image"> 
-                                                         <div id="dynamicmedia_93414083" data-current-page="/content/softwareag/corporate/en_corporate" data-page-locale="en" data-asset-path="softwareagprod/blog-cumulocity-iot-aws-alliance-thumbnail" data-asset-name="blog-cumulocity-iot-aws-alliance-thumbnail.png" data-asset-type="image" data-viewer-path="https://softwareag.scene7.com/s7viewers/" data-imageserver="https://softwareag.scene7.com/is/image/" data-videoserver="https://softwareag.scene7.com/is/content/" data-contenturl="https://softwareag.scene7.com/is/content/" data-wcmdisabled data-dms7 data-breakpoints="400,700,1260,1620,1920" data-linktarget="_self" data-title="Alt Test" data-alt="Alt Test" data-attrib-name="blog-cumulocity-iot-aws-alliance-thumbnail.png" class="s7dm-dynamic-media">
-                                                         </div>
-                                                         <!-- End -- Media component other than "Software_AG_Video_PopUp" preset -->
-                                                      </div>
-                                                      <div class="nav-teaser-content">
-                                                         <div class="nav-headline">
-                                                            <a href="#" target="_self"><span class="a-subtitle-large">Lorem Ipsum has been the industry </span></a>
-                                                         </div>
-                                                         <div class="nav-description">
-                                                            <span class="a-caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</span><br />
+                                                         <div class="navList_description">
+                                                            <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text</span></div>
                                                          </div>
                                                       </div>
                                                    </div>
                                                 </div>
+                                                <div class="navlist aem-GridColumn aem-GridColumn--default--12">
+                                                   <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
+                                                      <div class="navList_col-A">
+                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
+                                                      </div>
+                                                      <div class="navList_col-B">
+                                                         <div class="navList-headline nav-list_title-space">
+                                                            <a href="qx.finlib.php" >
+                                                               <div><span class="a-subtitle-large">  QX.FinLib</span><br /></div>
+                                                            </a>
+                                                         </div>
+                                                         <div class="navList_description">
+                                                            <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text</span></div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="navlist aem-GridColumn aem-GridColumn--default--12">
+                                                   <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
+                                                      <div class="navList_col-A">
+                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
+                                                      </div>
+                                                      <div class="navList_col-B">
+                                                         <div class="navList-headline nav-list_title-space">
+                                                            <a href="qx.fixengine.php" >
+                                                               <div><span class="a-subtitle-large">  QX.FIXEngine</span><br /></div>
+                                                            </a>
+                                                         </div>
+                                                         <div class="navList_description">
+                                                            <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text</span></div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="navlist aem-GridColumn aem-GridColumn--default--12">
+                                                   <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
+                                                      <div class="navList_col-A">
+                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
+                                                      </div>
+                                                      <div class="navList_col-B">
+                                                         <div class="navList-headline nav-list_title-space">
+                                                            <a href="qx.mds.php" >
+                                                               <div><span class="a-subtitle-large">QX.MDS</span><br /></div>
+                                                            </a>
+                                                         </div>
+                                                         <div class="navList_description">
+                                                            <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text</span></div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div> 
                                              </div>
                                           </div>
-                                       </section>
+                                       </div> 
                                     </div>
-                                 </div>
+                                 </section>
+                                 <section id="sectionb" class="template-section input__colorselect-background-color9">
+                                     
+                                    <div class="navteaser-wrapper">
+                                       <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                                          <div class="navteaser aem-GridColumn aem-GridColumn--default--12">
+                                             <div class="nav-teaser-wrapper small">
+                                                <div class="nav-image">
+                                                   <img src="assets/img/consulting.png" alt=" "/>
+                                                </div>
+                                                <div class="nav-teaser-content">
+                                                   <div class="nav-headline">
+                                                      <a href="#" >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
+                                                      </a>
+                                                   </div> 
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="navteaser aem-GridColumn aem-GridColumn--default--12">
+                                             <div class="nav-teaser-wrapper small">
+                                                <div class="nav-image">
+                                                    <img src="assets/img/consulting.png" alt=" "/>
+                                                </div>
+                                                <div class="nav-teaser-content">
+                                                   <div class="nav-headline">
+                                                      <a href="#" >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
+                                                      </a>
+                                                   </div> 
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </section>
                               </div>
                            </li>
                            <li class="listitem nav-mlink">
@@ -248,7 +237,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_blank">
+                                                            <a href="market_data_solutions.php" >
                                                                <div><span class="a-subtitle-large"> Market Data Solutions</span></div>
                                                             </a>
                                                          </div>
@@ -265,7 +254,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_blank">
+                                                            <a href="#" >
                                                                <div><span class="a-subtitle-large">  Exchange  Connectivity</span><br /></div>
                                                             </a>
                                                          </div>
@@ -282,7 +271,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_self">
+                                                            <a href="algo.php" >
                                                                <div><span class="a-subtitle-large">  Algorithmic Trading</span><br /></div>
                                                             </a>
                                                          </div>
@@ -299,7 +288,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_self">
+                                                            <a href="hft.php" >
                                                                <div><span class="a-subtitle-large">HFT Solutions</span><br /></div>
                                                             </a>
                                                          </div>
@@ -316,7 +305,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="https://learn.softwareag.com/" target="_blank">
+                                                            <a href="#" >
                                                                <div><span class="a-subtitle-large">  OMS and Risk Management</span><br /></div>
                                                             </a>
                                                          </div>
@@ -342,7 +331,7 @@
                                                 </div>
                                                 <div class="nav-teaser-content">
                                                    <div class="nav-headline">
-                                                      <a href="#" target="_self">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
+                                                      <a href="#" >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
                                                       </a>
                                                    </div> 
                                                 </div>
@@ -355,7 +344,7 @@
                                                 </div>
                                                 <div class="nav-teaser-content">
                                                    <div class="nav-headline">
-                                                      <a href="#" target="_self">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
+                                                      <a href="#" >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
                                                       </a>
                                                    </div> 
                                                 </div>
@@ -395,8 +384,8 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_blank">
-                                                               <div><span class="a-subtitle-large"> Market Data Solutions</span></div>
+                                                            <a href="about.php" >
+                                                               <div><span class="a-subtitle-large"> About QuantXpress </span></div>
                                                             </a>
                                                          </div>
                                                          <div class="navList_description">
@@ -412,8 +401,8 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_blank">
-                                                               <div><span class="a-subtitle-large">  Exchange  Connectivity</span><br /></div>
+                                                            <a href="about.php#team" >
+                                                               <div><span class="a-subtitle-large">  Team </span><br /></div>
                                                             </a>
                                                          </div>
                                                          <div class="navList_description">
@@ -429,8 +418,8 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_self">
-                                                               <div><span class="a-subtitle-large">  Algorithmic Trading</span><br /></div>
+                                                            <a href="career.php" >
+                                                               <div><span class="a-subtitle-large"> Career</span><br /></div>
                                                             </a>
                                                          </div>
                                                          <div class="navList_description">
@@ -446,25 +435,8 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_self">
-                                                               <div><span class="a-subtitle-large">HFT Solutions</span><br /></div>
-                                                            </a>
-                                                         </div>
-                                                         <div class="navList_description">
-                                                            <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text</span></div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <div class="navlist aem-GridColumn aem-GridColumn--default--12">
-                                                   <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
-                                                      <div class="navList_col-A">
-                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
-                                                      </div>
-                                                      <div class="navList_col-B">
-                                                         <div class="navList-headline nav-list_title-space">
-                                                            <a href="https://learn.softwareag.com/" target="_blank">
-                                                               <div><span class="a-subtitle-large">  OMS and Risk Management</span><br /></div>
+                                                            <a href="contact-us.php" >
+                                                               <div><span class="a-subtitle-large">Contact Us</span><br /></div>
                                                             </a>
                                                          </div>
                                                          <div class="navList_description">
@@ -478,17 +450,18 @@
                                        </div> 
                                     </div>
                                  </section>
-                                 <section id="sectionb" class="template-section input__colorselect-background-color10"> 
+                                 <section id="sectionb" class="template-section input__colorselect-background-color9">
+                                     
                                     <div class="navteaser-wrapper">
                                        <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
                                           <div class="navteaser aem-GridColumn aem-GridColumn--default--12">
-                                             <div class="nav-teaser-wrapper small"> 
+                                             <div class="nav-teaser-wrapper small">
                                                 <div class="nav-image">
-                                                    <img src="assets/img/consulting.png" alt=" "/>
+                                                   <img src="assets/img/consulting.png" alt=" "/>
                                                 </div>
                                                 <div class="nav-teaser-content">
                                                    <div class="nav-headline">
-                                                      <a href="#" target="_self">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
+                                                      <a href="#" >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
                                                       </a>
                                                    </div> 
                                                 </div>
@@ -501,7 +474,7 @@
                                                 </div>
                                                 <div class="nav-teaser-content">
                                                    <div class="nav-headline">
-                                                      <a href="#" target="_self">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
+                                                      <a href="#" >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type<br />
                                                       </a>
                                                    </div> 
                                                 </div>
@@ -541,7 +514,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_blank">
+                                                            <a href="#" >
                                                                <div><span class="a-subtitle-large"> Developers Corner</span></div>
                                                             </a>
                                                          </div>
@@ -558,7 +531,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_blank">
+                                                            <a href="#" >
                                                                <div><span class="a-subtitle-large">  GitHub</span><br /></div>
                                                             </a>
                                                          </div>
@@ -575,7 +548,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" target="_self">
+                                                            <a href="#" >
                                                                <div><span class="a-subtitle-large"> Blogs</span><br /></div>
                                                             </a>
                                                          </div>
@@ -590,7 +563,7 @@
                                        </div> 
                                     </div>
                                  </section>
-                                 <section id="sectionb" class="template-section input__colorselect-background-color8">
+                                 <section id="sectionb" class="template-section input__colorselect-background-color9">
                                      
                                     <div class="navteaser-wrapper">
                                        <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
@@ -605,13 +578,13 @@
                                                          <!-- <head>
                                                             <link rel="preload" as="image" href="softwareagprod/partners-teaser" />
                                                             </head> -->
-                                                         <div id="dynamicmedia_35884670" data-current-page="/content/softwareag/corporate/en_corporate" data-page-locale="en" data-asset-path="softwareagprod/partners-teaser" data-asset-name="partners-teaser.jpg" data-asset-type="image" data-viewer-path="https://softwareag.scene7.com/s7viewers/" data-imageserver="https://softwareag.scene7.com/is/image/" data-videoserver="https://softwareag.scene7.com/is/content/" data-contenturl="https://softwareag.scene7.com/is/content/" data-wcmdisabled data-dms7 data-breakpoints="400,700,1260,1620,1920" data-linktarget="_self" data-title="Banking as a Service" data-alt="Banking as a Service" data-attrib-name="partners-teaser.jpg" class="s7dm-dynamic-media">
+                                                         <div id="dynamicmedia_35884670" data-current-page="/content/softwareag/corporate/en_corporate" data-page-locale="en" data-asset-path="softwareagprod/partners-teaser" data-asset-name="partners-teaser.jpg" data-asset-type="image" data-viewer-path="https://softwareag.scene7.com/s7viewers/" data-imageserver="https://softwareag.scene7.com/is/image/" data-videoserver="https://softwareag.scene7.com/is/content/" data-contenturl="https://softwareag.scene7.com/is/content/" data-wcmdisabled data-dms7 data-breakpoints="400,700,1260,1620,1920" data-link data-title="Banking as a Service" data-alt="Banking as a Service" data-attrib-name="partners-teaser.jpg" class="s7dm-dynamic-media">
                                                          </div>
                                                          <!-- End -- Media component other than "Software_AG_Video_PopUp" preset -->
                                                       </div>
                                                       <div class="nav-teaser-content">
                                                          <div class="nav-headline">
-                                                            <a href="#" target="_self">Lorem Ipsum has been the industry</a>
+                                                            <a href="#" >Lorem Ipsum has been the industry</a>
                                                          </div>
                                                          <div class="nav-description">
                                                             <span class="a-caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</span>
@@ -638,14 +611,14 @@
                     
                   <div id="primary-contact-button" class="primary-button">
                      <div style="min-width:10rem;">
-                        <a id="button-eb3845da11" class="cmp-button" href="#" target="_self">
+                        <a id="button-eb3845da11" class="cmp-button" href="#" >
                         <span class="cmp-button__text">Login</span>
                         </a>
                      </div>
                   </div>
                   <div id="secondary-try-button" style="min-width:10rem;" class="secondary-button">
                      <div>
-                        <a id="button-1d92e5a483" class="cmp-button" href="#" target="_self">
+                        <a id="button-1d92e5a483" class="cmp-button" href="#" >
                         <span class="cmp-button__text"> Subscription</span>
                         </a>
                      </div>

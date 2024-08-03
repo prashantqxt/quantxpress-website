@@ -29,19 +29,14 @@
                           <li class="banner-bg">
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
-                                    <div class="main-title-white">QX.FinLib </div>
+                                    <div class="main-title-white">Algorithmic Trading Solutions </div>
                                     <div class="second-title-white"> 
-                                          .NET Suite for your Trading Application
+                                        Your Algo trading Technology partner
                                     </div>
 
                                     <div class="small-text-white py-4-d px-4"> 
-                                          QX.FinLib for .NET is user friendly library that empowers you with rapid development of high performance trading system with advanced capabilities.  With this versatile API, you can make your trading system development feature rich including Strategy and Indicator Development, Backtesting process, advance options backtesting and many more effortlessly smooth.
-                                    </div>
+                                         We build and automate systems that manage complex trading algorithms and executions in a dynamic environment. Our team of professionals stays at the forefront of technological advancements to provide cutting-edge algo trading systems. We Automate your Trading Strategies, Providing complete Technology stack and Managing Connectivity while you can focus on your core Business...Trading and Research                                    </div>
 
-                                    <div class="btn-mg">
-                                      <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
-                                    </div>
                                   </div>
                               </div>
                           </li>
@@ -97,23 +92,20 @@
       </div>
   </section>
 
-
   <section class="container py-6">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6">
           <p class="sec-title">
-            Why choose <span class="span-title">QX.FinLib</span><br>
-            .NET Trading Library? 
+            Who We  <span class="span-title"> Serve</span>     
           </p>
         </div>
 
         <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
           <p class="para-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
           </p>
         </div>
       </div>  
-
 
       <div class="d-flex justify-content-between mob-col pt-5">
         <div class="border w-33 hover-box">
@@ -126,7 +118,7 @@
               
               <div class="d-flex filp-front-title">
                 <div class="w-75 text">
-                  Market  Variable Concept
+                  Prop Desk
                 </div>
 
                 <div class="w-25"> 
@@ -140,7 +132,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Design strategies using market-neutral variables, allowing seamless deployment across different markets without the need for code modifications.
+                  Our solution provides direct exchange feed capture and our software process further decode, normalize,  enriched, standardize, store and disseminate the market information to analyze and apply.  
                 </div> 
               </div>
             </section>
@@ -156,7 +148,7 @@
               
               <div class="d-flex filp-front-title">
                 <div class="w-75 text">
-                  Smart Order Concept
+                  Buy and Sell Side Firms
                 </div>
 
                 <div class="w-25"> 
@@ -171,7 +163,8 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Efficiently manage the entire order lifecycle with rapid quoting sequences through a single API command, eliminating concerns about looping in the generation of new order cycles.
+                  QX.MDP scalable market data dissemination solution enables real-time market data streaming into a broker’s client trading or monitoring apps to enhance performance of automated trading algorithms.  
+
                 </div> 
               </div>
             </section>
@@ -187,7 +180,7 @@
               
               <div class="d-flex filp-front-title">
                 <div class="w-75 text">
-                  Smart Execution Library
+                  Hedge Fund
                 </div>
 
                 <div class="w-25"> 
@@ -202,152 +195,160 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Streamline complex execution models with a single command like EnterLong, EnterShort, GoFlat, SetPosition etc, ensuring optimal order execution.
-
+                  We partner with our clients in their transformation journey to successfully deliver solutions they need to succeed in Today’s competitive financial markets. 
                 </div> 
               </div>
             </section>
           </div>
         </div>
-      </div>
-      <div class="d-flex justify-content-between mob-col">
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/trading.svg">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Server Side Deployment
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Optimize your trading strategies by deploying them on the server side for improved performance, reliability, and scalability. With server-side deployment, you can enhance the overall performance and responsiveness of your trading system, enabling you to achieve better results in the dynamic financial markets.
-
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/market.svg">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Live and Historical Market Data Events
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Access real-time and historical market data events to make well-informed trading decisions in real-time. Our platform provides seamless access to both live and historical market data, enabling you to analyze market trends, identify opportunities, and execute trades with confidence based on accurate and up-to-date information.
-
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/scalable.svg">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Technical Analysis Library
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Leverage our extensive technical analysis library, featuring support for over 100+ indicators. Customize your trading strategies with ease using our framework, empowering you to develop and integrate your own proprietary indicators tailored to your specific trading requirements.
-
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
+      </div> 
   </section> 
 
-  <section class="container py-6">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-6">
-          <p class="sec-title">
-            How it <span class="span-title">Works?</span> 
-          </p>
-        </div>
+  <section class=" bg-gray py-6 mt-5">
+    <div class="container">
+        <div class="row pt-5 pb-5">
+          <div class="text-center">
+            <p class="sec-title">
+                 What <span class="span-title">we</span> do
+            </p>
 
-        <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
-          <p class="para-text">
-            QX.FinLib SDK for .NET simpliﬁes the development of trading system and research by providing a set of libraries that are consistent and familiar for .NET developers.
-          </p>
-        </div>
-      </div>  
-       
-      <div class="w-100 my-5 pt-5">
-        <img src="assets/img/net.png">
-      </div> 
+            <p class="para-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+            </p> 
+          </div>  
+        </div>   
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Customized Algorithmic Solutions and Automated Trading Systems
+              </div>
+
+              <div class="para-text pt-5">
+                We specialize in quantitative solutions, algorithm development, and creating unique automated trading systems, complete with comprehensive backtest metrics, ensuring performance that aligns with the rigorous standards of the trading industry.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Cost-Effective Alternative to In-House Development  
+              </div>
+
+              <div class="para-text pt-5">
+                By partnering with us, you stand to save hundreds of thousands of dollars compared to the cost of maintaining an in-house team of senior engineers, while still achieving exceptional trading technology solutions.
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Cutting-Edge Technological Proficiency
+              </div>
+
+              <div class="para-text pt-5">
+                Our expertise spans Python (including AI/machine learning & statistical modeling), NinjaScript, and C#, positioning us to deliver innovative and effective trading solutions.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Confidentiality and Professional Integrity  
+              </div>
+
+              <div class="para-text pt-5">
+                We engage in projects where we can truly make a significant difference, focusing our efforts where they matter most to our clients’ bottom line. Our clients are always protected by NDAs and non-compete agreements.
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Risk Management
+              </div>
+
+              <div class="para-text pt-5">
+                Real-time risk evaluation allows us to instantaneously react to the market.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Portfolio Management 
+              </div>
+
+              <div class="para-text pt-5">
+                We develop customized portfolios that are mathematically balanced and stable.
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Backtest and Optimize
+              </div>
+
+              <div class="para-text pt-5">
+                We can backtest and optimize your trading strategies against historical data.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class=".card-box-algo">
+              <div class="para-text fw-bold">
+                Automate 
+              </div>
+
+              <div class="para-text pt-5">
+                We can also automate your trading strategies by writing C++/python code to interact directly with the exchange
+              </div>
+            </div>
+          </div> 
+        </div> 
+    </div>
   </section>
 
   <section class="container py-6">    
     <div class="text-center">
       <p class="sec-title">
-          QXFinLib<span class="span-title">.NET</span> Guides
+           Exchange <span class="span-title">Connectivity</span> Solution
       </p>
 
       <p class="para-text">
-          Build .NET based trading applications and tools faster with QX.FinLib SDK. We provide tutorials, examples, and other resources to speed up your trading system development.
+          Our software is designed from the ground up to be extremely flexible and fully customizable, whilst at the same time providing state of the art performance. We have options to provide a source code of already developed exchange adapter for both market data and interactive components across most Indian exchange in C++ or C#.
       </p> 
     </div>  
     <div class="row pt-5">
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              Developer Guide
+              NSE (TBT, NNF Specialization)
           </div>
           <div class="para-text mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
           </div>
+          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
+            <li>
+              Technology solution to provides TBT level-III data to retail
+            </li>
+            <li>
+              Technology to disseminate Level-I, Level-II market data over API model
+            </li>
+            <li>
+              Technology to integrate TBT data order book to HFT platform
+            </li>
+          </ul>
 
           <div class="border-line"></div>
 
@@ -369,11 +370,22 @@
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              BackTesting
+              BSE <br> &nbsp
           </div>
           <div class="para-text mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
           </div>
+          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
+            <li>
+              Technology solution to provides TBT level-III data to retail
+            </li>
+            <li>
+              Technology to disseminate Level-I, Level-II market data over API model
+            </li>
+            <li>
+              Technology to integrate TBT data order book to HFT platform
+            </li>
+          </ul>
 
           <div class="border-line"></div>
 
@@ -388,17 +400,29 @@
                 </svg>
               </div>
           </div>
+
         </div>
       </div>
 
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              SDK Code Examples
+              MCX <br> &nbsp
           </div>
           <div class="para-text mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
           </div>
+          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
+            <li>
+              Technology solution to provides TBT level-III data to retail
+            </li>
+            <li>
+              Technology to disseminate Level-I, Level-II market data over API model
+            </li>
+            <li>
+              Technology to integrate TBT data order book to HFT platform
+            </li>
+          </ul>
 
           <div class="border-line"></div>
 
@@ -413,11 +437,12 @@
                 </svg>
               </div>
           </div>
+
         </div>
       </div>
     </div> 
-  </section> 
-
+  </section>
+ 
   <?php include 'footer.php';?>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

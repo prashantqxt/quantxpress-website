@@ -1,5 +1,5 @@
 <svg width="1111" height="430" viewBox="0 0 1111 430" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="12" width="1111" height="418" fill="white"/>
+<rect width="1111" height="430" fill="white"/>
 <mask id="path-2-inside-1_168_41" fill="white">
 <path d="M1 62H968C1012.18 62 1048 97.8172 1048 142V261C1048 305.183 1012.18 341 968 341H1V62Z"/>
 </mask>
@@ -12,7 +12,7 @@
 <path d="M0 12H983C1049.27 12 1103 65.7258 1103 132V267C1103 333.274 1049.27 387 983 387H0V12Z"/>
 </mask>
 <path d="M0 2H983C1054.8 2 1113 60.203 1113 132H1093C1093 71.2487 1043.75 22 983 22H0V2ZM1113 267C1113 338.797 1054.8 397 983 397H0V377H983C1043.75 377 1093 327.751 1093 267H1113ZM0 387V12V387ZM983 2C1054.8 2 1113 60.203 1113 132V267C1113 338.797 1054.8 397 983 397V377C1043.75 377 1093 327.751 1093 267V132C1093 71.2487 1043.75 22 983 22V2Z" fill="url(#paint2_linear_168_41)" mask="url(#path-6-inside-3_168_41)"/>
-<rect width="585" height="81" fill="white"/>
+<rect width="468" height="81" fill="white"/>
 <defs>
 <linearGradient id="paint0_linear_168_41" x1="596" y1="75" x2="410" y2="341" gradientUnits="userSpaceOnUse">
 <stop stop-color="#464EB8"/>

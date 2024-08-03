@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>Bitztrader</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css'>
@@ -111,7 +111,7 @@
         <div class="col-12 col-md-2 col-lg-2">
           <div class="card">
             <div>
-              <img class="work-icon" src="assets/img/works.png">
+              <img class="work-icon" src="assets/img/lightbulb.png">
             </div>
 
             <div class="box-text">
@@ -125,7 +125,7 @@
         <div class="col-12 col-md-2 col-lg-2">
           <div class="card">
             <div>
-              <img class="work-icon" src="assets/img/works.png">
+              <img class="work-icon" src="assets/img/build.png">
             </div>
 
             <div class="box-text">
@@ -139,7 +139,7 @@
         <div class="col-12 col-md-2 col-lg-2">
           <div class="card">
             <div>
-              <img class="work-icon" src="assets/img/works.png">
+              <img class="work-icon" src="assets/img/simulator.png">
             </div>
 
             <div class="box-text">
@@ -153,7 +153,7 @@
         <div class="col-12 col-md-2 col-lg-2">
           <div class="card">
             <div>
-              <img class="work-icon" src="assets/img/works.png">
+              <img class="work-icon" src="assets/img/fix_or_fine.png">
             </div>
 
             <div class="box-text">
@@ -167,7 +167,7 @@
         <div class="col-12 col-md-2 col-lg-2">
           <div class="card">
             <div>
-              <img class="work-icon" src="assets/img/works.png">
+              <img class="work-icon" src="assets/img/execute.png">
             </div>
 
             <div class="box-text">
@@ -182,63 +182,100 @@
 
   <section class=" bg-gray py-6">
     <div class="container">
-        <div class="row pb-5">
-          <div class="col-12 col-md-7 col-lg-7">
-            <p class="sec-title">
-              3 Reasons to choose <span class="span-title">Blitztrader</span>
+        <div class="row pt-5 pb-5">
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <p class="sec-title py-5">
+              5 Reasons to choose <span class="span-title">Blitztrader</span>
             </p>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box">
+              <div class="pb-4">
+                <img class="w-25" src="assets/img/architecture.png">
+              </div>
+
+              <div class="small-title-dark py-3">
+                Fast time to the market
+              </div>
+
+              <div class="para-text py-3">
+                BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box">
+              <div class="pb-4">
+                <img class="w-25" src="assets/img/algorithm.png">
+              </div>
+
+              <div class="small-title-dark py-3">
+                One Stop Algorithmic Trading  
+              </div>
+
+              <div class="para-text py-3">
+                BlitzTrader serves as a one-stop solution for algorithmic trading, offering flexibility and customization through its open architecture. 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box">
+              <div class="pb-4">
+                <img class="w-25" src="assets/img/stock.png">
+              </div>
+
+              <div class="small-title-dark py-3">
+                Unified Platform
+              </div>
+
+              <div class="para-text py-3">
+                BlitzTrader's asset-neutral and market-agnostic platform integrates Order Management System (OMS), Risk Management System (RMS), and seamless liquidity provider connectivity.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box">
+              <div class="pb-4">
+                <img class="w-25" src="assets/img/stock.png">
+              </div>
+
+              <div class="small-title-dark py-3">
+                Unified Platform
+              </div>
+
+              <div class="para-text py-3">
+                BlitzTrader's asset-neutral and market-agnostic platform integrates Order Management System (OMS), Risk Management System (RMS), and seamless liquidity provider connectivity.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box">
+              <div class="pb-4">
+                <img class="w-25" src="assets/img/stock.png">
+              </div>
+
+              <div class="small-title-dark py-3">
+                Unified Platform
+              </div>
+
+              <div class="para-text py-3">
+                BlitzTrader's asset-neutral and market-agnostic platform integrates Order Management System (OMS), Risk Management System (RMS), and seamless liquidity provider connectivity.
+              </div>
+            </div>
           </div> 
-        </div>  
-
-        <div class="row">
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="pb-4">
-              <img class="w-25" src="assets/img/works.png">
-            </div>
-
-            <div class="small-title-dark py-3">
-              Fast time to the market
-            </div>
-
-            <div class="para-text py-3">
-              BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="pb-4">
-              <img class="w-25" src="assets/img/works.png">
-            </div>
-
-            <div class="small-title-dark py-3">
-              One Stop Algorithmic Trading  
-            </div>
-
-            <div class="para-text py-3">
-              BlitzTrader serves as a one-stop solution for algorithmic trading, offering flexibility and customization through its open architecture. 
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="pb-4">
-              <img class="w-25" src="assets/img/works.png">
-            </div>
-
-            <div class="small-title-dark py-3">
-              Unified Platform
-            </div>
-
-            <div class="para-text py-3">
-              BlitzTrader's asset-neutral and market-agnostic platform integrates Order Management System (OMS), Risk Management System (RMS), and seamless liquidity provider connectivity.
-            </div>
-          </div>
-        </div>
+        </div>   
     </div>
   </section>
 
    <section class="container py-6">
 
-      <div class="row">
+      <div class="row pt-5 pb-5">
         <div class="col-12 col-md-6 col-lg-6">
           <p class="sec-title">
             Powerful   <span class="span-title">Strategy</span>
@@ -257,7 +294,7 @@
       <div class="d-flex justify-content-between mob-col pt-5">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/algorithmic.svg">
+              <img src="assets/img/architecture.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -287,7 +324,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/fix.svg">
+              <img src="assets/img/algorithm.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -318,7 +355,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/exchange.svg">
+              <img src="assets/img/stock.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -342,7 +379,6 @@
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
                   Streamline complex execution models with a single command like EnterLong, EnterShort, GoFlat, SetPosition etc, ensuring optimal order execution.
-
                 </div> 
               </div>
             </section>
@@ -352,7 +388,7 @@
       <div class="d-flex justify-content-between mob-col">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/trading.svg">
+              <img src="assets/img/stock.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -383,7 +419,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/market.svg">
+              <img src="assets/img/stock.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -415,7 +451,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/scalable.svg">
+              <img src="assets/img/stock.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -460,22 +496,22 @@
       
       <div class="row container">
         <div class="col-12 col-md-6 col-lg-6">
-          <div class="m-5 border rounded-5 para-text p-5">
+          <div class="m-5 border rounded-5 para-text p-5  box-hover">
             <div>
-              <img class="w-25" src="assets/img/works.png">
+              <img class="w-25" src="assets/img/coding.png">
             </div>
-            <div class="mt-5">
+            <div class="mt-5 font-weight-500">
               <span class="span-title">BLITZ</span>  Developer <br> Area
             </div>
           </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-6">
-          <div class="m-5 border rounded-5 para-text p-5">
+          <div class="m-5 border rounded-5 para-text p-5  box-hover">
             <div>
-              <img class="w-25" src="assets/img/works.png">
+              <img class="w-25" src="assets/img/programming.png">
             </div>
-            <div class="mt-5">
+            <div class="mt-5 font-weight-500">
               <span class="span-title">BLITZ</span>  Sample <br>Strategies Code
             </div>
           </div>
@@ -483,78 +519,9 @@
     </div> 
   </section>
 
-  <section class="text-center bg-cta">
-    <div class="cta-heading">Start Your Automation Journey Now!</div>
+  <?php include 'footer.php';?>
 
-    <div class="cta-text">
-      Lets us address your challenges and empower your <br> trading with state of art technology
-    </div>
-
-    <div><button class="dark-btn_2 mob-mt-5 ">Learn More</button></div>
-  </section>
-
-  <footer class="main-footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12 footer-column">
-                        <div class="logo-widget footer-widget">
-                            <figure class="logo-box"><a href="#"><img src="https://i.ibb.co/QDy827D/ak-logo.png" alt=""></a></figure>
-                            <div class="text">
-                                <p>QuantXpress Technologies delivers cutting-edge, high-performance, asset neutral algorithmic and execution management system.</p>
-                            </div>
-                            <ul class="footer-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12 offset-lg-2 footer-column">
-                        <div class="service-widget footer-widget">
-                            <div class="footer-title">Services</div>
-                            <ul class="list">
-                                <li><a href="#">Water Surve</a></li>
-                                <li><a href="#">Education for all</a></li>
-                                <li><a href="#">Food Serving</a></li>
-                                <li><a href="#">Animal Saves</a></li>
-                                <li><a href="#">Help Orphan</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
-                        <div class="contact-widget footer-widget">
-                            <div class="footer-title">Contacts</div>
-                            <div class="text">
-                                <p>11/16 Kumar City, Kalyani Nagar, Pune-14 India</p>
-                                <p>+91 122 332 3010</p>
-                                <p>info@example.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- main-footer end -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-5 col-12 column">
-                    <div class="copyright">QuantXpress Technologies Pvt. Ltd.  &copy; 2024 All Right Reserved</div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-12 column">
-                    <ul class="footer-nav copyright">
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="www.chetansawle.site">Designed & Developed by  Chetan Sawle</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>

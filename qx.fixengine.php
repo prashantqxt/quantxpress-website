@@ -150,7 +150,7 @@
               
               <div class="d-flex filp-front-title">
                 <div class="w-75 text">
-                  Market  Variable Concept
+                  Fast Integration
                 </div>
 
                 <div class="w-25"> 
@@ -164,7 +164,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                  Integrate FIX Engine in your .NET based application at wrap speed. QX.FIX Engine is the fastest way for developers to build integrations. Connect FIX counterparts in hours instead of days.
                 </div> 
               </div>
             </section>
@@ -195,7 +195,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Efficiently manage the entire order lifecycle with rapid quoting sequences through a single API command, eliminating concerns about looping in the generation of new order cycles.
+                  The QX.FIX Engine SDK provides APIs freely accessible to the public, allowing developers to utilize them for any project without incurring fees. The only cost is a $10,000 license for the source code version, should it be required.
                 </div> 
               </div>
             </section>
@@ -226,8 +226,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Streamline complex execution models with a single command like EnterLong, EnterShort, GoFlat, SetPosition etc, ensuring optimal order execution.
-
+                  Experience industry-leading FIX engine technology and services that integrate seamlessly into any technology environment, suitable for buy-side and sell-side firms of all sizes.
                 </div> 
               </div>
             </section>
@@ -235,127 +234,242 @@
         </div>
       </div> 
   </section>  
- 
-  <section class="container py-6">    
-    <div class="text-center">
+  
+  <section class="container py-6"> 
+    <div class="text-center pb-5">
       <p class="sec-title">
            <span class="span-title">QX.FIX</span> Engine Features
       </p>
 
       <p class="para-text">
-          Provides a complete support for the FIX session level logic and enables FIX developers to focus on their organization's core business requirements.<br>
+          Provides a complete support for the FIX session level logic and enables FIX developers to focus on <br> their organization's core business requirements.<br>
 
-          Allows easy and powerful customization of session level logic through configuration files (XML format) without affecting the code.
+          Allows easy and powerful customization of session level logic through configuration <br>files (XML format) without affecting the code.
       </p> 
     </div>  
-    <div class="row pt-5">
-      <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
-          <div class="small-title-dark">
-              Create multiple FIX sessions <spam style="font-size: 1.5rem;">(Initiators and acceptors)</spam>
-          </div>
-          <div class="para-text mt-5">
-            <ul class="circle">
-              <li>
-                Supports FIX dialects (non-standard implementations of FIX, like custom messages/fields/field enumerations).
-              </li>
-              <li>
-                Customizable GapFill mechanisms through configuration files in XML format.
-              </li>
-              <li>
-                Link message sequence number resetting with important session events like Logon, Logout etc.
-              </li>
-            </ul>
-          </div>
 
-          <div class="border-line"></div>
-
-          <div class="d-flex mt-5">
-              <div class="w-75 text-box-bottom">
-                View documentation
-              </div>
-
-              <div class="w-25"> 
-                <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                </svg>
-              </div>
-          </div>
-
+    <div class="row pt-5 pb-5">
+        <div class="col-12 col-md-6 col-lg-6 div-center"> 
+          <img class="p-5" src="assets/img/pic1.svg">
         </div>
-      </div>
 
-      <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
-          <div class="small-title-dark">
-              Custom Logon message framing
-          </div>
-          <div class="para-text mt-5">
-            <ul class="circle">
-              <li>
-                Supports FIX dialects (non-standard implementations of FIX, like custom messages/fields/field enumerations).
-              </li>
-              <li>
-                Customizable GapFill mechanisms through configuration files in XML format.
-              </li>
-              <li>
-                Link message sequence number resetting with important session events like Logon, Logout etc.
-              </li>
-            </ul>
+        <div class="col-12 col-md-6 col-lg-6"> 
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Comprehensive FIX Session Support: 
+            </div>
+            <div class="para-text">
+              Focus on core business needs while relying on complete session-level logic.
+            </div>
           </div>
 
-          <div class="border-line"></div>
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Easy Customization: 
+            </div>
+            <div class="para-text">
+              Modify session logic effortlessly through XML configuration files without altering the code.
+            </div>
+          </div>
 
-          <div class="d-flex mt-5">
-              <div class="w-75 text-box-bottom">
-                View documentation
-              </div>
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Multiple FIX Sessions: 
+            </div>
+            <div class="para-text">
+              Create both initiators and acceptors for flexible session management.
+            </div>
+          </div>
 
-              <div class="w-25"> 
-                <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                </svg>
-              </div>
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Support for FIX Dialects: 
+            </div>
+            <div class="para-text">
+              Accommodates non-standard implementations, including custom messages and fields.
+            </div>
           </div>
         </div>
-      </div>
+    </div>
 
-      <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
-          <div class="small-title-dark">
-              Supports FIX message encoding.
-          </div>
-          <div class="para-text mt-5">
-            <ul class="circle ">
-              <li>
-                Supports customization message validation levels for inbound as well as outbound messages.
-              </li>
-              <li>
-                Masking of important fields in messages (like passwords).
-              </li>
-              <li>
-                Provides important event-based alerts (like inbound message, outbound message, session state change, sequence number change, error, warning, info etc.) 
-              </li>
-            </ul>
+    <div class="row pt-5 pb-5">
+        <div class="col-12 col-md-6 col-lg-6"> 
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Custom GapFill Mechanisms: 
+            </div>
+            <div class="para-text">
+              Tailor gap filling through XML configuration for enhanced control.
+            </div>
           </div>
 
-          <div class="border-line"></div>
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Linked Sequence Number Management: 
+            </div>
+            <div class="para-text">
+              Reset sequence numbers based on key events like Logon and Logout.
+            </div>
+          </div>
 
-          <div class="d-flex mt-5">
-              <div class="w-75 text-box-bottom">
-                View documentation
-              </div>
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Custom Logon Framing: 
+            </div>
+            <div class="para-text">
+              Design your own logon message structure for improved security.
+            </div>
+          </div>
 
-              <div class="w-25"> 
-                <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                </svg>
-              </div>
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Latency Monitoring: 
+            </div>
+            <div class="para-text">
+              Track message latencies and trigger alerts when thresholds are crossed.
+            </div>
           </div>
         </div>
-      </div>
+
+        <div class="col-12 col-md-6 col-lg-6 div-center"> 
+          <img class="p-5" src="assets/img/pic2.svg">
+        </div>
+    </div>
+
+    <div class="row pt-5 pb-5">
+        <div class="col-12 col-md-6 col-lg-6 div-center"> 
+          <img class="p-5" src="assets/img/pic3.svg">
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6"> 
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Counterparty Backlog Monitoring: 
+            </div>
+            <div class="para-text">
+              Observe processing backlogs on the counterparty side for proactive management.
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Flexible Data Persistence: 
+            </div>
+            <div class="para-text">
+              Support for database and file-based persistence mechanisms.
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Version Compatibility: 
+            </div>
+            <div class="para-text">
+              Fully supports all standard FIX Protocol versions and non-standard dialects.
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Message Encoding and Validation: 
+            </div>
+            <div class="para-text">
+              Ensure compliance with customizable FIX message encoding and validation levels.
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="row pt-5 pb-5">
+        <div class="col-12 col-md-6 col-lg-6"> 
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Field Masking: 
+            </div>
+            <div class="para-text">
+              Secure sensitive information by masking important fields like passwords.
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Event-Based Alerts: 
+            </div>
+            <div class="para-text">
+               Receive instant alerts for key events, such as message transactions and session state changes.
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Customizable Logging: 
+            </div>
+            <div class="para-text">
+               Log specific event types for detailed tracking and auditing.
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="small-title-dark">
+              Automatic Sequence Number Resetting: 
+            </div>
+            <div class="para-text">
+              Automate message sequence number resets according to exchange specifications on a daily 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 div-center"> 
+          <img class="p-5" src="assets/img/pic4.svg">
+        </div>
+    </div>
+  </section> 
+
+  <section class="container py-6">    
+    <div class="text-center">
+      <p class="sec-title">
+        <span class="span-title">Developer  </span> resources
+      </p> 
+      
+      <p class="para-text">
+        Get the help you need to build the FIX Enabled applications, tools and connectivity solutions
+      </p>
+      
+      <div class="row container">
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="m-5 border rounded-5 para-text p-5  box-hover">
+            <div>
+              <img class="w-25" src="assets/img/rocket.png">
+            </div>
+            <div class="mt-5 font-weight-500">
+              Get <span class="span-title">Started</span>  
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="m-5 border rounded-5 para-text p-5  box-hover">
+            <div>
+              <img class="w-25" src="assets/img/download.png">
+            </div>
+            <div class="mt-5 font-weight-500">
+              <span class="span-title">Download </span> and <span class="span-title"> Install</span> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="m-5 border rounded-5 para-text p-5  box-hover">
+            <div>
+              <img class="w-25" src="assets/img/out.png">
+            </div>
+            <div class="mt-5 font-weight-500">
+              Samples <span class="span-title">Application</span> 
+            </div>
+          </div>
+        </div>
     </div> 
-  </section>
+  </div></section>
  
   <?php include 'footer.php';?>
 

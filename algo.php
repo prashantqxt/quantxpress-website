@@ -35,8 +35,8 @@
                                     </div>
 
                                     <div class="small-text-white py-4-d px-4"> 
-                                         We build and automate systems that manage complex trading algorithms and executions in a dynamic environment. Our team of professionals stays at the forefront of technological advancements to provide cutting-edge algo trading systems. We Automate your Trading Strategies, Providing complete Technology stack and Managing Connectivity while you can focus on your core Business...Trading and Research                                    </div>
-
+                                       We offer sophisticated algorithmic trading platforms that harness advanced technology and high-speed connectivity solutions to provide you with a competitive edge. Our all-encompassing services allow you to focus on your trading strengths while we manage everything else.
+                                    </div> 
                                   </div>
                               </div>
                           </li>
@@ -110,7 +110,7 @@
       <div class="d-flex justify-content-between mob-col pt-5">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/algorithmic.svg">
+              <img src="assets/img/algo1.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -132,7 +132,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Our solution provides direct exchange feed capture and our software process further decode, normalize,  enriched, standardize, store and disseminate the market information to analyze and apply.  
+                  We offer sophisticated algorithmic trading platforms that harness advanced technology and high-speed connectivity solutions to provide you with a competitive edge. Our all-encompassing services allow you to focus on your trading strengths while we manage everything else.
                 </div> 
               </div>
             </section>
@@ -140,7 +140,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/fix.svg">
+              <img src="assets/img/algo2.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -163,8 +163,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  QX.MDP scalable market data dissemination solution enables real-time market data streaming into a broker’s client trading or monitoring apps to enhance performance of automated trading algorithms.  
-
+                 Our dependable trading technology is tailored for startup-funded trading firms, equipping them with the essential tools for success. We offer scalable solutions that support your firm from onboarding and setup to execution and expansion, enabling you to achieve the ultimate trading experience.
                 </div> 
               </div>
             </section>
@@ -172,7 +171,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/exchange.svg">
+              <img src="assets/img/algo3.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -195,7 +194,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  We partner with our clients in their transformation journey to successfully deliver solutions they need to succeed in Today’s competitive financial markets. 
+                  We specialize in multi-asset market connectivity, execution engines, order management systems (OMS), and risk management solutions for financial institutions, providing the essential technology to effectively scale trading operations.
                 </div> 
               </div>
             </section>
@@ -213,63 +212,66 @@
             </p>
 
             <p class="para-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                From Trading Concept to launch and Beyond, we work closely with our partners to develop cutting-edge proprietary software systems for systematic, discretionary, and hybrid strategies, while also providing comprehensive research and operations support. We have successfully implemented and live complex trading strategies in just a few days- an achievement that has eluded some of our clients for months.
             </p> 
           </div>  
         </div>   
 
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
-                Customized Algorithmic Solutions and Automated Trading Systems
+                Manage Complex trades
               </div>
 
               <div class="para-text pt-5">
-                We specialize in quantitative solutions, algorithm development, and creating unique automated trading systems, complete with comprehensive backtest metrics, ensuring performance that aligns with the rigorous standards of the trading industry.
+                With Blitz, you can efficiently manage intricate execution models across multiple markets while concurrently handling multiple orders. This capability ensures that program traders can achieve swift and accurate executions, overcoming the significant challenges they face in the trading environment.
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
-                Cost-Effective Alternative to In-House Development  
+                Customized Algorithmic Solutions with Blitz
               </div>
 
               <div class="para-text pt-5">
-                By partnering with us, you stand to save hundreds of thousands of dollars compared to the cost of maintaining an in-house team of senior engineers, while still achieving exceptional trading technology solutions.
+                We support large proprietary traders desks and traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy <br>
+
+                You can develop a wide range of strategy models, including execution models, quantitative model, market making, scalping, jobbing, statistical arbitrage, complex options strategies, and mechanical trading systems based on technical indicators in matter of hours.<br><br>
+
               </div>
             </div>
           </div>
 
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
-                Cutting-Edge Technological Proficiency
+                Trading Research and Backtesting
               </div>
 
               <div class="para-text pt-5">
-                Our expertise spans Python (including AI/machine learning & statistical modeling), NinjaScript, and C#, positioning us to deliver innovative and effective trading solutions.
+                We support large proprietary traders desks and traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy.
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
                 Confidentiality and Professional Integrity  
               </div>
 
               <div class="para-text pt-5">
-                We engage in projects where we can truly make a significant difference, focusing our efforts where they matter most to our clients’ bottom line. Our clients are always protected by NDAs and non-compete agreements.
+                We engage in projects where we can truly make a significant difference, focusing our efforts where they matter most to our clients’ bottom line. Our clients are always protected by NDAs and non-compete agreements.<br><br>
               </div>
             </div>
           </div> 
 
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+          <!-- <div class="col-12 col-md-6 col-lg-6">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
                 Risk Management
               </div>
@@ -281,7 +283,7 @@
           </div>
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
                 Portfolio Management 
               </div>
@@ -293,7 +295,7 @@
           </div> 
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
                 Backtest and Optimize
               </div>
@@ -305,7 +307,7 @@
           </div>
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class=".card-box-algo">
+            <div class="card-box-algo">
               <div class="para-text fw-bold">
                 Automate 
               </div>
@@ -314,7 +316,7 @@
                 We can also automate your trading strategies by writing C++/python code to interact directly with the exchange
               </div>
             </div>
-          </div> 
+          </div>  -->
         </div> 
     </div>
   </section>
@@ -322,33 +324,22 @@
   <section class="container py-6">    
     <div class="text-center">
       <p class="sec-title">
-           Exchange <span class="span-title">Connectivity</span> Solution
+           Your <span class="span-title">Algo Trading</span>   Consultant
       </p>
 
       <p class="para-text">
-          Our software is designed from the ground up to be extremely flexible and fully customizable, whilst at the same time providing state of the art performance. We have options to provide a source code of already developed exchange adapter for both market data and interactive components across most Indian exchange in C++ or C#.
+          QuantXpress is a premier provider of algorithmic trading consulting services, delivering comprehensive solutions for individuals, brokers, and firms looking to establish their own algo trading operations. Our expertise spans various asset classes, including stocks, futures, options, forex, and commodities, guiding clients through the complexities of setting up an algo trading desk. Partner with QuantXpress to leverage our extensive experience whether you're launching a new trading desk or refining existing strategies, we’re here to support your success.
       </p> 
     </div>  
     <div class="row pt-5">
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              NSE (TBT, NNF Specialization)
+             Research and Strategy Development
           </div>
           <div class="para-text mt-5">
-            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
-          </div>
-          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
-            <li>
-              Technology solution to provides TBT level-III data to retail
-            </li>
-            <li>
-              Technology to disseminate Level-I, Level-II market data over API model
-            </li>
-            <li>
-              Technology to integrate TBT data order book to HFT platform
-            </li>
-          </ul>
+            Our consulting services focus on research and strategy development, offering robust backtesting, strategy optimization, and statistical analysis. These services provide the foundation for stable and efficient trading operations. Our team is proficient in C++, C#, and Python, with extensive experience in low-latency, high-frequency trading. We excel at building scalable, enterprise-grade algorithms that align with your trading objectives. By harnessing advanced research methods and technology, we help you develop and refine trading strategies that perform under real-world conditions.
+          </div> 
 
           <div class="border-line"></div>
 
@@ -370,22 +361,11 @@
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              BSE <br> &nbsp
+              Comprehensive Algo Trading Consulting
           </div>
           <div class="para-text mt-5">
-            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
-          </div>
-          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
-            <li>
-              Technology solution to provides TBT level-III data to retail
-            </li>
-            <li>
-              Technology to disseminate Level-I, Level-II market data over API model
-            </li>
-            <li>
-              Technology to integrate TBT data order book to HFT platform
-            </li>
-          </ul>
+            QuantXpress is your go-to partner for comprehensive algorithmic trading consulting services. We cater to individuals, brokers, and firms aiming to establish algo trading operations. With expertise spanning stocks, futures, options, forex, and commodities, we guide clients through the complexities of setting up an algo trading desk. Our mission is to ensure you have the tools and knowledge to succeed, whether you're starting from scratch or refining existing strategies. Partner with QuantXpress to access our extensive experience and achieve your trading goals.
+          </div> 
 
           <div class="border-line"></div>
 
@@ -407,22 +387,14 @@
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              MCX <br> &nbsp
+              Technology and Tailored Solutions
           </div>
           <div class="para-text mt-5">
-            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
-          </div>
-          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
-            <li>
-              Technology solution to provides TBT level-III data to retail
-            </li>
-            <li>
-              Technology to disseminate Level-I, Level-II market data over API model
-            </li>
-            <li>
-              Technology to integrate TBT data order book to HFT platform
-            </li>
-          </ul>
+            QuantXpress has a proven track record of helping businesses thrive in the algo trading sector. We stay at the forefront of technology to offer cutting-edge solutions, whether it's in business strategy, operations, or software development. Our tailored solutions meet the unique needs of both retail and institutional clients, with a special focus on automating trading strategies. <br><br class="mob">
+
+            Contact us today to learn more about our innovative trading solutions and how we can help you reach<br class="mob"><br class="mob">
+
+          </div> 
 
           <div class="border-line"></div>
 

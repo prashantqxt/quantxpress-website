@@ -8,6 +8,7 @@
 :root {
   --darkgray-color: #011F3D;
   --primary: #464EB8;
+  --blue: #011F3D;
   --hover-color: rgb(102, 40, 245);
 }
 
@@ -85,6 +86,9 @@ body{
 }
 .white{
   color: #ffffff!important;
+}
+.blue{
+  color: var(--blue)!important;
 }
 .border-left-box{
     border-left: 3px solid #464EB8;
@@ -494,7 +498,7 @@ a.toggle-menu{
     font-size: 2rem;
 }
 .small-title-primary {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #464EB8;
 }
@@ -514,14 +518,13 @@ a.toggle-menu{
   background: #ffffff;
 }
 .dark-btn_2{ 
-    border-radius: 12px;
+    border-radius: 6px;
     background: #464EB8;
     color: #ffffff; 
     font-weight: 600;
     margin-right: 2%;
-    box-shadow: 0px 3px 4px #939090;
-    border: 2px solid #fff;
-    width: 150px;
+    box-shadow: 0px 3px 4px #939090; 
+    width: 200px;
     height: 50px;
     font-size: 1.5rem;
 }
@@ -545,6 +548,13 @@ a.toggle-menu{
   border:1px solid #464EB8;
   color: #ffffff;
   background: #464EB8;
+}
+.blog-bg{
+    background: url(../img/blog-banner.jpg) no-repeat center right;
+    background-position: 0 0px;
+    background-size: 100%;
+    height: auto;
+    padding: 3%;
 }
 .banner-bg{
     background: url(../img/home-banner.png) no-repeat center right;
@@ -578,7 +588,7 @@ a.toggle-menu{
 }
 
 .sec-title{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #011F3D;
     font-weight: 600;
     line-height: 1.3;
@@ -588,7 +598,7 @@ a.toggle-menu{
   font-weight: 600;
 }
 .para-text{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #595959;
     font-weight: 400; 
     line-height: 1.5;
@@ -1436,3 +1446,150 @@ ul.circle {
 .height-50{
   height: 50vh;
 } 
+
+.testimonial-container {
+  background-color: #464EB8;
+  color: white;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  max-width: 768px;
+  position: relative;
+}
+
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-left {
+  left: 40px;
+}
+
+.fa-quote-right {
+  right: 40px;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.username{
+  font-size: 24px;
+}
+.role{
+  font-size: 16px;
+}
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: white;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 20px 30px;
+  }
+
+  .fa-quote {
+    display: none;
+  }
+}
+
+.career-bg{
+  background: url(../img/career-bg.png);
+  border-radius: 12px;
+}
+.dark-btn:hover path,.dark-btn_2:hover path {
+    fill: #464EB8;
+}
+.light-btn:hover path{
+  fill: #fff;
+}
+.hide {
+  display: none;
+}
+
+.myDIV:hover{
+  background: #fbeded;
+} 
+.solution_box{
+      width: 60rem!important;
+}
+.card_img{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+} 
+.w-8{
+  width: 5rem;
+}
+.height-20{
+  height: 20vh;
+}
+.height-35{
+  height: 35vh;
+}
+.height-48{
+  height: 48vh;
+}
+.height-60 {
+    height: 60vh;
+}
+.contact-text_title{
+  font-size: 9rem;
+  line-height: 1;
+}
+.contact-text{
+    font-size: 4rem;
+    line-height: 1.4;
+    font-weight: 300;
+}
+.items-center{
+  align-items: center;
+}

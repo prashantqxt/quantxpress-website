@@ -109,9 +109,10 @@
 
       <div class="row mg-t-90">
         <div class="col-12 col-md-2 col-lg-2">
-          <div class="card">
+          <div class="card myDIV">
             <div>
-              <img class="work-icon" src="assets/img/lightbulb.png">
+              <img class="work-icon" src="assets/img/lightbulb.png"> 
+              </svg>
             </div>
 
             <div class="box-text">
@@ -123,9 +124,11 @@
         </div>
 
         <div class="col-12 col-md-2 col-lg-2">
-          <div class="card">
+          <div class="card myDIV">
             <div>
-              <img class="work-icon" src="assets/img/build.png">
+              <img class="work-icon" src="assets/img/algorithm.png"> 
+                </g>
+              </svg>
             </div>
 
             <div class="box-text">
@@ -137,9 +140,10 @@
         </div>
 
         <div class="col-12 col-md-2 col-lg-2">
-          <div class="card">
+          <div class="card myDIV">
             <div>
-              <img class="work-icon" src="assets/img/simulator.png">
+              <img class="work-icon show" src="assets/img/simulator.png">
+              <img class="work-icon hide" src="assets/img/simulator-white.png">
             </div>
 
             <div class="box-text">
@@ -151,7 +155,7 @@
         </div>
 
         <div class="col-12 col-md-2 col-lg-2">
-          <div class="card">
+          <div class="card myDIV">
             <div>
               <img class="work-icon" src="assets/img/fix_or_fine.png">
             </div>
@@ -165,7 +169,7 @@
         </div>
 
         <div class="col-12 col-md-2 col-lg-2">
-          <div class="card">
+          <div class="card myDIV">
             <div>
               <img class="work-icon" src="assets/img/execute.png">
             </div>
@@ -225,15 +229,15 @@
           <div class="col-12 col-md-4 col-lg-4">
             <div class="card-box">
               <div class="pb-4">
-                <img class="w-25" src="assets/img/stock.png">
+                <img class="w-25" src="assets/img/architecture.png">
               </div>
 
               <div class="small-title-dark py-3">
-                Unified Platform
+                Fast time to the market
               </div>
 
               <div class="para-text py-3">
-                BlitzTrader's asset-neutral and market-agnostic platform integrates Order Management System (OMS), Risk Management System (RMS), and seamless liquidity provider connectivity.
+                BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
               </div>
             </div>
           </div>
@@ -241,15 +245,15 @@
           <div class="col-12 col-md-4 col-lg-4">
             <div class="card-box">
               <div class="pb-4">
-                <img class="w-25" src="assets/img/stock.png">
+                <img class="w-25" src="assets/img/algorithm.png">
               </div>
 
               <div class="small-title-dark py-3">
-                Unified Platform
+                One Stop Algorithmic Trading  
               </div>
 
               <div class="para-text py-3">
-                BlitzTrader's asset-neutral and market-agnostic platform integrates Order Management System (OMS), Risk Management System (RMS), and seamless liquidity provider connectivity.
+                BlitzTrader serves as a one-stop solution for algorithmic trading, offering flexibility and customization through its open architecture. 
               </div>
             </div>
           </div>
@@ -294,7 +298,7 @@
       <div class="d-flex justify-content-between mob-col pt-5">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/architecture.png">
+              <img src="assets/img/market_variable.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -324,7 +328,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/algorithm.png">
+              <img src="assets/img/bit_order.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -355,7 +359,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/stock.png">
+              <img src="assets/img/execution.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -388,7 +392,7 @@
       <div class="d-flex justify-content-between mob-col">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/stock.png">
+              <img src="assets/img/server.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -419,7 +423,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/stock.png">
+              <img src="assets/img/live.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->
@@ -451,7 +455,7 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/stock.png">
+              <img src="assets/img/technical.png">
             </div>
           <div class="vertical"> 
             <!--  front side  -->

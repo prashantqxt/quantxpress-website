@@ -161,7 +161,7 @@
         <div class="row pt-5 pb-5">
           <div class="text-center">
             <p class="sec-title">
-                 What <span class="span-title">we</span> do
+                 Our <span class="span-title">Tech</span> Expertise
             </p>
 
             <p class="para-text">
@@ -171,78 +171,79 @@
         </div>   
 
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-about">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box-about height-48">
               <div class="para-text fw-bold">
-                Ultra low latency market data feeds, historical data storage and API services.
+                Algorithmic Trading
               </div>
 
               <div class="para-text pt-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                We offer specialized consultancy and advisory services to individual trading firms and brokers, empowering them to optimize their algo trading desks. Our expert team customizes the Blitz trading platform to execute proprietary trading strategies seamlessly. Blitz supports a diverse array of financial assets, including stocks, futures, options, forex, and commodities, ensuring a robust trading experience.
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-about">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box-about height-48">
               <div class="para-text fw-bold">
-                Direct market access (DMA) and execution management system.
+                Market Data Solutions
               </div>
 
               <div class="para-text pt-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                At QuantXpress, we provide technology to normalize exchange data and store historical information, along with data access solutions via REST and WebSocket for retail clients. Our cutting-edge ultra-low-latency technology empowers you with timely and accurate market data, supporting your trading and investment activities effectively.
               </div>
             </div>
           </div>
 
-
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-about">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box-about height-48">
               <div class="para-text fw-bold">
-                End to end systematic Algorithmic trading <br> framework
+                HFT Trading
               </div>
 
               <div class="para-text pt-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Gain a competitive edge in the market with our high-frequency trading (HFT) platform, powered by proprietary architecture and TBT market data solutions, along with flexible customization options. Our unique system architecture delivers the lowest latencies available, enabling lightning-fast trade execution and ensuring you stay ahead of the competition.
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box-about height-48">
+              <div class="para-text fw-bold">
+                FIX  Consulting
+              </div>
+
+              <div class="para-text pt-5">
+                Our flexible platform offers a comprehensive suite of FIX trading technology and support services. QX.FIX Engine delivers seamless FIX connectivity for buy-side and sell-side institutions, assisting with FIX certification and the development of connectivity solutions. With industry-leading FIX engine technology and client connectivity services, we ensure a flawless integration into any technology environment.
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-about">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box-about height-48">
               <div class="para-text fw-bold">
-                Rapidly develop and deploy market neutral automated trading strategies.
+                Strategy Research and Development
               </div>
 
               <div class="para-text pt-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Automate your rule-based strategies with custom-built algorithms in Blitz, enhancing efficiency and minimizing risk. Our services encompass strategy automation, backtesting, optimization, and statistical analysis. Additionally, we provide general quantitative analysis and support for mathematical and statistical research projects.
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-about">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card-box-about height-48">
               <div class="para-text fw-bold">
-                Market agnostic trading platform supporting Equity, Futures, Options, commodity and FX market.
+                Professional Services and Consulting
               </div>
 
               <div class="para-text pt-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Automate your rule-based strategies with custom-built algorithms in Blitz, enhancing efficiency and minimizing risk. Our services encompass strategy automation, backtesting, optimization, and statistical analysis. Additionally, we provide general quantitative analysis and support for mathematical and statistical research projects.
               </div>
             </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-about">
-              <div class="para-text fw-bold">
-                Cross asset front and backoffice order and risk management system.
-              </div>
-
-              <div class="para-text pt-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              </div>
-            </div>
-          </div>
+          </div> 
         </div>
         <section  id="team"></section>
     </div>
@@ -263,18 +264,18 @@
       </div>   
 
       <div class="row">
-          <div class="col-12 col-md-4 offset-md-2 col-lg-4 mg-bt-5" data-bs-toggle="modal" data-bs-target="#myModal">
+          <div class="col-12 col-md-4  col-lg-4 mg-bt-5" data-bs-toggle="modal" data-bs-target="#myModal">
             <img class="w-75 mob-100" src="assets/img/naveen.png">
 
-            <div class="small-title-primary py-4">
+            <div class="small-title-primary py-3">
               Naveen Kumar
             </div>
 
             <div class="para-text">
-              <strong>Founder and CEO <br class="mob"> &nbsp</strong> 
+              <p>Founder and CEO <br class="mob"> &nbsp</p> 
             </div>
 
-            <div class="d-flex mt-5">
+            <div class="d-flex mt-3">
               <div class="w-50 text-box-bottom">
                 View 
               </div>
@@ -290,15 +291,15 @@
           <div class="col-12 col-md-4 col-lg-4 mob-pt-15" data-bs-toggle="modal" data-bs-target="#myModal2">
             <img class="w-75 mob-100" src="assets/img/ashish.png">
 
-            <div class="small-title-primary py-4">
+            <div class="small-title-primary py-3">
               Ashish Bahety
             </div>
 
             <div class="para-text font-weight-600">
-              <strong>Director Business Development <br class="mob"> & Operations</strong>
+              <p>Director Business Development <br class="mob"> & Operations</p>
             </div>
 
-            <div class="d-flex mt-5">
+            <div class="d-flex mt-3">
               <div class="w-50 text-box-bottom">
                 View 
               </div>
@@ -308,7 +309,32 @@
                   <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                 </svg>
               </div>
-          </div> 
+            </div> 
+          </div>
+
+          <div class="col-12 col-md-4  col-lg-4 mg-bt-5" data-bs-toggle="modal" data-bs-target="#myModal3">
+            <img class="w-75 mob-100" src="assets/img/sanjeev.png">
+
+            <div class="small-title-primary py-3">
+              Sanjay Verma
+            </div>
+
+            <div class="para-text">
+              <p>Solution Architect and  <br class="mob"> Delivery Head  </p> 
+            </div>
+
+            <div class="d-flex mt-3">
+              <div class="w-50 text-box-bottom">
+                View 
+              </div>
+
+              <div class="w-25"> 
+                <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
       </div> 
   </section> 
  
@@ -343,25 +369,27 @@
               </div>   
 
               <div class="modal-para-text pt-5">
-                In 2012, Naveen founded QuantXpress Technologies combining a passion for technology and the desire to build a company focused on driving business value through delivering innovative product and trading solutions for the capital marketplace.
+                In 2012, Naveen founded QuantXpress Technologies, fueled by a passion for technology and a commitment to delivering innovative products and trading solutions that drive business value in the capital markets.
               </div>
               <div class="modal-para-text pt-4">
-                Naveen is CEO and Chief Product architect of QuantXpress and has architected and developed its flagship algorithmic trading product and technology components alongside the core technology team. He is responsible for overall product roadmaps, architecture and development with QuantXpress Engineering team. At the same time Naveen involves in new business development, research, strategic relationship, and operations of the company. He has 17+ year of product development experience, with last decade mainly focused on capital market technologies.
+                As the CEO and Chief Product Architect, Naveen has played a pivotal role in designing and developing QuantXpress's flagship algorithmic trading products. He oversees product roadmaps, architecture, and development alongside the engineering team, while also engaging in new business development, research, strategic partnerships, and operations. With over 20 years of product development experience—primarily focused on capital market technologies in the last decade—Naveen is well-equipped to lead the company’s vision.
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-12"> 
               <div class="modal-para-text pt-4">
-                Before starting QuantXpress in Year 2012, Naveen worked with RTS Realtime Systems as a Director Technology and cofounded First Futures Software a German technology venture, which was acquired by RTS Realtime systems (Now Bloomberg Company). In First Futures, Naveen had architected and launched many of the company most successful product in quantitative trading and execution management system.
+                As the CEO and Chief Product Architect, Naveen has played a pivotal role in designing and developing QuantXpress's flagship algorithmic trading products. He oversees product roadmaps, architecture, and development alongside the engineering team, while also engaging in new business development, research, strategic partnerships, and operations. With over 20 years of product development experience—primarily focused on capital market technologies in the last decade—Naveen is well-equipped to lead the company’s vision.
+              </div><br>
+
+              <div class="modal-para-text">
+                Naveen began his career as a software developer at Quark, contributing to core product development first in India and later in Germany. In year 2017, he partnered with Symphony Fintech to architect and develop NOW2.0 for NSE, a renowned XTS OEMS that has become a leading retail trading ecosystem.
               </div>
 
               <div class="modal-para-text">
-                Naveen served as a technical architect in First Futures GmbH a boutique proprietary trading firm based in Munich Germany and responsible for architect and development of its high performance trading system and market connectivity's. Naveen began his career as a software developer with Quark, a leading publishing software product company and was in the core product development team in India and later in Germany.
-              </div>
+                With a career as a professional developer and software architect since 1998, Naveen’s expertise lies in building high-performance trading systems, software frameworks, and scalable products. His ongoing passion for technology and continuous learning drives his work. <br>
 
-              <div class="modal-para-text">
-                Naveen has been professional developer and software architect since 1998. He has a passion for technology and new knowledge. His area of expertise includes building high performance trading systems, software frameworks and scalable software products. Naveen earned his Master degree in Computer Science from India.
+                Naveen earned his Master degree in Computer Science from India.
               </div>
             </div>
           </div>

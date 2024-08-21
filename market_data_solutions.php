@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>MDCS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-
+  <style type="text/css">
+    .vertical > .front, .vertical > .back {
+      height: 300px;
+    }
+  </style>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -107,18 +111,86 @@
 
         <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
           <p class="para-text">
-            Get the competitive edge you need in the financial markets with access to our full suite of services.
+            Gain a competitive edge in the financial markets with access to our comprehensive suite of services. Since our inception, we have been building and supporting software systems designed to manage financial markets, specializing in the integration of exchange market data with trading systems.
           </p>
         </div>
       </div>  
+      <br><br><br>
+      <div class="row">
+        <div class="col-12 col-md-7 col-lg-7">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed para-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne" style="border-bottom: 1px solid #ddd;">
+                  Exchange Connectivity
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row py-3"> 
+                    <div class="col-lg-12 col-md-12 col-12">
+                      <br><br>
+                      <div class="para-text">
+                        Our solution captures direct exchange feeds and processes them through software for decoding, normalization, enrichment, and standardization. We then store and disseminate market information for analysis and application. With our market data solutions, financial institutions can establish a robust market data infrastructure for their clients in just a few weeks.
+                      </div><br> 
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed para-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Market Data Dissemination Platform and APIs
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row py-3"> 
+                    <div class="col-lg-12 col-md-12 col-12">
+                      <br><br>
+                      <div class="para-text">
+                       The QX.MDP is a scalable market data dissemination solution that streams real-time market data into brokers' client trading and monitoring apps, boosting the performance of automated trading algorithms. QXT provides a variety of programming language APIs and access solutions, including Java, C/C++, .NET, JavaScript, WebSocket, REST, Python, and FIX, ensuring easy data access for analysis and integration into various applications.
+                      </div><br> 
+                    </div>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed para-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  QXT Engineering Services
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                   <div class="row py-3"> 
+                    <div class="col-lg-12 col-md-12 col-12">
+                      <br><br>
+                      <div class="para-text">
+                       We collaborate with our clients on their transformation journeys, delivering the solutions they need to thrive in today’s competitive financial markets. Our services include architectural design, solution implementation, and operational support, empowering clients to leverage technology for high-frequency trading and quantitative trading.
+                      </div><br> 
+                    </div>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div class="d-flex justify-content-between mob-col pt-5">
+        <div class="col-12 col-md-5 col-lg-5">
+          <img class="w-100" src="assets/img/mscs.png">
+        </div>
+      </div>
+
+      <!-- <div class="d-flex justify-content-between mob-col pt-5">
         <div class="border w-33 hover-box">
           <div class="img-icon">
               <img src="assets/img/algorithmic.svg">
             </div>
           <div class="vertical"> 
-            <!--  front side  -->
+             
             <section class="front"> 
               
               <div class="d-flex filp-front-title">
@@ -133,11 +205,12 @@
                 </div>
             </section>
 
-            <!--  back side  -->
+             
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Our solution provides direct exchange feed capture and our software process further decode, normalize,  enriched, standardize, store and disseminate the market information to analyze and apply.  
+                  Our solution captures direct exchange feeds and processes them through software for decoding, normalization, enrichment, and standardization. We then store and disseminate market information for analysis and application. 
+                  With our market data solutions, financial institutions can establish a robust market data infrastructure for their clients in just a few weeks. 
                 </div> 
               </div>
             </section>
@@ -148,7 +221,7 @@
               <img src="assets/img/fix.svg">
             </div>
           <div class="vertical"> 
-            <!--  front side  -->
+             
             <section class="front"> 
               
               <div class="d-flex filp-front-title">
@@ -164,11 +237,12 @@
               </div>
             </section>
 
-            <!--  back side  -->
+             
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  QX.MDP scalable market data dissemination solution enables real-time market data streaming into a broker’s client trading or monitoring apps to enhance performance of automated trading algorithms.  
+                  The QX.MDP is a scalable market data dissemination solution that streams real-time market data into brokers' client trading and monitoring apps, boosting the performance of automated trading algorithms. 
+                  QXT provides a variety of programming language APIs and access solutions, including Java, C/C++, .NET, JavaScript, WebSocket, REST, Python, and FIX, ensuring easy data access for analysis and integration into various applications.  
 
                 </div> 
               </div>
@@ -180,7 +254,7 @@
               <img src="assets/img/exchange.svg">
             </div>
           <div class="vertical"> 
-            <!--  front side  -->
+             
             <section class="front"> 
               
               <div class="d-flex filp-front-title">
@@ -196,17 +270,17 @@
               </div>
             </section>
 
-            <!--  back side  -->
+             
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  We partner with our clients in their transformation journey to successfully deliver solutions they need to succeed in Today’s competitive financial markets. 
+                  We collaborate with our clients on their transformation journeys, delivering the solutions they need to thrive in today’s competitive financial markets. Our services include architectural design, solution implementation, and operational support, empowering clients to leverage technology for high-frequency trading and quantitative trading.
                 </div> 
               </div>
             </section>
           </div>
         </div>
-      </div> 
+      </div>  -->
   </section> 
 
 
@@ -227,7 +301,7 @@
               NSE (TBT, NNF Specialization)
           </div>
           <div class="para-text mt-5">
-            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
+            The National Stock Exchange (NSE) is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. We have delivered many connectivity solutions across NSE TBT, NNF market and trading interface. Institution and prop desk’s can leverage our experience to build and integrate the low latency NSE exchange connectivity in their trading infrastructure.
           </div>
           <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
             <li>
@@ -264,9 +338,14 @@
               BSE <br> &nbsp
           </div>
           <div class="para-text mt-5">
-            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
+            The Bombay Stock Exchange (BSE) is India's oldest stock exchange, established in 1875, and is one of the largest exchanges in the world by market capitalization. 
           </div>
-          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
+
+          <div class="para-text mt-5">
+            QXT is specialized in BSE exchange technologies for both market data and Trading interface. We help Institutions to provide an adapters of BSE EOBI, MDI and ETI interfaces.
+          </div> <br class="mob"> <br class="mob"><br class="mob"><br class="mob"><br class="mob">
+
+          <ul class="para-text ps-5 pt-5" style="list-style-type: number; visibility: hidden;">
             <li>
               Technology solution to provides TBT level-III data to retail
             </li>
@@ -301,9 +380,13 @@
               MCX <br> &nbsp
           </div>
           <div class="para-text mt-5">
-            NSE is global leading exchange based in Mumbai, India and is most diverse equity and derivative marketplace. NSE connectivity is our core specialization for both market data and trading interface. 
+            The Multi Commodity Exchange of India (MCX) is the leading commodities exchange in India, established in 2003, specializing in the trading of various commodity derivatives.
           </div>
-          <ul class="para-text ps-5 pt-5" style="list-style-type: number;">
+          <div class="para-text mt-5">
+            QXT is specialized in MCX exchange technologies for both market data and Trading interface. We help Institutions to provide an adapters of MCX  EOBI, MDI and ETI interfaces.
+          </div>
+           <br class="mob"> <br class="mob"><br class="mob"> 
+          <ul class="para-text ps-5 pt-5" style="list-style-type: number; visibility: hidden;">
             <li>
               Technology solution to provides TBT level-III data to retail
             </li>
@@ -332,6 +415,43 @@
         </div>
       </div>
     </div> 
+  </section>
+
+  <section class="container py-6">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 py-5">
+        <div class="small-title-dark py-4">
+          Comprehensive FIX Session Support: 
+        </div>
+
+        <div class="para-text py-4">
+          QX.MDP facilitates real-time streaming of market data into a broker’s client trading or monitoring applications, while market surveillance feeds provide essential data and content to improve the performance of automated trading algorithms.
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6">
+          <img class="p-5" src="assets/img/mdcs1.jpg">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6  py-5">
+          <img class="p-5" src="assets/img/mdcs2.jpg">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6  py-5">
+        <div class="small-title-dark py-4">
+          Why the market choose QuantXpress
+        </div>
+
+        <div class="para-text py-4">
+          <strong>Over 15 Years of Extensive Expertise</strong> across the entire trading lifecycle.<br>
+          <strong>Accelerated Speed to Market</strong> with Pre-built trading modules streamline implementation.<br>
+          <strong>Customization Expertise</strong> with Proven ability to create complex integrations tailored to client needs.<br>
+          <strong>Complete Support and Sustainability:</strong> Our solutions are fully supportable and designed for long-term viability.<br>
+          <strong>Leading in Trade Engineering:</strong> We are the experts in trade engineering, dedicated to delivering robust solutions.<br>
+
+        </div>
+      </div>
+    </div>
   </section>
  
   <?php include 'footer.php';?>

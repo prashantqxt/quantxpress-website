@@ -40,8 +40,16 @@
                                     </div>
 
                                     <div class="btn-mg">
-                                      <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
+                                      <button class="dark-btn">Get Started 
+                                        <svg class="ps-3 purple-hover" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                                          <path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
+                                        </svg>
+                                      </button>
+                                      <button class="light-btn">Documentation 
+                                        <svg class="ps-3 white-hover" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                                          <path fill="#464eb8" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
+                                        </svg>
+                                      </button>
                                     </div>
                                   </div>
                               </div>
@@ -597,7 +605,7 @@
       </p>
 
       <p class="para-text">
-          BlitzTrader empowers professional quants and active traders to bring their algorithmic trading ideas to life. It's a comprehensive platform that streamlines the entire algorithmic trading process, from strategy development to real-time execution across multiple assets and exchanges/brokers.. With BlitzTrader, developers can build complex trading strategies and execution models in a matter of hours to days.
+          BlitzTrader empowers professional quants and active traders to bring their algorithmic trading visions to life. Our platform streamlines the process from strategy development to real-time execution across multiple assets, Exchanges and Brokers. 
       </p>
     </div>   
 
@@ -638,49 +646,73 @@
         <div class="tab-content" id="experienceTabContent">
 
           <div class="tab-pane fade show active text-left text-light" id="snit" role="tabpanel" aria-labelledby="home-tab">
-            <p class="para-text center">
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-1.png">
+            </div>
+            <p class="para-text">
               BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
             </p>
           </div>
 
           <div class="tab-pane fade text-left text-light" id="devs" role="tabpanel" aria-labelledby="profile-tab">
-            <p class="para-text center">
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-2.png">
+            </div>
+            <p class="para-text">
               BlitzTrader's architecture is designed to accommodate various asset classes with high performance and scalability, ensuring seamless integration and operation in any trading environment.
             </p>
           </div>
 
           <div class="tab-pane fade text-left text-light" id="snit3" role="tabpanel" aria-labelledby="home-tab3">
-            <p class="para-text  center">
-              Our platform offers robust customization options to adapt to changing market conditions and evolving trading business needs, empowering traders to stay ahead of the curve.
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-3.png">
+            </div><br><br>
+            <p class="para-text">
+              Our Blitz trading platform offers robust customization options to adapt to changing market conditions and evolving business needs, empowering traders to stay ahead of the curve. Users can tailor the application.
             </p>
           </div>
 
           <div class="tab-pane fade text-left text-light" id="devs4" role="tabpanel" aria-labelledby="profile-tab4">
-            <p class="para-text  center">
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-4.jpg">
+            </div><br><br>
+            <p class="para-text">
               Developers can leverage our open framework and SDK to develop and integrate powerful algorithmic strategies and market connectivity adapters tailored to their specific requirements.
             </p>
           </div>
 
           <div class="tab-pane fade text-left text-light" id="snit5" role="tabpanel" aria-labelledby="home-tab5">
-            <p class="para-text  center">
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-5.png">
+            </div>
+            <p class="para-text">
               BlitzTrader features loosely coupled market data feed components and a dissemination infrastructure, providing traders with real-time, accurate market data for informed decision-making.
             </p>
           </div>
 
           <div class="tab-pane fade text-left text-light" id="devs6" role="tabpanel" aria-labelledby="profile-tab6">
-            <p class="para-text  center">
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-6.png">
+            </div><br><br>
+            <p class="para-text">
                We provide a comprehensive suite of frameworks and libraries for TimeData Series, Technical Indicators, and options pricing, enabling traders to conduct advanced analysis and modeling with ease.
             </p>
           </div>
 
           <div class="tab-pane fade text-left text-light" id="snit7" role="tabpanel" aria-labelledby="home-tab7">
-            <p class="para-text  center">
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-7.png">
+            </div><br><br>
+            <p class="para-text">
               Our platform offers advanced trade execution capabilities that can be easily customized and integrated into trading strategies, allowing for efficient order routing and execution. Our execution framework empowers your strategy to quote at any level, on any order side, and at any price point.
             </p>
           </div>
 
           <div class="tab-pane fade text-left text-light" id="devs8" role="tabpanel" aria-labelledby="profile-tab8">
-            <p class="para-text  center">
+            <div class="text-center">
+              <img class="w-75" src="assets/img/blitztrader-8.png">
+            </div><br><br>
+            <p class="para-text">
               BlitzTrader Strategies are developed using .NET programming languages, opening up immense possibilities for you to connect with any external system for signals or advanced calculations. This makes the system open and customizable without any limitations.
             </p>
           </div>
@@ -837,7 +869,9 @@
             With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking custom trading software development, algorithmic trading, high-frequency trading (HFT), custom quantitative strategies development on Blitz, exchange connectivity, FIX Engine, and market data solutions. Our team also specializes in electronic connectivity solutions for all major Indian and global exchanges. Trust QuantXpress to elevate your trading experience and optimize your performance in today's dynamic markets.
           </p> -->
 
-          <button class="dark-btn_2 mob-mt-5 "> Learn More</button>
+          <button class="dark-btn_2 mob-mt-5 "> Learn More <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+	<path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
+</svg></button>
         </div>
 
         <div class="col-12 col-md-6 col-lg-6 div-center">
@@ -858,124 +892,22 @@
           With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking 
         </p>
 
-        <button class="dark-btn_2 mob-mt-5 "> Learn More</button>
+        <button class="dark-btn_2 mob-mt-5 mt-5 "> Learn More <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+	<path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
+</svg></button>
       </div>
       <div class="col-12 col-md-7 col-lg-7">
-        <div class="row ">
-          <div class="col-12 col-md-6 col-lg-6  scroll-box">
-            <div class="testimonial-box mg-t-15">
-              <p class="para-text">
-                multi-client trading platform for best execution of trades with fully automated trading system. 
-              </p>
-
-              <div>
-                <img width="50" src="assets/img/profile.png">
-              </div>
-
-              <div class="d-flex">
-                <div class="testimonial-name w-75">
-                  Jay (Khajana Equity Pvt Ltd.) 
-                </div>
-                <div class="w-25">
-                  <img src="assets/img/comma.png">
-                </div>
-              </div> 
-            </div>
-
-            <div class="testimonial-box">
-              <p class="para-text">
-                multi-client trading platform for best execution of trades with fully automated trading system. 
-              </p>
-
-              <div>
-                <img width="50" src="assets/img/profile.png">
-              </div>
-
-              <div class="d-flex">
-                <div class="testimonial-name w-75">
-                  Kanul Jain (AlgoLab)
-                </div>
-                <div class="w-25">
-                  <img src="assets/img/comma.png">
-                </div>
-              </div> 
-            </div>
-
-            <div class="testimonial-box">
-              <p class="para-text">
-                multi-client trading platform for best execution of trades with fully automated trading system. 
-              </p>
-
-              <div>
-                <img width="50" src="assets/img/profile.png">
-              </div>
-
-              <div class="d-flex">
-                <div class="testimonial-name w-75">
-                  Jay (Khajana Equity Pvt Ltd.) 
-                </div>
-                <div class="w-25">
-                  <img src="assets/img/comma.png">
-                </div>
-              </div> 
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-6 mg-t-15 scroll-box">
-            <div class="testimonial-box mg-t-15">
-              <p class="para-text">
-                “We completely rely on QuantXpress for all our sophisticated and advance technology needs of proprietary Algorithmic and HFT trading platform. The responsiveness of QXT team has been awesome”
-              </p>
-
-              <div>
-                <img width="50" src="assets/img/profile.png">
-              </div>
-
-              <div class="d-flex">
-                <div class="testimonial-name w-75">
-                  Kanul Jain (AlgoLab)
-                </div>
-                <div class="w-25">
-                  <img src="assets/img/comma.png">
-                </div>
-              </div> 
-            </div>
-
-            <div class="testimonial-box">
-              <p class="para-text">
-                “QuantXpress is strategically important for the growth of our proprietary algorithmic trading business and our strategic technology association with QXT is lasting since last 8+ years.” 
-              </p>
-
-              <div>
-                <img width="50" src="assets/img/profile.png">
-              </div>
-
-              <div class="d-flex">
-                <div class="testimonial-name w-75">
-                  Kanul Jain (AlgoLab)
-                </div>
-                <div class="w-25">
-                  <img src="assets/img/comma.png">
-                </div>
-              </div> 
-            </div>
-
-            <div class="testimonial-box">
-              <p class="para-text">
-                “QuantXpress is strategically important for the growth of our proprietary algorithmic 
-              </p>
-
-              <div>
-                <img width="50" src="assets/img/profile.png">
-              </div>
-
-              <div class="d-flex">
-                <div class="testimonial-name w-75">
-                  Jay (Khajana Equity Pvt Ltd.) 
-                </div>
-                <div class="w-25">
-                  <img src="assets/img/comma.png">
-                </div>
-              </div> 
+        <div class="testimonial-container">
+          <div class="progress-bar"></div>
+          <div class="fas fa-quote-left fa-quote"></div>
+          <div class="fas fa-quote-right fa-quote"></div>
+          <p class="testimonial mt-5 para-text white">
+            Since applying the Coppercoat system I have been delighted with its performance. There's been much less weed build-up than in previous years, and what did appear has been easy to remove. It’s quite a high initial outlay, but a lot of money will be saved over the years and it seems to work as a very effective anti-fouling with the bonus of offering good hull protection.
+          </p>
+          <div class="text-left mt-5"> 
+            <div class="user-details">
+              <h4 class="username">Mia Asano</h4>
+              <p class="role">Sales</p>
             </div>
           </div>
         </div>
@@ -983,55 +915,28 @@
     </div>
   </section>
 
-  <section class="container py-5">    
-    <div class="text-center">
-      <p class="sec-title">
+  <section class="container pt-5 career-bg px-5">    
+
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg-8">
+        <p class="sec-title py-4">
           <span class="span-title">Career </span>Opportunities
-      </p> 
+        </p> 
 
-      <p class="para-text py-4">
-          Join a group of passionate professionals who are transforming trading industries <br>through Product Engineering, and automation.
-      </p>
-    </div>
+        <p class="para-text py-4">
+          Join a group of passionate professionals who are transforming trading industries through Product Engineering, and automation.
+        </p>
 
-    <div class="w-100">
-      <img src="assets/img/career.svg">
-    </div>   
-
-    <div class="row pt-5 py-5">
-      <div class="col-12 col-md-5 col-lg-5">
-        <div class="para-text mob-pt-15">
-          Join our team at QuantXpress Technologies to shape the future of trading automation and build a meaningful career. We aspire to be at the forefront of innovation and entrepreneurship, where your talents and ideas can thrive.
-        </div>
-
-        <a href="career.php"><button class="dark-btn_2 mob-mt-5  mt-5">View All Roles</button></a>
+        <a href="career.php"><button class="dark-btn_2 mob-mt-5  mt-5">Visit our career page <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+	<path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
+</svg></button></a>
       </div>
-      <div class="col-12 col-md-7 col-lg-7">
-        <ul class="career-list">
-          <li>
-            <div class="d-flex d-flex-mob">
-              <div class="w-75 para-text mg-bt-5">Job tittle name (Exp. - 3 Years)</div>
-              <div><button class="dark-btn_2 mob-mt-5 ">Get Started</button></div>
-            </div>
-          </li>
-
-          <li>
-            <div class="d-flex d-flex-mob">
-              <div class="w-75 para-text mg-bt-5">Job tittle name (Exp. - 3 Years)</div>
-              <div><button class="dark-btn_2 mob-mt-5 ">Get Started</button></div>
-            </div>
-          </li>
-
-          <li>
-            <div class="d-flex d-flex-mob">
-              <div class="w-75 para-text mg-bt-5">Job tittle name (Exp. - 3 Years)</div>
-              <div><button class="dark-btn_2 mob-mt-5 ">Get Started</button></div>
-            </div>
-          </li>
-        </ul>
+      <div class="col-12 col-md-4 col-lg-4">
+        <img src="assets/img/career-home.png">
       </div>
-    </div>
-  </section> 
+    </div> 
+    
+  </section> <br><br><br>
 
   <?php include 'footer.php';?>
 
@@ -1051,6 +956,76 @@
         $('.exo-menu').toggleClass('display');
        });
     });
+
+    const testimonialsContainer = document.querySelector(".testimonials-container");
+    const testimonial = document.querySelector(".testimonial");
+    // const userImage = document.querySelector(".user-image");
+    const username = document.querySelector(".username");
+    const role = document.querySelector(".role");
+
+    const testimonials = [
+      {
+        name: "Miyah Myles",
+        position: "Marketing",
+        text:
+          "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, every time."
+      },
+      {
+        name: "June Cha",
+        position: "Software Engineer",
+        text:
+          "This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!"
+      },
+      {
+        name: "Iida Niskanen",
+        position: "Data Entry",
+        text:
+          "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him."
+      },
+      {
+        name: "Renee Sims",
+        position: "Receptionist",
+        text:
+          "This guy does everything he can to get the job done and done right. This is the second time I've hired him, and I'll hire him again in the future."
+      },
+      {
+        name: "Jonathan Nunfiez",
+        position: "Graphic Designer",
+        text:
+          "I had my concerns that due to a tight deadline this project can't be done. But this guy proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I'm looking forward to work with him again and I totally recommend him. Thanks again!"
+      },
+      {
+        name: "Sasha Ho",
+        position: "Accountant",
+        text:
+          "This guy is a top notch designer and front end developer. He communicates well, works fast and produces quality work. We have been lucky to work with him!"
+      },
+      {
+        name: "Veeti Seppanen",
+        position: "Director",
+        text:
+          "This guy is a young and talented IT professional, proactive and responsible, with a strong work ethic. He is very strong in PSD2HTML conversions and HTML/CSS technology. He is a quick learner, eager to learn new technologies. He is focused and has the good dynamics to achieve due dates and outstanding results."
+      }
+    ];
+
+    let idx = 1;
+
+    function updateTestimonial() {
+      const { name, position, photo, text } = testimonials[idx];
+
+      testimonial.innerHTML = text;
+      userImage.src = photo;
+      username.innerHTML = name;
+      role.innerHTML = position;
+
+      idx++;
+
+      if (idx > testimonials.length - 1) {
+        idx = 0;
+      }
+    }
+
+    setInterval(updateTestimonial, 10000);
   </script>
 </body> 
 </html>

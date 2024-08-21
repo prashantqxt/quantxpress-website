@@ -340,13 +340,13 @@
       </p> 
     </div>  
     <div class="row pt-5">
-      <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
+      <div class="col-12 col-md-4 col-lg-4 ">
+        <div class="border rounded-4 py-4 px-5 height-35 myDIV">
           <div class="small-title-dark">
               Developer Guide
           </div>
           <div class="para-text mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            Design and build your trading applications, backtesting and strategy development systems, Tools and your trading research framework 
           </div>
 
           <div class="border-line"></div>
@@ -367,13 +367,13 @@
       </div>
 
       <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
+        <div class="border rounded-4 py-4 px-5 height-35 myDIV">
           <div class="small-title-dark">
               BackTesting
           </div>
           <div class="para-text mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-          </div>
+            Leverage our SDK to develop trading strategies and perform a backtesting and optimization process using QXFinLib SDK
+          </div><br><br>
 
           <div class="border-line"></div>
 
@@ -392,13 +392,13 @@
       </div>
 
       <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
+        <div class="border rounded-4 py-4 px-5 height-35 myDIV">
           <div class="small-title-dark">
               SDK Code Examples
           </div>
           <div class="para-text mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-          </div>
+            Explore the Github coding area to navigate tovarious examples of Strategies,Technical Indicator etc.
+          </div><br><br>
 
           <div class="border-line"></div>
 

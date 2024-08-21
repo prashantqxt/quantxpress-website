@@ -158,18 +158,19 @@
               </div>
 
               <div class="small-title-primary pt-5 ">
-                <strong>HFT (C++/Linux)</strong>
+                <strong>HFT</strong>
+                <p style="font-size: 16px;"> (C++/Linux) </p>
               </div>
-              <div class="para-text font-weight-500 py-4">
-                Software Developer 
+              <div class="para-text font-weight-400 py-4">
+                <strong>Business Area  - </strong> Technology
               </div>
 
               <div class="para-text py-4">
-                Experiences - 4+ Yr.
+                <strong>Experiences - </strong>1-5 Yrs.
               </div>
 
               <div class="para-text pt-4">
-                We are looking for a highly skilled C++ programmer to join our core development team........
+                C++ 17, STL, Multithreading, Network  Programming…<br><br>
               </div>
 
               <div class="border-line"></div>
@@ -195,18 +196,19 @@
               </div>
 
               <div class="small-title-primary pt-5 ">
-                <strong>Software Specialist <span style="font-size: 16px;"> (.NET/C#/C++) </span></strong>
+                <strong>Windows Application Developer </strong>
+                <p style="font-size: 16px;"> (C#/Windows Form,.NET Core) </p>
               </div>
-              <div class="para-text font-weight-500 py-4">
-                Software Developer 
+              <div class="para-text font-weight-400 py-4">
+                <strong>Business Area  - </strong> Technology
               </div>
 
               <div class="para-text py-4">
-                Experiences - 4+ Yr.
+                <strong> Experiences - </strong>1-5 Yrs.
               </div>
 
               <div class="para-text pt-4">
-                We are looking for a highly skilled C++ programmer to join our core development team........
+                C#, Experience in design complex UI, GUI, Asynchronous Programming, Windows Forms, WPF… 
               </div>
 
               <div class="border-line"></div>
@@ -226,25 +228,27 @@
           </div>
 
 
-          <div class="col-12 col-md-4 col-lg-4" data-bs-toggle="modal" data-bs-target="#myModal">
-            <div class="career-card-box">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal">
               <div class="para-text">
                 India / Pune, Delhi
               </div>
 
               <div class="small-title-primary pt-5 ">
-                <strong>HFT (C++/Linux)</strong>
+                <strong>Application Developer  </strong>
+                <p style="font-size: 16px;">(C#, C++, .NET Core) </p>
               </div>
-              <div class="para-text font-weight-500 py-4">
-                Software Developer 
+              <div class="para-text font-weight-400 py-4">
+                <strong>Business Area  - </strong> Technology
               </div>
 
               <div class="para-text py-4">
-                Experiences - 4+ Yr.
+                <strong> Experiences - </strong> 1-5 Yrs.
               </div>
 
               <div class="para-text pt-4">
-                We are looking for a highly skilled C++ programmer to join our core development team........
+                C#, C++, Design Patterns…<br><br>
+                <br>
               </div>
 
               <div class="border-line"></div>
@@ -261,31 +265,211 @@
                   </div>
               </div>
             </div>
-          </div> 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal">
+              <div class="para-text">
+                India / Pune, Delhi
+              </div>
+
+              <div class="small-title-primary pt-5 ">
+                <strong>Application Support Engineer </strong>
+                <p style="font-size: 16px;">(C#, C++, Python) </p>
+              </div>
+              <div class="para-text font-weight-400 py-4">
+                <strong>Business Area  - </strong> Technology
+              </div>
+
+              <div class="para-text py-4">
+                <strong>Experiences - </strong> 1-5 Yrs.
+              </div>
+
+              <div class="para-text pt-4">
+                C#, C++ <br>
+              </div>
+
+              <div class="border-line"></div>
+
+              <div class="d-flex mt-5">
+                  <div class="w-75 text-box-bottom">
+                    View Details
+                  </div>
+
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal2">
+              <div class="para-text">
+                India / Pune, Delhi
+              </div>
+
+              <div class="small-title-primary pt-5 ">
+                <strong>Interns Quant Developer </strong>
+                <p style="font-size: 16px; visibility: hidden;"> (C#/Windows Form,.NET Core) </p>
+              </div>
+              <div class="para-text font-weight-400 py-4">
+                <strong>Business Area  - </strong> Technology
+              </div>
+
+              <div class="para-text py-4">
+                <strong>Experiences - </strong>1-5 Yrs.
+              </div>
+
+              <div class="para-text pt-4">
+               C#, Python, Backtesting,, Statistics...
+              </div>
+
+              <div class="border-line"></div>
+
+              <div class="d-flex mt-5">
+                  <div class="w-75 text-box-bottom">
+                    View Details
+                  </div>
+
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal">
+              <div class="para-text">
+                India / Pune, Delhi
+              </div>
+
+              <div class="small-title-primary pt-5 ">
+                <strong>Interns Developer   </strong>
+                <p style="font-size: 16px;">(C++/C#)</p>
+              </div>
+              <div class="para-text font-weight-400 py-4">
+                <strong>Business Area  - </strong> Technology
+              </div>
+
+              <div class="para-text py-4">
+                <strong>Experiences -</strong> 1-5 Yrs.
+              </div>
+
+              <div class="para-text pt-4">
+                C++. C#  
+                <br>
+              </div>
+
+              <div class="border-line"></div>
+
+              <div class="d-flex mt-5">
+                  <div class="w-75 text-box-bottom">
+                    View Details
+                  </div>
+
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
   </section>
 
    <section class="container py-6" >
 
+
+
       <div class="row pt-5 pb-5">
         <div class="text-center">
           <p class="sec-title">
-               For <span class="span-title">For Fresher & Intern</span> 
+               For <span class="span-title"> Fresher & Intern</span> 
           </p>
 
-          <p class="para-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          <p class="para-text text-center">
+              Student, graduate or experienced professional?<br>
+              Explore career opportunities that fit your dreams and ambitions. 
           </p> 
         </div>  
+
+        <div class="pt-5 pb-5 para-text">
+          <strong style="font-size: 24px;">Make a real impact at QuantXpress</strong>
+        </div>
+
+        <div class="para-text">
+          From day one, students at QuantXpress are engaged in impactful projects that contribute to our business. You'll acquire new skills and gain invaluable on-the-job experience while collaborating with colleagues and enjoying the process. Our hands-on approach fosters learning in product development, user interface design, and software engineering aimed at solving real-world problems. Join us today and unlock your passion for making a positive impact on society!
+        </div>
       </div>   
 
+
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card_img">
+            <img src="assets/img/career_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <p class="para-text"><strong>Software Internships</strong></p>
+
+              <p class="para-text text-left">Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.<br><br></p> 
+            </div>
+            <div class="border-line px-2"></div>
+
+              <div class="d-flex p-4">
+                  <div class="w-75 text-box-bottom">
+                    View Details
+                  </div>
+
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card_img">
+            <img src="assets/img/career_2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <p class="para-text"><strong>Business Internships</strong></p>
+
+              <p class="para-text text-left">Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry.</p> 
+            </div>
+              <div class="border-line px-2"></div>
+
+              <div class="d-flex p-4">
+                  <div class="w-75 text-box-bottom">
+                    View Details
+                  </div>
+
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
       
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <!-- <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed para-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-              Student and Intern Opportunities
+              Make a real impact at QuantXpress
             </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -296,38 +480,33 @@
                 </div>
 
                 <div class="col-lg-7 col-md-7">
+                  <br><br>
                   <div class="para-text">
-                    Our interns works on meaningful projects with major impact. Through this program, you'll work alongside experienced engineers on real-world projects that address some of the world's hardest engineering problems.
+                    From day one, students at QuantXpress are engaged in impactful projects that contribute to our business. You'll acquire new skills and gain invaluable on-the-job experience while collaborating with colleagues and enjoying the process. Our hands-on approach fosters learning in product development, user interface design, and software engineering aimed at solving real-world problems. Join us today and unlock your passion for making a positive impact on society!
                   </div><br>
-
-                  <div class="para-text">
-                    Our program also offers the chance to network with industry professionals, gain valuable on-the-job experience, and start your engineering career. Make the most of this opportunity to learn, grow, and get mentored by some of the brightest minds in the field.
-                  </div>
+ 
                 </div>
               </div>
               <div class="para-text primary mt-3">
-                <strong>Experience</strong>
+                <strong>Software Internships</strong>
               </div>
 
               <div class="row"> 
                 <div class="col-lg-12 col-md-12 para-text">
-                  The program is open to pursuing engineering students pursuing computer Science, Artificial Intelligence, Machine Learning, or Mathematics.  
-                </div>
-                <div class="col-lg-12 col-md-12 para-text pt-3"> 
-                  You should also have strong computer software skills with basic to intermediate competency in python. And most importantly, you need to have a curious and innovative mind  who Live, breathe and love code
-                </div>
+                  Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.  
+                </div> 
               </div>
 
-              <div class="para-text primary mt-5">
-                <strong>Take a look at few of our internship programs</strong>
+              <div class="para-text primary mt-3">
+                <strong>Business Internships</strong>
               </div>
 
-              <ul class="para-text " style="list-style-type: circle;">
-                <li>C++ Core HFT Development</li>
-                <li>NET/C#/UI Development</li>
-                <li>Python/GoLang Development</li>
-                <li>Algorithmic Framework and Quant Strategy Developer</li>
-              </ul>
+              <div class="row"> 
+                <div class="col-lg-12 col-md-12 para-text">
+                  Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry. 
+                </div> 
+              </div>
+ 
             </div>
           </div>
         </div>
@@ -429,7 +608,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
   </section> 
 
   <!-- The Modal -->

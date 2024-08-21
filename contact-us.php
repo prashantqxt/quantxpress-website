@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>Contact Us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css'>
@@ -60,15 +60,18 @@
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6">
 
-          <div class="py-4">
-            <p class="para-text">Learn More </p>
+          <div class="pt-4 ">
+            <p class="para-text">Contact </p>
           </div>
           <p class="sec-title">
-             <span class="span-title">QuantXpress <br class="mob"> Financial Technologies </span>            
+             <span class="span-title contact-text_title"  >Let’s  <br class="mob"> Connect </span>            
           </p>
 
-          <div class="py-4 para-text">
-            <strong>General Support</strong>
+          <div class="para-text contact-text py-4 pe-5">
+            Contact us about <br class="mob"> your project, <br class="mob"> speaker requests,<br class="mob"> media inquiries,<br class="mob"> and more.
+          </div>
+
+          <div class="py-4 para-text"> 
 
             <div class="para-text pt-5">
               <strong>Contact Us</strong>
@@ -93,11 +96,7 @@
                   11/16 Kumar City, Kalyani Nagar, <br class="mob">
                   Pune-14 India
               </div>
-            </div>
-
-            <div class="pt-5">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.5781980346887!2d73.90815867592774!3d18.547953768335883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c112e93fa093%3A0x7cfd3daf1c42eb17!2sKumar%20City%2C%203%2C%20Adarsh%20Nagar%2C%20Kalyani%20Nagar%2C%20Pune%2C%20Maharashtra%20411006!5e0!3m2!1sen!2sin!4v1722579206417!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            </div> 
           </div>
         </div>
 
@@ -147,6 +146,10 @@
           </p>
         </div>
       </div>   
+  </section>
+
+  <section class="w-100">
+     <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.5781980346887!2d73.90815867592774!3d18.547953768335883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c112e93fa093%3A0x7cfd3daf1c42eb17!2sKumar%20City%2C%203%2C%20Adarsh%20Nagar%2C%20Kalyani%20Nagar%2C%20Pune%2C%20Maharashtra%20411006!5e0!3m2!1sen!2sin!4v1722579206417!5m2!1sen!2sin"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
 
   <section class="bg-cta">

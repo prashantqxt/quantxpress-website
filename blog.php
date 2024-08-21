@@ -9,7 +9,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-
+  <style type="text/css">
+    .para-text {
+        font-size: 1.5rem;
+        color: #595959;
+        font-weight: 400;
+        line-height: 1.5;
+        font-family: "Roboto", sans-serif !important;
+    }
+    .small-title-dark {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #011F3D;
+    }
+  </style>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -198,7 +211,7 @@
  
           <div class="p-4">
             <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
-            Algorithmic Trading: The Future of Financial Markets  <br> &nbsp </h2>
+            Algorithmic Trading: The Future of Financial Markets    </h2>
             
             <p class="para-text py-3" >Algorithmic trading, or "algo trading," refers to the use of computer programs to automatically execute trades   ....</p>
             
@@ -262,7 +275,7 @@
  
           <div class="p-4">
             <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
-            Market Data Insight <br><br> &nbsp </h2>
+            Market Data Insight <br>  &nbsp </h2>
             
             <p class="para-text py-3" >In today’s fast-paced and ever-changing financial markets, the access of accurate and timely market data  ....</p>
             

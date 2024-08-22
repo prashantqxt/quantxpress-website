@@ -459,7 +459,7 @@
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
-                                                            <a href="#" >
+                                                            <a href="developers.php" >
                                                                <div><span class="a-subtitle-large"> Developers Corner</span></div>
                                                             </a>
                                                          </div>

@@ -549,6 +549,13 @@ a.toggle-menu{
   color: #ffffff;
   background: #464EB8;
 }
+.dev-bg{
+    background: url(../img/developer.jpg) no-repeat center right;
+    background-position: 0 0px;
+    background-size: 100%;
+    height: auto;
+    padding: 3%;
+}
 .blog-bg{
     background: url(../img/blog-banner.jpg) no-repeat center right;
     background-position: 0 0px;
@@ -1311,7 +1318,7 @@ ul {
 .card-box{
     padding: 10% 5%;
     text-align: center;
-    box-shadow: 1px 3px 4px 1px #ddd; 
+    box-shadow: 0px 0px 2px 1px #ddd;
     border-radius: 12px;
     height: 45vh;
     background: #fff;
@@ -1531,6 +1538,26 @@ ul.circle {
   .fa-quote {
     display: none;
   }
+  .dev-bg{
+    background: url(../img/developer-mob.jpg) no-repeat center right;
+    background-position: 0 0px;
+    background-size: 100%;
+    height: auto;
+    padding: 3%;
+  }
+  .main-title-white {
+    font-size: 2.5rem !important;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10% 0;
+  }
+  .dev > .small-text-white{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  } 
+  .dev > .container > .row > .text-left > .sec-title, .dev > .container > .row > .text-left > .para-text, .pb-4,.small-title-dark{
+    text-align: center!important;
+  }
 }
 
 .career-bg{
@@ -1593,3 +1620,4 @@ ul.circle {
 .items-center{
   align-items: center;
 }
+

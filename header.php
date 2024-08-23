@@ -509,40 +509,19 @@
                                     </div>
                                  </section>
                                  <section id="sectionb" class="template-section input__colorselect-background-color9">
-                                     
-                                    <div class="navteaser-wrapper">
-                                       <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                                          <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
-                                             <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                                                <div class="navteaser aem-GridColumn aem-GridColumn--default--12">
-                                                   <div class="nav-teaser-wrapper large">
-                                                      <div class="nav-image">
-                                                         <!-- Start -- Media Video component only for "Software_AG_Video_PopUp" preset -->
-                                                         <!-- End -- Media Video component only for "Software_AG_Video_PopUp" preset -->
-                                                         <!-- Start -- Media component other than the "Software_AG_Video_PopUp" preset -->
-                                                         <!-- <head>
-                                                            <link rel="preload" as="image" href="softwareagprod/partners-teaser" />
-                                                            </head> -->
-                                                         <div id="dynamicmedia_35884670" data-current-page="/content/softwareag/corporate/en_corporate" data-page-locale="en" data-asset-path="softwareagprod/partners-teaser" data-asset-name="partners-teaser.jpg" data-asset-type="image" data-viewer-path="https://softwareag.scene7.com/s7viewers/" data-imageserver="https://softwareag.scene7.com/is/image/" data-videoserver="https://softwareag.scene7.com/is/content/" data-contenturl="https://softwareag.scene7.com/is/content/" data-wcmdisabled data-dms7 data-breakpoints="400,700,1260,1620,1920" data-link data-title="Banking as a Service" data-alt="Banking as a Service" data-attrib-name="partners-teaser.jpg" class="s7dm-dynamic-media">
-                                                         </div>
-                                                         <!-- End -- Media component other than "Software_AG_Video_PopUp" preset -->
-                                                      </div>
-                                                      <div class="nav-teaser-content">
-                                                         <div class="nav-headline">
-                                                            <a href="#" >Lorem Ipsum has been the industry</a>
-                                                         </div>
-                                                         <div class="nav-description">
-                                                            <span class="a-caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</span>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                                 <div class="navteaser-wrapper">
+                                    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                                       <div class="text-center">
+                                          <img style="width: 200px;" src="assets/img/resource.png">
+                                       </div> <br><br>
+
+                                       <div style="width: 350px;text-align: center; color: #fff; font-weight: 400;font-size: 14px;line-height: 25px;">
+                                         Together with our partners and clients, we leverage strategy, design, development, and engineering to unlock the full potential of trading technology.
+                                       </div> 
                                     </div>
-                                 </section>
-                              </div>
+                                 </div>
+                              </section>
+                              </div> 
                            </li> 
                         </ul>
                      </nav>

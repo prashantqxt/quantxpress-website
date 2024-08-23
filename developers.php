@@ -189,7 +189,319 @@
           </div>  
       </div>   
 
-      <div class="box">
+      <div class="row mt-5">
+        <div class="row pt-5 pb-5">
+          <div class="text-left">
+            <p class="sec-title">
+                  <span class="span-title">Blitz</span>Trader
+            </p>
+
+            <p class="para-text">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p> 
+          </div>  
+        </div> 
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/quickstarter.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              QuickStarter
+            </div>
+
+            <div class="para-text py-3 height-20">
+              Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/strategy.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              Strategy Development
+            </div>
+
+            <div class="para-text py-3 height-20">
+              BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/sample.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              Sample Strategy
+            </div>
+
+            <div class="para-text py-3 height-20">
+              Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="row pt-5 pb-5">
+          <div class="text-left">
+            <p class="sec-title">
+                  <span class="span-title">QX</span>.FinLib
+            </p>
+
+            <p class="para-text">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p> 
+          </div>  
+        </div> 
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/quickstarter.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              QuickStarter
+            </div>
+
+            <div class="para-text py-3 height-20">
+              Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/strategy.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              Strategy Development
+            </div>
+
+            <div class="para-text py-3 height-20">
+              BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/sample.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              Sample Strategy
+            </div>
+
+            <div class="para-text py-3 height-20">
+              Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+
+        <div class="row pt-5 pb-5">
+          <div class="text-left">
+            <p class="sec-title">
+                  <span class="span-title">QX</span>.FIXEngine
+            </p>
+
+            <p class="para-text">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p> 
+          </div>  
+        </div> 
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/quickstarter.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              QuickStarter
+            </div>
+
+            <div class="para-text py-3 height-20">
+              Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/strategy.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              Strategy Development
+            </div>
+
+            <div class="para-text py-3 height-20">
+              BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card-box">
+            <div class="pb-4">
+              <img class="w-25" src="assets/img/sample.png">
+            </div>
+
+            <div class="small-title-dark py-3">
+              Sample Strategy
+            </div>
+
+            <div class="para-text py-3 height-20">
+              Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
+            </div>
+
+            <div class="border-line"></div>
+
+            <div class="d-flex mt-5">
+                <div class="w-75 text-box-bottom text-left">
+                  Learn More
+                </div>
+
+                <div class="w-25"> 
+                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="box">
         <input type="radio" class="tab-toggle" name="tab-toggle" id="tab1" checked>
         <input type="radio" class="tab-toggle" name="tab-toggle" id="tab2">
         <input type="radio" class="tab-toggle" name="tab-toggle" id="tab3">
@@ -487,7 +799,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
   </section>
  
  

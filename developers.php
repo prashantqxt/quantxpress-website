@@ -211,7 +211,7 @@
               QuickStarter
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
             </div>
 
@@ -241,7 +241,7 @@
               Strategy Development
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
             </div>
 
@@ -271,7 +271,7 @@
               Sample Strategy
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
             </div>
 
@@ -314,7 +314,7 @@
               QuickStarter
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
             </div>
 
@@ -344,7 +344,7 @@
               Strategy Development
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
             </div>
 
@@ -374,7 +374,7 @@
               Sample Strategy
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
             </div>
 
@@ -419,7 +419,7 @@
               QuickStarter
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
             </div>
 
@@ -449,7 +449,7 @@
               Strategy Development
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
             </div>
 
@@ -479,7 +479,7 @@
               Sample Strategy
             </div>
 
-            <div class="para-text py-3 height-25 height-20">
+            <div class="para-text py-3 height-20">
               Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
             </div>
 
@@ -531,7 +531,7 @@
                     QuickStarter
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
                   </div>
 
@@ -561,7 +561,7 @@
                     Strategy Development
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
                   </div>
 
@@ -591,7 +591,7 @@
                     Sample Strategy
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
                   </div>
 
@@ -624,7 +624,7 @@
                     QuickStarter
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
                   </div>
 
@@ -654,7 +654,7 @@
                     Strategy Development
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
                   </div>
 
@@ -684,7 +684,7 @@
                     Sample Strategy
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
                   </div>
 
@@ -717,7 +717,7 @@
                     QuickStarter
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
                   </div>
 
@@ -747,7 +747,7 @@
                     Strategy Development
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
                   </div>
 
@@ -777,7 +777,7 @@
                     Sample Strategy
                   </div>
 
-                  <div class="para-text py-3 height-25 height-20">
+                  <div class="para-text py-3 height-20">
                     Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
                   </div>
 
@@ -903,7 +903,7 @@
       </div>  
       <div class="row pt-5 pb-5 row-eq-height">
         <div class="col-12 col-md-4 col-lg-4 mb-5">
-          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4" data-bs-toggle="modal" data-bs-target="#myModal"> 
+          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4"  > 
             <img src="https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461348.jpg" class="height-25 w-100 pb-4 object-cover">
             <div class="d-flex items-center px-4">
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
@@ -922,24 +922,25 @@
               <p class="para-text py-3 height-25">The platform allows brokers to stream real-time equity, futures, and options data directly from the exchange into their systems and disseminate it to their clients via WebSocket API.</p>
               
               <div class="border-line"></div>
+              <a href="news_1.php">
+                <div class="d-flex mt-3">
+                  <div class="w-75 text-box-bottom">
+                    Read More
+                  </div>
 
-              <div class="d-flex mt-3">
-                <div class="w-75 text-box-bottom">
-                  Read More
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                  </svg>
-                </div>
-            </div> 
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+                </div> 
+              </a>
             </div>
           </div>
         </div>
 
         <div class="col-12 col-md-4 col-lg-4 mb-5">
-          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4 " data-bs-toggle="modal" data-bs-target="#myModal2"> 
+          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4 "  > 
             <img src="https://img.freepik.com/free-photo/person-uses-tablet-governmental-cyber-security-room-working-russian-flag_482257-90680.jpg" class="height-25 w-100 pb-4 object-cover">
             <div class="d-flex items-center px-4">
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
@@ -958,23 +959,25 @@
               
               <div class="border-line"></div>
 
-              <div class="d-flex mt-3">
-                <div class="w-75 text-box-bottom">
-                  Read More
-                </div>
+              <a href="news_2.php">
+                <div class="d-flex mt-3">
+                  <div class="w-75 text-box-bottom">
+                    Read More
+                  </div>
 
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                  </svg>
-                </div>
-            </div> 
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+                </div> 
+              </a> 
             </div>
           </div>
         </div>
 
         <div class="col-12 col-md-4 col-lg-4 mb-5">
-          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4" data-bs-toggle="modal" data-bs-target="#myModal3"> 
+          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4"  > 
             <img src="https://img.freepik.com/free-photo/coworkers-examining-reports-papers-looking-statistics-annual-data-analytics-increase-profit-workers-group-planning-research-strategy-with-documents-business-development_482257-64771.jpg" class="height-25 w-100 pb-4 object-cover">
             <div class="d-flex items-center px-4">
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
@@ -994,17 +997,19 @@
               
               <div class="border-line"></div>
 
-              <div class="d-flex mt-3">
-                <div class="w-75 text-box-bottom">
-                  Read More
-                </div>
+              <a href="news_3.php">
+                <div class="d-flex mt-3">
+                  <div class="w-75 text-box-bottom">
+                    Read More
+                  </div>
 
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                  </svg>
-                </div>
-            </div> 
+                  <div class="w-25"> 
+                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                    </svg>
+                  </div>
+                </div> 
+              </a>
             </div>
           </div>
         </div> 

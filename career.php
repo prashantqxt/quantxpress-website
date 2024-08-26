@@ -192,7 +192,7 @@
           </div>
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal2">
+            <div class="career-card-box" data-bs-toggle="modal"  >
               <div class="para-text">
                 India / Pune, Delhi
               </div>
@@ -234,7 +234,7 @@
 
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal">
+            <div class="career-card-box" data-bs-toggle="modal"  >
               <div class="para-text">
                 India / Pune, Delhi
               </div>
@@ -278,7 +278,7 @@
 
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal">
+            <div class="career-card-box" data-bs-toggle="modal"  >
               <div class="para-text">
                 India / Pune, Delhi
               </div>
@@ -319,7 +319,7 @@
           </div>
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal2">
+            <div class="career-card-box" data-bs-toggle="modal"  >
               <div class="para-text">
                 India / Pune, Delhi
               </div>
@@ -361,7 +361,7 @@
 
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal">
+            <div class="career-card-box" data-bs-toggle="modal"  >
               <div class="para-text">
                 India / Pune, Delhi
               </div>
@@ -440,20 +440,7 @@
               <p class="para-text"><strong>Software Internships</strong></p>
 
               <p class="para-text text-left">Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.<br><br></p> 
-            </div>
-            <div class="border-line px-2"></div>
-
-              <div class="d-flex p-4">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
-
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+            </div> 
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-4">
@@ -464,20 +451,7 @@
               <p class="para-text"><strong>Business Internships</strong></p>
 
               <p class="para-text text-left">Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry.</p> 
-            </div>
-              <div class="border-line px-2"></div>
-
-              <div class="d-flex p-4">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
-
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+            </div> 
           </div>
         </div>
       </div>

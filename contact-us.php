@@ -64,16 +64,14 @@
   <section class="container py-6">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6">
-
-          <div class="pt-4 ">
-            <p class="para-text"><strong> Contact </strong> </p>
-          </div>
+ 
           <p class="sec-title">
              <span class="span-title contact-text_title"  >Let’s  <br class="mob"> Connect </span>            
           </p>
 
           <div class="para-text contact-text py-4 pe-5">
-            Want to know more  <br class="mob"> about our products, <br class="mob"> Got any queries or<br class="mob"> media inquiries,<br class="mob"> and more.
+            Want to know more  <br class="mob"> about our products, <br class="mob"> Got any queries or
+            <br class="mob"> request support.
           </div>
 
           <div class="py-4 para-text"> 

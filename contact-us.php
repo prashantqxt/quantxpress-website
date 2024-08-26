@@ -25,21 +25,26 @@
 
 <!-- Section 1-->
 
-  <section id="porque-sec" class="uk-section  uk-light">
+  <section id="porque-sec" class="uk-section  uk-light" >
       <div> 
           <div uk-slider="velocity:1.3; easing: cubic-bezier(.4,0,.2,1)">
               <div class="uk-position-relative">
                   <div class="uk-slider-container uk-light">
                       <ul class="uk-slider-items uk-child-width-1-1">
-                          <li class="banner-bg">
+                          <li class="contact-bg">
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
-                                  <div class="text-center">
-                                    <div class="main-title-white">Contact Us </div>  
+                                  <div class="dev">
 
-                                    <div class="btn-mg" style="visibility: hidden;">
-                                      <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
+                                    <!-- <div class="small-text-white" style="padding-bottom: 0!important;"> 
+                                     Contact Us
+                                    </div> -->
+
+                                    <div class="main-title-white blue pt-3" style="line-height: 1.3;">Contact Us </div> 
+
+                                    <div class="small-text-white  blue"> 
+                                      Partner with us to leverage cutting-edge Automated  <br class="mob"> trading solutions and drive your success forward.
                                     </div>
+ 
                                   </div>
                               </div>
                           </li> 
@@ -61,14 +66,14 @@
         <div class="col-12 col-md-6 col-lg-6">
 
           <div class="pt-4 ">
-            <p class="para-text">Contact </p>
+            <p class="para-text"><strong> Contact </strong> </p>
           </div>
           <p class="sec-title">
              <span class="span-title contact-text_title"  >Let’s  <br class="mob"> Connect </span>            
           </p>
 
           <div class="para-text contact-text py-4 pe-5">
-            Contact us about <br class="mob"> your project, <br class="mob"> speaker requests,<br class="mob"> media inquiries,<br class="mob"> and more.
+            Want to know more  <br class="mob"> about our products, <br class="mob"> Got any queries or<br class="mob"> media inquiries,<br class="mob"> and more.
           </div>
 
           <div class="py-4 para-text"> 
@@ -119,21 +124,31 @@
                   <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone">
                 </div>
                 <div class="form-group pb-4">
-                  <label for="exampleFormControlSelect1" class="para-text">Region</label>
+                  <label for="exampleFormControlSelect1" class="para-text">Country </label>
                   <select class="custom-select custom-select-lg mb-3">
                     <option selected>Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="1">India</option>
+                    <option value="2">USA</option>
+                    <option value="3">UK</option>
+                    <option value="1">Germany</option>
+                    <option value="2">Switzerland</option>
+                    <option value="3">Netherland </option>
+                    <option value="1">Australia</option>
+                    <option value="2">Singapore</option>
+                    <option value="3">Hongkong</option>
+                    <option value="3">South Africa</option>
                   </select>
                 </div>
                 <div class="form-group pb-4">
                   <label for="exampleFormControlSelect2" class="para-text">I'm interested in</label>
                   <select class="form-control form-select custom-select-lg mb-3">
                     <option selected> Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="1">Interested in BlitzTrader</option>
+                    <option value="2">Interested in Strategy development</option>
+                    <option value="3">Interested in Backtesting solutions</option>
+                    <option value="1">Interested in HFT solutions</option>
+                    <option value="2">Interested in market connectivity solutions</option>
+                    <option value="3">Looking for trading technology partner</option>
                   </select>
                 </div>
                 <div class="form-group pb-4">

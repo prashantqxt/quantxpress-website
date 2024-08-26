@@ -455,7 +455,7 @@
                                                 <div class="navlist aem-GridColumn aem-GridColumn--default--12">
                                                    <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
                                                       <div class="navList_col-A">
-                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
+                                                         <img src="assets/img/development.png" alt="Blog icon" class="svgicon"/>
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
@@ -464,7 +464,7 @@
                                                             </a>
                                                          </div>
                                                          <div class="navList_description">
-                                                            <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text</span></div>
+                                                            <div><span class="a-caption">Your one-stop resource for all things related to automated trading development. This dedicated space offers developers a central hub to access comprehensive documentation, engaging tutorials, and project code</span></div>
                                                          </div>
                                                       </div>
                                                    </div>
@@ -472,7 +472,7 @@
                                                 <div class="navlist aem-GridColumn aem-GridColumn--default--12">
                                                    <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
                                                       <div class="navList_col-A">
-                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
+                                                         <img src="assets/img/block.png" alt="Blog icon" class="svgicon"/>
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
@@ -481,7 +481,7 @@
                                                             </a>
                                                          </div>
                                                          <div class="navList_description">
-                                                            <div><span class="a-caption">Lorem Ipsum has been the industry's standard dummy text</span></div>
+                                                            <div><span class="a-caption">Dive into our GitHub repository to discover a variety of strategies tailored for the Blitz platform. Connect with our open-source Blitz Strategies and explore the code that drives innovation in automated trading.</span></div>
                                                          </div>
                                                       </div>
                                                    </div>
@@ -489,7 +489,7 @@
                                                 <div class="navlist aem-GridColumn aem-GridColumn--default--12">
                                                    <div class="nav-list-wrapper medium_size-icon nav-list-with-desc ">
                                                       <div class="navList_col-A">
-                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
+                                                         <img src="assets/img/blogs.png" alt="Blog icon" class="svgicon"/>
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
@@ -498,7 +498,7 @@
                                                             </a>
                                                          </div>
                                                          <div class="navList_description">
-                                                            <div><span class="a-caption">Discover exciting stories from our bloggers</span></div>
+                                                            <div><span class="a-caption">Stay informed and inspired by exploring our insightful blog articles that cover the latest innovations, trends, and best practices within the automated trading technology landscape</span></div>
                                                          </div>
                                                       </div>
                                                    </div>
@@ -512,11 +512,11 @@
                                  <div class="navteaser-wrapper">
                                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
                                        <div class="text-center">
-                                          <img style="width: 200px;" src="assets/img/resource.png">
+                                          <img style="width: 300px;" src="assets/img/resource.png">
                                        </div> <br><br>
 
                                        <div style="width: 350px;text-align: center; color: #fff; font-weight: 400;font-size: 14px;line-height: 25px;">
-                                         Together with our partners and clients, we leverage strategy, design, development, and engineering to unlock the full potential of trading technology.
+                                         Access curated resources, including comprehensive documentation, articles, API reference guides, and sample code, to fully leverage the power of our algorithmic trading platform and QuantXpress products and solutions.   
                                        </div> 
                                     </div>
                                  </div>
@@ -535,14 +535,14 @@
                     
                   <div id="primary-contact-button" class="primary-button">
                      <div style="min-width:10rem;">
-                        <a id="button-eb3845da11" class="cmp-button" href="#" >
+                        <a id="button-eb3845da11" class="cmp-button" href="contact-us.php" >
                         <span class="cmp-button__text">Login</span>
                         </a>
                      </div>
                   </div>
                   <div id="secondary-try-button" style="min-width:10rem;" class="secondary-button">
                      <div>
-                        <a id="button-1d92e5a483" class="cmp-button" href="#" >
+                        <a id="button-1d92e5a483" class="cmp-button" href="contact-us.php" >
                         <span class="cmp-button__text"> Subscription</span>
                         </a>
                      </div>

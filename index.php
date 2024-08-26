@@ -875,7 +875,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-6 div-center">
-          <img src="assets/img/consulting.png">
+          <img src="assets/img/consulting.webp">
         </div>
       </div>
     </div>

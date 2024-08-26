@@ -115,7 +115,7 @@
                                      Welcome Developers
                                     </div>
 
-                                    <div class="main-title-white pt-0" style="line-height: 1.3;">Let's turn your <br class="mob"> Trending Ideas <br class="mob"> into reality </div> 
+                                    <div class="main-title-white pt-3" style="line-height: 1.3;">Let's turn your <br class="mob"> Trading Ideas <br class="mob"> into reality </div> 
 
                                     <div class="small-text-white  "> 
                                       Get the most out of QuantXpress with comprehensive guides and <br class="mob"> tutorials on all of our products and Solutions.
@@ -184,7 +184,7 @@
             </p>
 
             <p class="para-text">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took <br class="mob"> a galley of type and scrambled it to make a type
+                QuantXpress empowers you to create and customize powerful trading systems. Build bespoke trading applications, strategies, and tools to streamline your trading workflow and bring your algorithmic edge to life. Get started quickly with our extensive developer resources: sample code, articles, tutorials, and API 
             </p> 
           </div>  
       </div>   
@@ -211,7 +211,7 @@
               QuickStarter
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
             </div>
 
@@ -241,7 +241,7 @@
               Strategy Development
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
             </div>
 
@@ -271,7 +271,7 @@
               Sample Strategy
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
             </div>
 
@@ -314,7 +314,7 @@
               QuickStarter
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
             </div>
 
@@ -344,7 +344,7 @@
               Strategy Development
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
             </div>
 
@@ -374,7 +374,7 @@
               Sample Strategy
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
             </div>
 
@@ -419,7 +419,7 @@
               QuickStarter
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
             </div>
 
@@ -449,7 +449,7 @@
               Strategy Development
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
             </div>
 
@@ -479,7 +479,7 @@
               Sample Strategy
             </div>
 
-            <div class="para-text py-3 height-20">
+            <div class="para-text py-3 height-25 height-20">
               Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
             </div>
 
@@ -531,7 +531,7 @@
                     QuickStarter
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
                   </div>
 
@@ -561,7 +561,7 @@
                     Strategy Development
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
                   </div>
 
@@ -591,7 +591,7 @@
                     Sample Strategy
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
                   </div>
 
@@ -624,7 +624,7 @@
                     QuickStarter
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
                   </div>
 
@@ -654,7 +654,7 @@
                     Strategy Development
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
                   </div>
 
@@ -684,7 +684,7 @@
                     Sample Strategy
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
                   </div>
 
@@ -717,7 +717,7 @@
                     QuickStarter
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     Before diving into strategy development, familiarize yourself with key concepts of BlitzTrader.
                   </div>
 
@@ -747,7 +747,7 @@
                     Strategy Development
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     BlitzTrader's open architecture allows rapid transition from idea conception to live deployment, enabling traders to capitalize on market opportunities in matter of days.
                   </div>
 
@@ -777,7 +777,7 @@
                     Sample Strategy
                   </div>
 
-                  <div class="para-text py-3 height-20">
+                  <div class="para-text py-3 height-25 height-20">
                     Explore strategies further by examining the code of various pre-built strategies for different asset classes and trading rules.
                   </div>
 
@@ -829,13 +829,13 @@
 
             <ul class="para-text ps-4 pt-2" style="list-style-type: number;">
               <li>
-                <a href="#">Acrobat learn and support</a>
+                <a href="#">How to write Simple Trading Execution Logic?</a>
               </li>
               <li>
-                <a href="#">Acrobat services</a>
+                <a href="#">How to write a options based backtesting Strategy?</a>
               </li>
               <li>
-                <a href="#">Acrobat sign</a>
+                <a href="#">How to write a Bollinger Band Indicator in Blitz?</a>
               </li>
             </ul>
           </div>
@@ -851,13 +851,16 @@
 
             <ul class="para-text ps-4 pt-2" style="list-style-type: number;">
               <li>
-                <a href="#">Acrobat learn and support</a>
+                <a href="#">BlitzTrader Strategy <br>
+                 Development</a>
               </li>
               <li>
-                <a href="#">Acrobat services</a>
+                <a href="#">BlitzTrader Strategy <br>
+                 Development</a>
               </li>
               <li>
-                <a href="#">Acrobat sign</a>
+                <a href="#">BlitzTrader Strategy <br>
+                 Development</a>
               </li>
             </ul>
           </div>
@@ -873,13 +876,13 @@
 
             <ul class="para-text ps-4 pt-2" style="list-style-type: number;">
               <li>
-                <a href="#">Acrobat learn and support</a>
+                <a href="#">Why BlitzTrader? <br> &nbsp </a>
               </li>
               <li>
-                <a href="#">Acrobat services</a>
+                <a href="#">Why BlitzTrader? <br> &nbsp </a>
               </li>
               <li>
-                <a href="#">Acrobat sign</a>
+                <a href="#">Why BlitzTrader? <br> &nbsp </a>
               </li>
             </ul>
           </div>
@@ -900,20 +903,23 @@
       </div>  
       <div class="row pt-5 pb-5 row-eq-height">
         <div class="col-12 col-md-4 col-lg-4 mb-5">
-          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4"> 
-            <div class="p-4">
-              <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
-                News Title 1
-              </h2>
-            </div>
+          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4" data-bs-toggle="modal" data-bs-target="#myModal"> 
+            <img src="https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461348.jpg" class="height-25 w-100 pb-4 object-cover">
             <div class="d-flex items-center px-4">
-                <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
-                <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div>
+                <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
+                <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
+                <div class="primary para-text "> Pune, India | 15 Aug 2024 </div>
             </div> 
+            <div class="px-4 pt-3">
+              <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800" style="font-size: 2rem;">
+                QuantXpress Launches Market Data API Platform to Strengthen Infrastructure for Brokers and Financial Institutions
+              </h2><br><br>
+            </div>
+            
    
-            <div class="p-4"> 
+            <div class="px-4 pt-3"> 
               
-              <p class="para-text py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet...</p>
+              <p class="para-text py-3 height-25">The platform allows brokers to stream real-time equity, futures, and options data directly from the exchange into their systems and disseminate it to their clients via WebSocket API.</p>
               
               <div class="border-line"></div>
 
@@ -933,20 +939,22 @@
         </div>
 
         <div class="col-12 col-md-4 col-lg-4 mb-5">
-          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4"> 
-            <div class="p-4">
-              <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
-                News Title 2
-              </h2>
-            </div>
+          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4 " data-bs-toggle="modal" data-bs-target="#myModal2"> 
+            <img src="https://img.freepik.com/free-photo/person-uses-tablet-governmental-cyber-security-room-working-russian-flag_482257-90680.jpg" class="height-25 w-100 pb-4 object-cover">
             <div class="d-flex items-center px-4">
-                <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
-                <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div>
+                <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
+                <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
+                <div class="primary para-text "> Pune, India | 15 Aug 2024 </div>
+            </div> 
+            <div class="px-4 pt-3">
+              <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800" style="font-size: 2rem;">
+                QuantXpress Unveils Tick-by-Tick Data Streaming Technology for Brokers and Trading Members of Indian Exchanges
+              </h2> 
             </div> 
    
-            <div class="p-4"> 
+            <div class="px-4 pt-3"> 
               
-              <p class="para-text py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet...</p>
+              <p class="para-text py-3 height-25">QuantXpress Unveils Tick-by-Tick Data Streaming Technology for Brokers and Trading Members of Indian Exchanges</p>
               
               <div class="border-line"></div>
 
@@ -966,20 +974,23 @@
         </div>
 
         <div class="col-12 col-md-4 col-lg-4 mb-5">
-          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4"> 
-            <div class="p-4">
-              <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
-                News Title 3
+          <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 p-4" data-bs-toggle="modal" data-bs-target="#myModal3"> 
+            <img src="https://img.freepik.com/free-photo/coworkers-examining-reports-papers-looking-statistics-annual-data-analytics-increase-profit-workers-group-planning-research-strategy-with-documents-business-development_482257-64771.jpg" class="height-25 w-100 pb-4 object-cover">
+            <div class="d-flex items-center px-4">
+                <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
+                <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
+                <div class="primary para-text "> Pune, India | 15 Aug 2024 </div>
+            </div> 
+
+            <div class="px-4 pt-3">
+              <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800" style="font-size: 2rem;">
+                QuantXpress Launches Quant and Algo Trading Training Program for Aspiring Quant Engineers and Interns on BlitzTrader Platform
               </h2>
             </div>
-            <div class="d-flex items-center px-4">
-                <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
-                <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div>
-            </div> 
    
-            <div class="p-4"> 
+            <div class="px-4 pt-3"> 
               
-              <p class="para-text py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet...</p>
+              <p class="para-text py-3 height-25">Designed by QuantXpress Pune, the program offers hands-on experience that includes training in designing profitable trading strategies, backtesting and optimizing processes, and implementing robust strategies for production systems using BlitzTrader</p>
               
               <div class="border-line"></div>
 
@@ -1043,7 +1054,151 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>
 
   <script  src="assets/js/script.js"></script>
-</body> 
+</body>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content"> 
+ 
+        <!-- Modal body -->
+        <div class="modal-body p-5 modal-height">
+
+          <h4 class="modal-title medium-title primary w-100">QuantXpress Launches Market Data API Platform to Strengthen Infrastructure for Brokers and Financial Institutions</h4> 
+
+          <br>
+          <div class="border-line"></div>
+          <div class="primary para-text my-5 "> Pune, India | 15 Aug 2024 </div>
+
+
+          <div class="para-text">
+            QuantXpress, a leading technology company in the automated trading sector, today announced the launch of its new Market Data API Platform. This innovative platform is designed to enhance the market data API infrastructure for brokers and financial institutions, enabling them to deliver low-latency, high-quality real-time and historical market data to their clients.
+          </div>
+
+          <div class="para-text">
+            The platform allows brokers to stream real-time equity, futures, and options data directly from the exchange into their systems and disseminate it to their clients via WebSocket API. It provides top-of-book prices, trade information, and essential market statistics, all delivered in a simple format for easy integration into trading, risk management, and distribution systems.
+          </div>
+
+          <div class="para-text">
+            Commenting on the product launch, Sanjay Verma, Head of Product Delivery at QuantXpress, stated, “With the launch of QX.MDS, QuantXpress offers the most comprehensive solution in the market data space. It combines high performance with platform flexibility, low total cost of ownership, and a robust architecture.”
+          </div>
+
+          <div class="para-text">
+            “We are continually seeking opportunities to enhance our clients’ experience, simplify their daily operations, improve efficiencies, and add value to the trade lifecycle,” said Ashish Bahety, Chief Operating Officer at QuantXpress.
+          </div>
+
+          <p class="para-text mt-5">
+            <strong>About QuantXpress Technologies</strong>
+          </p>
+
+          <div class="para-text">
+            QuantXpress Technologies delivers exceptional value to professional traders and financial firms by combining domain knowledge with technological expertise to create innovative trading solutions. Our relentless focus on innovation enables us to develop the trading solutions our customers need. QuantXpress provides end-to-end algorithmic trading solutions. For more information, visit us at <a href="#" class="blue">www.quantxpress.com</a> 
+          </div> 
+        </div> 
+      </div>
+    </div>
+  </div> 
+
+  <div class="modal" id="myModal2">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content"> 
+ 
+        <!-- Modal body -->
+        <div class="modal-body p-5 modal-height">
+
+          <h4 class="modal-title medium-title primary w-100">QuantXpress Unveils Tick-by-Tick Data Streaming Technology for Brokers and Trading Members of Indian Exchanges</h4> 
+
+          <br>
+          <div class="border-line"></div>
+          <div class="primary para-text my-5 "> Pune, India | 15 Aug 2024 </div>
+
+
+          <div class="para-text">
+            QuantXpress is excited to announce the launch of its Tick-by-Tick (TBT) data streaming technology, designed specifically for brokers and trading members of Indian exchanges. This groundbreaking technology enables users to capture real-time order book data and trades even without being in a co-location setup.
+          </div>
+
+          <div class="para-text">
+            Tick-by-Tick data delivers comprehensive insights by providing detailed information for every tick received by the exchange from various market participants. It captures every single trade executed at the exchange, offering a precise view of market activity in each timeframe without missing any critical data points. Traditionally, due to the vast volume of data generated, TBT data has only been accessible within the co-location facilities of the National Stock Exchange (NSE). This type of data is essential for high-frequency traders, algorithmic trading systems, and researchers who require an in-depth understanding of market microstructure, liquidity patterns, and exact price movements.
+          </div>
+
+          <div class="para-text">
+            Brokers’ proprietary desks and their clients consistently seek the highest quality market data available outside of co-location setups for enhanced research and optimal trade execution. QuantXpress's innovative technology provides access to granular data as a streaming solution that can be easily integrated with brokers’ retail platforms.
+          </div>
+
+          <div class="para-text">
+            With the new TBT technology, brokers can now capture high-quality data directly into their trading systems. This technology is seamlessly integrated with BlitzTrader, QuantXpress's flagship algorithmic trading platform.
+          </div>
+
+          <p class="para-text mt-5">
+            <strong>About QuantXpress Technologies</strong>
+          </p>
+
+          <div class="para-text">
+            QuantXpress Technologies delivers exceptional value to professional traders and financial firms by combining domain knowledge with technological expertise to create innovative trading solutions. Our relentless focus on innovation empowers us to develop the trading solutions our customers need. QuantXpress provides end-to-end algorithmic trading solutions. For more information, visit us at  <a href="#" class="blue">www.quantxpress.com</a> 
+          </div> 
+        </div> 
+      </div>
+    </div>
+  </div> 
+
+  <div class="modal" id="myModal3">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content"> 
+ 
+        <!-- Modal body -->
+        <div class="modal-body p-5 modal-height">
+
+          <h4 class="modal-title medium-title primary w-100">QuantXpress Launches Quant and Algo Trading Training Program for Aspiring Quant Engineers and Interns on BlitzTrader Platform</h4> 
+
+          <br>
+          <div class="border-line"></div>
+          <div class="primary para-text my-5 "> Pune, India | 15 Aug 2024 </div>
+
+
+          <div class="para-text">
+            QuantXpress has officially launched an on-site internship program aimed at aspiring Quant Engineers, providing a unique opportunity for students to embark on careers in the rapidly growing field of quantitative trading. With the increasing demand for data-related roles, this internship program is both timely and essential.
+          </div>
+
+          <div class="para-text">
+            Designed by QuantXpress Pune, the program offers hands-on experience that includes training in designing profitable trading strategies, backtesting and optimizing processes, and implementing robust strategies for production systems using BlitzTrader. The program is open to a diverse range of applicants, including undergraduates, postgraduates, and graduates from the fields of Computer Science and Mathematics. The only prerequisite is a strong interest in quantitative trading data and a desire to learn more about it.
+          </div>
+
+          <div class="para-text">
+            QuantXpress is seeking candidates with strong analytical skills, effective communication abilities, a passion for data, and problem-solving capabilities. While prior experience in financial markets is not mandatory, a willingness to learn and grow is highly valued.
+          </div>
+
+          <div class="para-text">
+           The Summer QuantXpress internship program brings together undergraduate students with backgrounds in Mathematics, Computer Science, and Business who share a common interest in quantitative trading. Each intern will gain experience and knowledge in the various aspects of a technology company, working collaboratively on projects that simulate the start-up experience. 
+          </div>
+
+          <div class="para-text">
+           This immersive program is designed to provide hands-on exposure to the quantitative technology landscape. Interns will learn about the critical role of collaboration in development. Participants will leave with a deeper understanding of how a start-up functions and an awareness of potential career paths within quantitative and high-frequency trading technologies. 
+          </div>
+
+          <p class="para-text mt-5">
+            <strong>Benefits of the Program:</strong>
+          </p>
+          
+          <ul class="para-text ps-4 mt-5" style="list-style-type: circle;">
+            <li> 
+              Develop your analytical and problem-solving skills through cutting-edge projects in strategy modeling, financial product engineering, and algorithmic trading.
+            </li>
+            <li>
+               High-performing interns may be considered for the Quantitative Finance Full-Time Associate Program, which offers in-depth knowledge and experience in the field. You will work alongside supportive colleagues who share a passion for using solid analysis to inform client decisions.
+            </li> 
+          </ul>
+
+          <p class="para-text mt-5">
+            <strong>About QuantXpress Technologies</strong>
+          </p>
+
+          <div class="para-text">
+            QuantXpress Technologies delivers exceptional value to professional traders and financial firms by combining domain knowledge with technological expertise to create innovative trading solutions. Our relentless focus on innovation allows us to build the trading solutions our customers need. QuantXpress provides end-to-end algorithmic trading solutions. For more information, visit us at  <a href="#" class="blue">www.quantxpress.com</a> 
+          </div> 
+        </div> 
+      </div>
+    </div>
+  </div> 
 <script type="text/javascript">
   $(function () {
      $('.toggle-menu').click(function(){

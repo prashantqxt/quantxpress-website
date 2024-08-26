@@ -172,8 +172,11 @@
 
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card-box-about height-48">
-              <div class="para-text fw-bold">
+            <div class="card-box-about height-58">
+              <div class="text-center mb-5">
+                <img class="w-25" src="assets/img/algo.png"> 
+              </div>
+              <div class="para-text fw-bold text-center">
                 Algorithmic Trading
               </div>
 
@@ -184,8 +187,12 @@
           </div>
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card-box-about height-48">
-              <div class="para-text fw-bold">
+            <div class="card-box-about height-58">
+              <div class="text-center mb-5">
+                <img class="w-25" src="assets/img/mds.png"> 
+              </div>
+
+              <div class="para-text fw-bold text-center">
                 Market Data Solutions
               </div>
 
@@ -196,8 +203,12 @@
           </div>
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card-box-about height-48">
-              <div class="para-text fw-bold">
+            <div class="card-box-about height-58">
+              <div class="text-center mb-5">
+                <img class="w-25" src="assets/img/hft-t.png"> 
+              </div>
+
+              <div class="para-text fw-bold text-center">
                 HFT Trading
               </div>
 
@@ -210,8 +221,12 @@
 
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card-box-about height-48">
-              <div class="para-text fw-bold">
+            <div class="card-box-about height-58">
+              <div class="text-center mb-5">
+                <img class="w-25" src="assets/img/mind-mapping.png"> 
+              </div>
+
+              <div class="para-text fw-bold text-center">
                 FIX  Consulting
               </div>
 
@@ -222,8 +237,12 @@
           </div>
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card-box-about height-48">
-              <div class="para-text fw-bold">
+            <div class="card-box-about height-58">
+              <div class="text-center mb-5">
+                <img class="w-25" src="assets/img/market-analysis.png"> 
+              </div>
+
+              <div class="para-text fw-bold text-center">
                 Strategy Research and Development
               </div>
 
@@ -234,8 +253,12 @@
           </div>
 
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card-box-about height-48">
-              <div class="para-text fw-bold">
+            <div class="card-box-about height-58">
+              <div class="text-center mb-5">
+                <img class="w-25" src="assets/img/consulting.png"> 
+              </div>
+
+              <div class="para-text fw-bold text-center">
                 Professional Services and Consulting
               </div>
 

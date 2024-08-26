@@ -152,7 +152,7 @@
 
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="career-card-box" data-bs-toggle="modal" data-bs-target="#myModal">
+            <div class="career-card-box" data-bs-toggle="modal" >
               <div class="para-text">
                 India / Pune, Delhi
               </div>
@@ -174,18 +174,20 @@
               </div>
 
               <div class="border-line"></div>
+              <a href="career_1.php">
+                <div class="d-flex mt-5">
+                  
+                    <div class="w-75 text-box-bottom">
+                      View Details
+                    </div>
 
-              <div class="d-flex mt-5">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
-
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+                    <div class="w-25"> 
+                      <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                      </svg>
+                    </div>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -213,17 +215,20 @@
 
               <div class="border-line"></div>
 
-              <div class="d-flex mt-5">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
+              <a href="career_2.php">
+                <div class="d-flex mt-5">
+                  
+                    <div class="w-75 text-box-bottom">
+                      View Details
+                    </div>
 
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+                    <div class="w-25"> 
+                      <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                      </svg>
+                    </div>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -253,17 +258,20 @@
 
               <div class="border-line"></div>
 
-              <div class="d-flex mt-5">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
+              <a href="career_3.php">
+                <div class="d-flex mt-5">
+                  
+                    <div class="w-75 text-box-bottom">
+                      View Details
+                    </div>
 
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+                    <div class="w-25"> 
+                      <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                      </svg>
+                    </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -293,17 +301,20 @@
 
               <div class="border-line"></div>
 
-              <div class="d-flex mt-5">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
+              <a href="career_4.php">
+                <div class="d-flex mt-5">
+                  
+                    <div class="w-75 text-box-bottom">
+                      View Details
+                    </div>
 
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+                    <div class="w-25"> 
+                      <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                      </svg>
+                    </div>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -331,17 +342,20 @@
 
               <div class="border-line"></div>
 
-              <div class="d-flex mt-5">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
+              <a href="career_5.php">
+                <div class="d-flex mt-5">
+                  
+                    <div class="w-75 text-box-bottom">
+                      View Details
+                    </div>
 
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+                    <div class="w-25"> 
+                      <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                      </svg>
+                    </div>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -371,17 +385,20 @@
 
               <div class="border-line"></div>
 
-              <div class="d-flex mt-5">
-                  <div class="w-75 text-box-bottom">
-                    View Details
-                  </div>
+              <a href="career_6.php">
+                <div class="d-flex mt-5">
+                  
+                    <div class="w-75 text-box-bottom">
+                      View Details
+                    </div>
 
-                  <div class="w-25"> 
-                    <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                    </svg>
-                  </div>
-              </div>
+                    <div class="w-25"> 
+                      <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
+                      </svg>
+                    </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -692,7 +709,7 @@
     </div>
   </div>
 
-    <div class="modal" id="myModal2">
+  <div class="modal" id="myModal2">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
  

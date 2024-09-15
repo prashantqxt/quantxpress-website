@@ -137,7 +137,7 @@
             </p>
 
             <p class="para-text">
-                QuantXpress provides comprehensive technical consulting and advisory services to Professional Traders, Prop Desk, investment banks and hedge funds Our experienced team provides:
+                From Trading Concept to launch and Beyond, we work closely with our partners to develop cutting-edge proprietary software systems for systematic, discretionary, and hybrid strategies, while also providing comprehensive research and operations support. We have successfully implemented and live complex trading strategies in just a few days- an achievement that has eluded some of our clients for months.
             </p> 
           </div>  
         </div>   
@@ -146,11 +146,11 @@
           <div class="col-12 col-md-6 col-lg-6">
             <div class="card-box-about">
               <div class="para-text fw-bold">
-                Expert Guidance
+                Manage Complex trades
               </div>
 
               <div class="para-text pt-5">
-                Benefit from our in-depth knowledge to make informed decisions and optimize your electronic trading infrastructure.
+                With Blitz, you can efficiently manage intricate execution models across multiple markets while concurrently handling multiple orders. This capability ensures that program traders can achieve swift and accurate executions, overcoming the significant challenges they face in the trading environment. <br class="mob"><br class="mob"><br class="mob"><br class="mob"><br class="mob"><br class="mob">
               </div>
             </div>
           </div>
@@ -158,11 +158,14 @@
           <div class="col-12 col-md-6 col-lg-6">
             <div class="card-box-about">
               <div class="para-text fw-bold">
-                Streamlined Processes
+                Customized Algorithmic Solutions with Blitz
               </div>
 
               <div class="para-text pt-5">
-                We help you streamline workflows and workflows and boost operational efficiency. 
+                We support large proprietary traders desks and professional traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy <br>
+
+                You can develop a wide range of strategy models, including execution models, quantitative model, market making, scalping, jobbing, statistical arbitrage, complex options strategies, and mechanical trading systems based on technical indicators in matter of hours.
+ 
               </div>
             </div>
           </div>
@@ -171,11 +174,11 @@
           <div class="col-12 col-md-6 col-lg-6">
             <div class="card-box-about">
               <div class="para-text fw-bold">
-                Optimized Technology
+                Trading Research and Backtesting
               </div>
 
               <div class="para-text pt-5">
-                 Our expertise ensures you have the right technology stack for low-latency, high-performance trading. 
+                We support large proprietary traders desks and traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy
               </div>
             </div>
           </div>
@@ -183,11 +186,11 @@
           <div class="col-12 col-md-6 col-lg-6">
             <div class="card-box-about">
               <div class="para-text fw-bold">
-                Bespoke Development  
+                Confidentiality and Professional Integrity  
               </div>
 
               <div class="para-text pt-5">
-                We create custom solutions for electronic trading, market data, and trading platforms tailored to your specific needs. 
+                We engage in projects where we can truly make a significant difference, focusing our efforts where they matter most to our clients’ bottom line. Our clients are always protected by NDAs and non-compete agreements.
               </div>
             </div>
           </div> 
@@ -255,7 +258,7 @@
     </div> 
   </section>
 
-  <section class="container py-6">   
+ <!--  <section class="container py-6">   
     <div class="row">
         <div class="col-12 col-md-6 col-lg-6 div-center">
           <div class="para-text ">
@@ -267,7 +270,8 @@
           <img src="assets/img/htf.png">
         </div>
     </div>
-  </section> 
+  </section>  -->
+  
   <section class="container py-6">  
     <div class="row pt-5 pb-5">
         <div class="col-12 col-md-6 col-lg-6 div-center"> 

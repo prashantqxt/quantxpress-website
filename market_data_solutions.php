@@ -101,11 +101,13 @@
       </div>
   </section>
 
+
   <section class="container py-6">
-      <div class="row">
+
+      <div class="row pt-5 pb-5">
         <div class="col-12 col-md-6 col-lg-6">
           <p class="sec-title">
-            Our Market <span class="span-title"> Data   <br> Solutions</span>     
+            Our Market <span class="span-title"> Data  <br class="mob">  Solutions</span> 
           </p>
         </div>
 
@@ -115,82 +117,15 @@
           </p>
         </div>
       </div>  
-      <br><br><br>
-      <div class="row">
-        <div class="col-12 col-md-7 col-lg-7">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed para-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne" style="border-bottom: 1px solid #ddd;">
-                  Exchange Connectivity
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <div class="row py-3"> 
-                    <div class="col-lg-12 col-md-12 col-12">
-                      <br><br>
-                      <div class="para-text">
-                        Our solution captures direct exchange feeds and processes them through software for decoding, normalization, enrichment, and standardization. We then store and disseminate market information for analysis and application. With our market data solutions, financial institutions can establish a robust market data infrastructure for their clients in just a few weeks.
-                      </div><br> 
-                    </div>
-                  </div>  
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed para-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Market Data Dissemination Platform and APIs
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <div class="row py-3"> 
-                    <div class="col-lg-12 col-md-12 col-12">
-                      <br><br>
-                      <div class="para-text">
-                       The QX.MDP is a scalable market data dissemination solution that streams real-time market data into brokers' client trading and monitoring apps, boosting the performance of automated trading algorithms. QXT provides a variety of programming language APIs and access solutions, including Java, C/C++, .NET, JavaScript, WebSocket, REST, Python, and FIX, ensuring easy data access for analysis and integration into various applications.
-                      </div><br> 
-                    </div>
-                  </div> 
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed para-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  QXT Engineering Services
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                   <div class="row py-3"> 
-                    <div class="col-lg-12 col-md-12 col-12">
-                      <br><br>
-                      <div class="para-text">
-                       We collaborate with our clients on their transformation journeys, delivering the solutions they need to thrive in today’s competitive financial markets. Our services include architectural design, solution implementation, and operational support, empowering clients to leverage technology for high-frequency trading and quantitative trading.
-                      </div><br> 
-                    </div>
-                  </div> 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-12 col-md-5 col-lg-5">
-          <img class="w-100" src="assets/img/mscs.png">
-        </div>
-      </div>
 
-      <!-- <div class="d-flex justify-content-between mob-col pt-5">
+      <div class="d-flex justify-content-between mob-col pt-5">
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/algorithmic.svg">
+              <img src="assets/img/market_variable.png">
             </div>
           <div class="vertical"> 
-             
+            <!--  front side  -->
             <section class="front"> 
               
               <div class="d-flex filp-front-title">
@@ -205,12 +140,11 @@
                 </div>
             </section>
 
-             
+            <!--  back side  -->
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Our solution captures direct exchange feeds and processes them through software for decoding, normalization, enrichment, and standardization. We then store and disseminate market information for analysis and application. 
-                  With our market data solutions, financial institutions can establish a robust market data infrastructure for their clients in just a few weeks. 
+                  Our solution captures direct exchange feeds and processes them through software for decoding, normalization, enrichment, and standardization. We then store and disseminate market information for analysis and application. With our market data solutions, financial institutions can establish a robust market data infrastructure for their clients in just a few weeks.
                 </div> 
               </div>
             </section>
@@ -218,10 +152,10 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/fix.svg">
+              <img src="assets/img/bit_order.png">
             </div>
           <div class="vertical"> 
-             
+            <!--  front side  -->
             <section class="front"> 
               
               <div class="d-flex filp-front-title">
@@ -237,13 +171,11 @@
               </div>
             </section>
 
-             
+            <!--  back side  -->
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  The QX.MDP is a scalable market data dissemination solution that streams real-time market data into brokers' client trading and monitoring apps, boosting the performance of automated trading algorithms. 
-                  QXT provides a variety of programming language APIs and access solutions, including Java, C/C++, .NET, JavaScript, WebSocket, REST, Python, and FIX, ensuring easy data access for analysis and integration into various applications.  
-
+                  The QX.MDP is a scalable market data dissemination solution that streams real-time market data into brokers' client trading and monitoring apps, boosting the performance of automated trading algorithms. QXT provides a variety of programming language APIs and access solutions, including Java, C/C++, .NET, JavaScript, WebSocket, REST, Python, and FIX, ensuring easy data access for analysis and integration into various applications.
                 </div> 
               </div>
             </section>
@@ -251,10 +183,10 @@
         </div>
         <div class="border w-33 hover-box">
           <div class="img-icon">
-              <img src="assets/img/exchange.svg">
+              <img src="assets/img/execution.png">
             </div>
           <div class="vertical"> 
-             
+            <!--  front side  -->
             <section class="front"> 
               
               <div class="d-flex filp-front-title">
@@ -270,7 +202,7 @@
               </div>
             </section>
 
-             
+            <!--  back side  -->
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
@@ -280,10 +212,9 @@
             </section>
           </div>
         </div>
-      </div>  -->
-  </section> 
-
-
+      </div> 
+  </section>
+  
   <section class="container py-6">    
     <div class="text-center">
       <p class="sec-title">
@@ -311,7 +242,7 @@
               Technology to disseminate Level-I, Level-II market data over API model
             </li>
             <li>
-              Technology to integrate TBT data order book to HFT platform
+              Technology to integrate TBT data order book to HFT platform 
             </li>
           </ul>
 
@@ -335,7 +266,7 @@
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              BSE <br> &nbsp
+              BSE  (TBT, ETI Specialization)
           </div>
           <div class="para-text mt-5">
             The Bombay Stock Exchange (BSE) is India's oldest stock exchange, established in 1875, and is one of the largest exchanges in the world by market capitalization. 
@@ -377,7 +308,7 @@
       <div class="col-12 col-md-4 col-lg-4">
         <div class="border rounded-4 py-4 px-5">
           <div class="small-title-dark">
-              MCX <br> &nbsp
+              MCX  (TBT, ETI Specialization)
           </div>
           <div class="para-text mt-5">
             The Multi Commodity Exchange of India (MCX) is the leading commodities exchange in India, established in 2003, specializing in the trading of various commodity derivatives.
@@ -419,38 +350,64 @@
 
   <section class="container py-6">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 py-5">
-        <div class="small-title-dark py-4">
-          Comprehensive FIX Session Support: 
-        </div>
 
-        <div class="para-text py-4">
-          QX.MDP facilitates real-time streaming of market data into a broker’s client trading or monitoring applications, while market surveillance feeds provide essential data and content to improve the performance of automated trading algorithms.
+      <div class="col-12 col-md-6 col-lg-6 mb-5">
+        <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300 "  > 
+          <img src="https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461313.jpg" class="height-45 w-100 pb-4 object-cover">
+          <div class="d-flex items-center px-4">
+              <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
+              <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
+              <!-- <div class="primary para-text "> Pune, India | 15 Aug 2024 </div> -->
+          </div> 
+          <div class="px-4 pt-3  p-4">
+            <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800" style="font-size: 2rem;">
+              End-to-End Market Data Solutions For Brokers
+            </h2> 
+          </div>
+          
+ 
+          <div class="px-4 p-4"> 
+            
+            <p class="para-text  height-25">QX.MDP facilitates real-time streaming of market data into a broker’s client trading or monitoring applications, while market surveillance feeds provide essential data and content to improve the performance of automated trading algorithms.</p> <br class="mob"><br class="mob"> 
+             
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-6 col-lg-6 mb-5">
+        <div class="w-full bg-white border border-gray-200 rounded-3 overflow-hidden hover:shadow-lg transition duration-300"  > 
+          <img src="https://img.freepik.com/free-photo/business-infographics-hologram-made-by-businessman_23-2148755138.jpg" class="height-45 w-100 pb-4 object-cover">
+          <div class="d-flex items-center px-4">
+              <!-- <img src="assets/img/profile.jpg" alt="Author Avatar" class="h-8 w-8 rounded-full">
+              <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
+              <!-- <div class="primary para-text "> Pune, India | 15 Aug 2024 </div> -->
+          </div> 
+          <div class="px-4 pt-3 p-4">
+            <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800" style="font-size: 2rem;">
+              Why the market choose QuantXpress
+            </h2> 
+          </div>
+          
+ 
+          <div class="px-4 p-4"> 
+            
+              <div class="para-text ">
+                <strong>Over 15 Years of Extensive Expertise</strong> across the entire trading lifecycle.<br>
+                <strong>Accelerated Speed to Market</strong> with Pre-built trading modules streamline implementation.<br>
+                <strong>Customization Expertise</strong> with Proven ability to create complex integrations tailored to client needs.<br>
+                <strong>Complete Support and Sustainability:</strong> Our solutions are fully supportable and designed for long-term viability.<br>
+                <strong>Leading in Trade Engineering:</strong> We are the experts in trade engineering, dedicated to delivering robust solutions.<br>
+              </div>
+             
+          </div>
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-6">
-          <img class="p-5" src="assets/img/mdcs1.jpg">
-      </div>
 
-      <div class="col-12 col-md-6 col-lg-6  py-5">
-          <img class="p-5" src="assets/img/mdcs2.jpg">
-      </div>
+ 
 
-      <div class="col-12 col-md-6 col-lg-6  py-5">
-        <div class="small-title-dark py-4">
-          Why the market choose QuantXpress
-        </div>
-
-        <div class="para-text py-4">
-          <strong>Over 15 Years of Extensive Expertise</strong> across the entire trading lifecycle.<br>
-          <strong>Accelerated Speed to Market</strong> with Pre-built trading modules streamline implementation.<br>
-          <strong>Customization Expertise</strong> with Proven ability to create complex integrations tailored to client needs.<br>
-          <strong>Complete Support and Sustainability:</strong> Our solutions are fully supportable and designed for long-term viability.<br>
-          <strong>Leading in Trade Engineering:</strong> We are the experts in trade engineering, dedicated to delivering robust solutions.<br>
-
-        </div>
-      </div>
+     
     </div>
   </section>
  

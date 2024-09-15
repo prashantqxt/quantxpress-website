@@ -102,7 +102,7 @@
 
         <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
           <p class="para-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
+            We develop and automate systems that manage complex trading algorithms in a dynamic environment. Our expert team leverages cutting-edge technology to provide complete trading system solutions, allowing you to focus on your core business—trading and research—while we handle connectivity and automation of your trading strategies.
           </p>
         </div>
       </div>  
@@ -332,86 +332,47 @@
       </p> 
     </div>  
     <div class="row pt-5">
-      <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
-          <div class="small-title-dark">
-             Research and Strategy Development
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button small-title-dark roboto " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Research and Strategy Development
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse para-text show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               Our consulting services focus on research and strategy development, offering robust backtesting, strategy optimization, and statistical analysis. These services provide the foundation for stable and efficient trading operations. Our team is proficient in C++, C#, and Python, with extensive experience in low-latency, high-frequency trading. We excel at building scalable, enterprise-grade algorithms that align with your trading objectives. By harnessing advanced research methods and technology, we help you develop and refine trading strategies that perform under real-world conditions.
+            </div>
           </div>
-          <div class="para-text mt-5">
-            Our consulting services focus on research and strategy development, offering robust backtesting, strategy optimization, and statistical analysis. These services provide the foundation for stable and efficient trading operations. Our team is proficient in C++, C#, and Python, with extensive experience in low-latency, high-frequency trading. We excel at building scalable, enterprise-grade algorithms that align with your trading objectives. By harnessing advanced research methods and technology, we help you develop and refine trading strategies that perform under real-world conditions.
-          </div> 
-
-          <div class="border-line"></div>
-
-          <div class="d-flex mt-5">
-              <div class="w-75 text-box-bottom">
-                View documentation
-              </div>
-
-              <div class="w-25"> 
-                <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                </svg>
-              </div>
-          </div>
-
         </div>
-      </div>
-
-      <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
-          <div class="small-title-dark">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button small-title-dark roboto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Comprehensive Algo Trading Consulting
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse para-text" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              QuantXpress is your go-to partner for comprehensive algorithmic trading consulting services. We cater to individuals, brokers, and firms aiming to establish algo trading operations. With expertise spanning stocks, futures, options, forex, and commodities, we guide clients through the complexities of setting up an algo trading desk. Our mission is to ensure you have the tools and knowledge to succeed, whether you're starting from scratch or refining existing strategies. Partner with QuantXpress to access our extensive experience and achieve your trading goals.
+            </div>
           </div>
-          <div class="para-text mt-5">
-            QuantXpress is your go-to partner for comprehensive algorithmic trading consulting services. We cater to individuals, brokers, and firms aiming to establish algo trading operations. With expertise spanning stocks, futures, options, forex, and commodities, we guide clients through the complexities of setting up an algo trading desk. Our mission is to ensure you have the tools and knowledge to succeed, whether you're starting from scratch or refining existing strategies. Partner with QuantXpress to access our extensive experience and achieve your trading goals.
-          </div> 
-
-          <div class="border-line"></div>
-
-          <div class="d-flex mt-5">
-              <div class="w-75 text-box-bottom">
-                View documentation
-              </div>
-
-              <div class="w-25"> 
-                <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                </svg>
-              </div>
-          </div>
-
         </div>
-      </div>
-
-      <div class="col-12 col-md-4 col-lg-4">
-        <div class="border rounded-4 py-4 px-5">
-          <div class="small-title-dark">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button small-title-dark roboto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Technology and Tailored Solutions
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse para-text" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              QuantXpress has a proven track record of helping businesses thrive in the algo trading sector. We stay at the forefront of technology to offer cutting-edge solutions, whether it's in business strategy, operations, or software development. Our tailored solutions meet the unique needs of both retail and institutional clients, with a special focus on automating trading strategies. 
+              <br>
+              Contact us today to learn more about our innovative trading solutions and how we can help you reach.
+            </div>
           </div>
-          <div class="para-text mt-5">
-            QuantXpress has a proven track record of helping businesses thrive in the algo trading sector. We stay at the forefront of technology to offer cutting-edge solutions, whether it's in business strategy, operations, or software development. Our tailored solutions meet the unique needs of both retail and institutional clients, with a special focus on automating trading strategies. <br><br class="mob">
-
-            Contact us today to learn more about our innovative trading solutions and how we can help you reach<br class="mob"><br class="mob">
-
-          </div> 
-
-          <div class="border-line"></div>
-
-          <div class="d-flex mt-5">
-              <div class="w-75 text-box-bottom">
-                View documentation
-              </div>
-
-              <div class="w-25"> 
-                <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
-                </svg>
-              </div>
-          </div>
-
         </div>
-      </div>
+      </div> 
     </div> 
   </section>
  

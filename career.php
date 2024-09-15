@@ -405,7 +405,7 @@
     </div>
   </section>
 
-   <section class="container py-6" >
+  <section class="container py-6" >
 
 
 
@@ -439,7 +439,7 @@
 
               <p class="para-text"><strong>Software Internships</strong></p>
 
-              <p class="para-text text-left">Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.<br><br></p> 
+              <p class="para-text text-left">Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.<br><br></p> <br class="mob"><br class="mob">
             </div> 
           </div>
         </div>
@@ -450,7 +450,18 @@
 
               <p class="para-text"><strong>Business Internships</strong></p>
 
-              <p class="para-text text-left">Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry.</p> 
+              <p class="para-text text-left">Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry.</p> <br class="mob"><br class="mob">
+            </div> 
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card_img">
+            <img src="assets/img/career_3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <p class="para-text"><strong>How to apply</strong></p>
+
+              <p class="para-text text-left">At QXT, we are looking for talented students from top colleges and universities across India to join our team. The QXT internship experience is designed to provide a strong foundation for your future career. If you’re interested in being part of our journey, please submit your application letter and resume to <a class="font-weight-500" href="mailto:career@quantxpress.com">career@quantxpress.com</a>.</p> 
             </div> 
           </div>
         </div>

@@ -277,7 +277,7 @@
     </div>
   </section>
 
-   <section class="container py-6">
+  <section class="container py-6">
 
       <div class="row pt-5 pb-5">
         <div class="col-12 col-md-6 col-lg-6">
@@ -446,7 +446,7 @@
             <section class="back"> 
               <div class="d-flex filp-front-title">
                 <div class="w-85 gray flip-text ">
-                  Access real-time and historical market data events to make well-informed trading decisions in real-time. Our platform provides seamless access to both live and historical market data, enabling you to analyze market trends, identify opportunities, and execute trades with confidence based on accurate and up-to-date information.
+                  Access real-time and historical market data to make informed trading decisions. Our platform offers seamless access to market trends, helping you identify opportunities and execute trades confidently with accurate, up-to-date information.
 
                 </div> 
               </div>

@@ -94,8 +94,8 @@
                 </div>
                 <div class="col-lg-7 col-md-7 col-12 column">
                     <ul class="footer-nav copyright">
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="terms.php">Terms of Service</a></li>
+                        <li><a href="privacy_policy.php">Privacy Policy</a></li>
                         <li><a href="www.chetansawle.site">Designed & Developed by  Chetan Sawle</a></li>
                     </ul>
                 </div>

@@ -231,10 +231,10 @@
                                                       </div>
                                                    </div>
                                                 </div>
-                                                <div class="navlist aem-GridColumn aem-GridColumn--default--12">
+                                                <!-- <div class="navlist aem-GridColumn aem-GridColumn--default--12">
                                                    <div class="nav-list-wrapper medium_size-icon nav-list-with-desc solution_box">
                                                       <div class="navList_col-A">
-                                                         <!-- <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/> -->
+                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
@@ -247,7 +247,7 @@
                                                          </div>
                                                       </div>
                                                    </div>
-                                                </div>
+                                                </div> -->
                                                 <div class="navlist aem-GridColumn aem-GridColumn--default--12">
                                                    <div class="nav-list-wrapper medium_size-icon nav-list-with-desc solution_box">
                                                       <div class="navList_col-A">
@@ -282,10 +282,10 @@
                                                       </div>
                                                    </div>
                                                 </div>
-                                                <div class="navlist aem-GridColumn aem-GridColumn--default--12">
+                                                <!-- <div class="navlist aem-GridColumn aem-GridColumn--default--12">
                                                    <div class="nav-list-wrapper medium_size-icon nav-list-with-desc solution_box">
                                                       <div class="navList_col-A">
-                                                         <!-- <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/> -->
+                                                         <img src="assets/img/works.png" alt="Blog icon" class="svgicon"/>
                                                       </div>
                                                       <div class="navList_col-B">
                                                          <div class="navList-headline nav-list_title-space">
@@ -298,7 +298,7 @@
                                                          </div>
                                                       </div>
                                                    </div>
-                                                </div> 
+                                                </div>  -->
                                              </div>
                                           </div>
                                        </div> 
@@ -527,26 +527,26 @@
                      </nav>
                   </div>
                   <div class="tablet-view-contact-button"></div>
-                  <div class="regionChanger-spacing_mobile-view">
+                  <!-- <div class="regionChanger-spacing_mobile-view">
                      <button class="region-changer-text"><span class="region-changer-button">Region Changer</span></button>
-                  </div>
+                  </div> -->
                </div>
                <div id="child-div-3-Id" class="child-div-3">
                     
                   <div id="primary-contact-button" class="primary-button">
                      <div style="min-width:10rem;">
                         <a id="button-eb3845da11" class="cmp-button" href="contact-us.php" >
-                        <span class="cmp-button__text">Login</span>
+                        <span class="cmp-button__text">Let’s talk </span>
                         </a>
                      </div>
                   </div>
-                  <div id="secondary-try-button" style="min-width:10rem;" class="secondary-button">
+                  <!-- <div id="secondary-try-button" style="min-width:10rem;" class="secondary-button">
                      <div>
                         <a id="button-1d92e5a483" class="cmp-button" href="contact-us.php" >
                         <span class="cmp-button__text"> Subscription</span>
                         </a>
                      </div>
-                  </div>
+                  </div> -->
                   <button class="headerV2__icons-menu" role="navigation">
                      <div class="headerV2__icons-menu-open a-icon a-icon--hover hamburger-icon">
                         <svg class="menu-core-dark120" alt="menu-core-dark120" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 24 24" width="30" fill="#011f3d">

@@ -26,6 +26,29 @@
               <div class="uk-position-relative">
                   <div class="uk-slider-container uk-light">
                       <ul class="uk-slider-items uk-child-width-1-1">
+                          
+
+                          <li class="banner-bg">
+                              <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
+                                  <div class="text-center">
+                                    <div class="main-title-white">BlitzTrader </div>
+                                    <div class="second-title-white"> 
+                                          Algorithmic Trading Redefined
+                                          Power, Simplicity and BlitzTrader
+                                    </div>
+
+                                    <div class="small-text-white py-4-d px-4"> 
+                                          BlitzTrader empowers clients to conquer the markets with a low-latency, multi-market, multi-asset trading platform. Our groundbreaking strategy development framework streamlines the process, enabling rapid development, testing, deployment, and management of sophisticated trading strategies across any electronic marketplace. 
+                                    </div>
+
+                                    <div class="btn-mg">
+                                      <button class="dark-btn">Get Started</button>
+                                      <button class="light-btn">Documentation</button>
+                                    </div>
+                                  </div>
+                              </div>
+                          </li>
+
                           <li class="banner-bg">
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
@@ -50,27 +73,6 @@
                                           <path fill="#464eb8" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
                                         </svg>
                                       </button>
-                                    </div>
-                                  </div>
-                              </div>
-                          </li>
-
-                          <li class="banner-bg">
-                              <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
-                                  <div class="text-center">
-                                    <div class="main-title-white">BlitzTrader </div>
-                                    <div class="second-title-white"> 
-                                          Algorithmic Trading Redefined
-                                          Power, Simplicity and BlitzTrader
-                                    </div>
-
-                                    <div class="small-text-white py-4-d px-4"> 
-                                          BlitzTrader empowers clients to conquer the markets with a low-latency, multi-market, multi-asset trading platform. Our groundbreaking strategy development framework streamlines the process, enabling rapid development, testing, deployment, and management of sophisticated trading strategies across any electronic marketplace. 
-                                    </div>
-
-                                    <div class="btn-mg">
-                                      <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
                                     </div>
                                   </div>
                               </div>
@@ -869,9 +871,11 @@
             With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking custom trading software development, algorithmic trading, high-frequency trading (HFT), custom quantitative strategies development on Blitz, exchange connectivity, FIX Engine, and market data solutions. Our team also specializes in electronic connectivity solutions for all major Indian and global exchanges. Trust QuantXpress to elevate your trading experience and optimize your performance in today's dynamic markets.
           </p> -->
 
-          <button class="dark-btn_2 mob-mt-5 "> Learn More <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
-	<path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
-</svg></button>
+          <button class="dark-btn_2 mob-mt-5 "> Learn More 
+            <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+	           <path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
+            </svg>
+          </button>
         </div>
 
         <div class="col-12 col-md-6 col-lg-6 div-center">
@@ -892,16 +896,17 @@
           With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking 
         </p>
 
-        <button class="dark-btn_2 mob-mt-5 mt-5 "> Learn More <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
-	<path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
-</svg></button>
+        <!-- <button class="dark-btn_2 mob-mt-5 mt-5 "> Learn More <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+	       <path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
+            </svg>
+        </button> -->
       </div>
       <div class="col-12 col-md-7 col-lg-7">
         <div class="testimonial-container">
           <div class="progress-bar"></div>
           <div class="fas fa-quote-left fa-quote"></div>
           <div class="fas fa-quote-right fa-quote"></div>
-          <p class="testimonial mt-5 para-text white">
+          <p class="testimonial mt-5 para-text">
             Since applying the Coppercoat system I have been delighted with its performance. There's been much less weed build-up than in previous years, and what did appear has been easy to remove. It’s quite a high initial outlay, but a lot of money will be saved over the years and it seems to work as a very effective anti-fouling with the bonus of offering good hull protection.
           </p>
           <div class="text-left mt-5"> 

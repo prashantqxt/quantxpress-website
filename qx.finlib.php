@@ -109,7 +109,7 @@
 
         <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
           <p class="para-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
+            Discover why midsize companies choose QX.FIX Engine as their trusted foundation for connectivity. Enhance your growth and innovation while addressing today’s challenges and preparing for future opportunities with our robust FIX protocol-based solutions.
           </p>
         </div>
       </div>  
@@ -398,7 +398,7 @@
           </div>
           <div class="para-text mt-5">
             Explore the Github coding area to navigate tovarious examples of Strategies,Technical Indicator etc.
-          </div><br><br>
+          </div><br><br><br><br>
 
           <div class="border-line"></div>
 

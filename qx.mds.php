@@ -31,11 +31,11 @@
                                   <div class="text-center">
                                     <div class="main-title-white">QX.MDS </div>
                                     <div class="second-title-white"> 
-                                          .NET Suite for your Trading Application
+                                          Market Data API solution for every trading firm
                                     </div>
 
                                     <div class="small-text-white py-4-d px-4"> 
-                                          The QX.MDS is dependable high performance market data solution and provide access of high quality streaming  and historical market data of any asset class to your clients and trading desk through API model.  The solution captures high volume exchange data, consolidates and disseminates it to users through internet friendly REST and WebSocket streaming API and to ensure you have a clear view of all the data for informed trading decision.
+                                          The QX.MDS is dependable high performance market data solution and provide access of high quality streaming and historical market data of any asset class to your clients and trading desk through API model.
                                     </div>
 
                                     <div class="btn-mg">
@@ -109,7 +109,7 @@
 
         <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
           <p class="para-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
+            QX.MDS is a scalable and flexible platform designed to seamlessly collect, clean, organize, and distribute data, built from direct feed. Built on a dynamic microservices architecture, it offers modularity and effortless integration with existing systems, delivering a comprehensive view of the data lifecycle.
           </p>
         </div>
       </div>  
@@ -130,7 +130,7 @@
 
         <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
           <p class="para-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
+            A unified low-latency market data API solution for brokers and exchange members, designed to enhance your proprietary trading strategies and operations while delivering greater value to your clients.
           </p>
         </div>
       </div>  

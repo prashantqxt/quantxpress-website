@@ -35,7 +35,7 @@
                                     </div>
 
                                     <div class="small-text-white py-4-d px-4"> 
-                                       We offer sophisticated algorithmic trading platforms that harness advanced technology and high-speed connectivity solutions to provide you with a competitive edge. Our all-encompassing services allow you to focus on your trading strengths while we manage everything else.
+                                       We develop and automate systems that manage complex trading algorithms in a dynamic environment. Our expert team leverages cutting-edge technology to provide complete trading system solutions, allowing you to focus on your core business—trading and research—while we handle connectivity and automation of your trading strategies.
                                     </div> 
                                   </div>
                               </div>
@@ -203,7 +203,7 @@
       </div> 
   </section> 
 
-  <section class=" bg-gray py-6 mt-5">
+  <section class="bg-gray py-6 mt-5">
     <div class="container">
         <div class="row pt-5 pb-5">
           <div class="text-center">
@@ -219,104 +219,56 @@
 
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
+            <div class="card-box-about">
               <div class="para-text fw-bold">
                 Manage Complex trades
               </div>
 
               <div class="para-text pt-5">
-                With Blitz, you can efficiently manage intricate execution models across multiple markets while concurrently handling multiple orders. This capability ensures that program traders can achieve swift and accurate executions, overcoming the significant challenges they face in the trading environment.
+                With Blitz, you can efficiently manage intricate execution models across multiple markets while concurrently handling multiple orders. This capability ensures that program traders can achieve swift and accurate executions, overcoming the significant challenges they face in the trading environment. <br class="mob"><br class="mob"><br class="mob"><br class="mob"><br class="mob"><br class="mob">
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
+            <div class="card-box-about">
               <div class="para-text fw-bold">
                 Customized Algorithmic Solutions with Blitz
               </div>
 
               <div class="para-text pt-5">
-                We support large proprietary traders desks and traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy <br>
+                We support large proprietary traders desks and professional traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy <br>
 
-                You can develop a wide range of strategy models, including execution models, quantitative model, market making, scalping, jobbing, statistical arbitrage, complex options strategies, and mechanical trading systems based on technical indicators in matter of hours.<br><br>
-
+                You can develop a wide range of strategy models, including execution models, quantitative model, market making, scalping, jobbing, statistical arbitrage, complex options strategies, and mechanical trading systems based on technical indicators in matter of hours.
+ 
               </div>
             </div>
           </div>
 
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
+            <div class="card-box-about">
               <div class="para-text fw-bold">
                 Trading Research and Backtesting
               </div>
 
               <div class="para-text pt-5">
-                We support large proprietary traders desks and traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy.
+                We support large proprietary traders desks and traders in designing, developing, optimizing and implementing various trading strategies. The Comprehensive Back-test report offers unparalleled insights into a trading strategy
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
+            <div class="card-box-about">
               <div class="para-text fw-bold">
                 Confidentiality and Professional Integrity  
               </div>
 
               <div class="para-text pt-5">
-                We engage in projects where we can truly make a significant difference, focusing our efforts where they matter most to our clients’ bottom line. Our clients are always protected by NDAs and non-compete agreements.<br><br>
+                We engage in projects where we can truly make a significant difference, focusing our efforts where they matter most to our clients’ bottom line. Our clients are always protected by NDAs and non-compete agreements.
               </div>
             </div>
           </div> 
-
-          <!-- <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
-              <div class="para-text fw-bold">
-                Risk Management
-              </div>
-
-              <div class="para-text pt-5">
-                Real-time risk evaluation allows us to instantaneously react to the market.
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
-              <div class="para-text fw-bold">
-                Portfolio Management 
-              </div>
-
-              <div class="para-text pt-5">
-                We develop customized portfolios that are mathematically balanced and stable.
-              </div>
-            </div>
-          </div> 
-
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
-              <div class="para-text fw-bold">
-                Backtest and Optimize
-              </div>
-
-              <div class="para-text pt-5">
-                We can backtest and optimize your trading strategies against historical data.
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card-box-algo">
-              <div class="para-text fw-bold">
-                Automate 
-              </div>
-
-              <div class="para-text pt-5">
-                We can also automate your trading strategies by writing C++/python code to interact directly with the exchange
-              </div>
-            </div>
-          </div>  -->
         </div> 
     </div>
   </section>

@@ -139,7 +139,7 @@
 
         <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
           <p class="para-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
+            A unified low-latency market data API solution for brokers and exchange members, designed to enhance your proprietary trading strategies and operations while delivering greater value to your clients.
           </p>
         </div>
       </div>  

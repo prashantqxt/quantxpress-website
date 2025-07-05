@@ -26,7 +26,7 @@
 <!-- Section 1-->
 
   <section id="porque-sec" class="uk-section  uk-light">
-      <div> 
+      <div>
           <div uk-slider="velocity:1.3; easing: cubic-bezier(.4,0,.2,1)">
               <div class="uk-position-relative">
                   <div class="uk-slider-container uk-light">
@@ -34,16 +34,16 @@
                           <li class="banner-bg">
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
-                                    <div class="main-title-white">Build your Career at  QuantXpress </div> 
+                                    <div class="main-title-white">Build your Career at  QuantXpress </div>
 
-                                    <div class="small-text-white py-4-d px-4"> 
-                                          Lets your talent meet opportunities. Match your ingenuity with the 
+                                    <div class="small-text-white py-4-d px-4">
+                                          Lets your talent meet opportunities. Match your ingenuity with the
                                           latest technology to do incredible things.
                                     </div>
 
                                     <div class="btn-mg" style="visibility: hidden;">
                                       <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
+                                      <!-- <button class="light-btn">Documentation</button> -->
                                     </div>
                                   </div>
                               </div>
@@ -52,13 +52,13 @@
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
                                     <div class="main-title">QXFinLib NET2 </div>
-                                    <div class="second-title"> 
+                                    <div class="second-title">
                                           Empower your Research, Optimize Back tests,
                                           Master the Markets
                                     </div>
 
-                                    <div class="small-text py-4-d px-4"> 
-                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.  
+                                    <div class="small-text py-4-d px-4">
+                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.
                                     </div>
 
                                     <div class="btn-mg">
@@ -72,13 +72,13 @@
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
                                     <div class="main-title">QXFinLib .NET3 </div>
-                                    <div class="second-title"> 
+                                    <div class="second-title">
                                           Empower your Research, Optimize Back tests,
                                           Master the Markets
                                     </div>
 
-                                    <div class="small-text py-4-d px-4"> 
-                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.  
+                                    <div class="small-text py-4-d px-4">
+                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.
                                     </div>
 
                                     <div class="btn-mg">
@@ -99,9 +99,9 @@
           </div>
       </div>
   </section>
- 
+
   <section class="container py-6">
-      <div class="row"> 
+      <div class="row">
         <div class="col-12 col-md-7 col-lg-7 pt-5 mt-5">
             <p class="sec-title py-4 ">
               Join Our Team and Help Us Accelerate Innovation in  <span class="span-title">Automation and <br class="mob">
@@ -115,11 +115,11 @@
         <div class="col-12 col-md-5 col-lg-5">
             <img class="w-100 mt-5" src="assets/img/career.png">
         </div>
-      </div>   
+      </div>
   </section>
 
   <section class="container py-6">
-      <div class="row  mb-5 pb-5"> 
+      <div class="row  mb-5 pb-5">
         <div class="col-12 col-md-6 col-lg-6 mob-order-2">
             <img class="w-100" src="assets/img/career-2.png">
         </div>
@@ -132,9 +132,9 @@
                 At QuantXpress, we're all about finding possibility in the “impossible.” Together, we challenge the status quo and and we know breakthrough ideas come from diverse perspectives. Our commitment to collaboration and quality fuels our efforts. Regardless of your role, we are all working together to achieve extraordinary results. We believe that your career is a journey, not a destination, where making the exceptional is possible, every day.
             </div>
         </div>
-      </div>   
+      </div>
   </section>
- 
+
 
   <section class=" bg-gray py-6 mt-5">
     <div class="container">
@@ -146,9 +146,9 @@
 
             <p class="para-text">
                 Have we got you excited? Take a look at our current openings
-            </p> 
-          </div>  
-        </div>   
+            </p>
+          </div>
+        </div>
 
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4">
@@ -176,12 +176,12 @@
               <div class="border-line"></div>
               <a href="career_1.php">
                 <div class="d-flex mt-5">
-                  
+
                     <div class="w-75 text-box-bottom">
                       View Details
                     </div>
 
-                    <div class="w-25"> 
+                    <div class="w-25">
                       <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                       </svg>
@@ -210,19 +210,19 @@
               </div>
 
               <div class="para-text pt-4">
-                C#, Experience in design complex UI, GUI, Asynchronous Programming, Windows Forms, WPF… 
+                C#, Experience in design complex UI, GUI, Asynchronous Programming, Windows Forms, WPF…
               </div>
 
               <div class="border-line"></div>
 
               <a href="career_2.php">
                 <div class="d-flex mt-5">
-                  
+
                     <div class="w-75 text-box-bottom">
                       View Details
                     </div>
 
-                    <div class="w-25"> 
+                    <div class="w-25">
                       <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                       </svg>
@@ -260,12 +260,12 @@
 
               <a href="career_3.php">
                 <div class="d-flex mt-5">
-                  
+
                     <div class="w-75 text-box-bottom">
                       View Details
                     </div>
 
-                    <div class="w-25"> 
+                    <div class="w-25">
                       <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                       </svg>
@@ -303,12 +303,12 @@
 
               <a href="career_4.php">
                 <div class="d-flex mt-5">
-                  
+
                     <div class="w-75 text-box-bottom">
                       View Details
                     </div>
 
-                    <div class="w-25"> 
+                    <div class="w-25">
                       <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                       </svg>
@@ -344,12 +344,12 @@
 
               <a href="career_5.php">
                 <div class="d-flex mt-5">
-                  
+
                     <div class="w-75 text-box-bottom">
                       View Details
                     </div>
 
-                    <div class="w-25"> 
+                    <div class="w-25">
                       <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                       </svg>
@@ -379,7 +379,7 @@
               </div>
 
               <div class="para-text pt-4">
-                C++. C#  
+                C++. C#
                 <br>
               </div>
 
@@ -387,12 +387,12 @@
 
               <a href="career_6.php">
                 <div class="d-flex mt-5">
-                  
+
                     <div class="w-75 text-box-bottom">
                       View Details
                     </div>
 
-                    <div class="w-25"> 
+                    <div class="w-25">
                       <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                       </svg>
@@ -412,14 +412,14 @@
       <div class="row pt-5 pb-5">
         <div class="text-center">
           <p class="sec-title">
-               For <span class="span-title"> Fresher & Intern</span> 
+               For <span class="span-title"> Fresher & Intern</span>
           </p>
 
           <p class="para-text text-center">
               Student, graduate or experienced professional?<br>
-              Explore career opportunities that fit your dreams and ambitions. 
-          </p> 
-        </div>  
+              Explore career opportunities that fit your dreams and ambitions.
+          </p>
+        </div>
 
         <div class="pt-5 pb-5 para-text">
           <strong style="font-size: 24px;">Make a real impact at QuantXpress</strong>
@@ -428,7 +428,7 @@
         <div class="para-text">
           From day one, students at QuantXpress are engaged in impactful projects that contribute to our business. You'll acquire new skills and gain invaluable on-the-job experience while collaborating with colleagues and enjoying the process. Our hands-on approach fosters learning in product development, user interface design, and software engineering aimed at solving real-world problems. Join us today and unlock your passion for making a positive impact on society!
         </div>
-      </div>   
+      </div>
 
 
       <div class="row">
@@ -440,7 +440,7 @@
               <p class="para-text"><strong>Software Internships</strong></p>
 
               <p class="para-text text-left">Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.<br><br></p> <br class="mob"><br class="mob">
-            </div> 
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-4">
@@ -451,7 +451,7 @@
               <p class="para-text"><strong>Business Internships</strong></p>
 
               <p class="para-text text-left">Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry.</p> <br class="mob"><br class="mob">
-            </div> 
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-4">
@@ -461,12 +461,12 @@
 
               <p class="para-text"><strong>How to apply</strong></p>
 
-              <p class="para-text text-left">At QXT, we are looking for talented students from top colleges and universities across India to join our team. The QXT internship experience is designed to provide a strong foundation for your future career. If you’re interested in being part of our journey, please submit your application letter and resume to <a class="font-weight-500" href="mailto:career@quantxpress.com">career@quantxpress.com</a>.</p> 
-            </div> 
+              <p class="para-text text-left">At QXT, we are looking for talented students from top colleges and universities across India to join our team. The QXT internship experience is designed to provide a strong foundation for your future career. If you’re interested in being part of our journey, please submit your application letter and resume to <a class="font-weight-500" href="mailto:career@quantxpress.com">career@quantxpress.com</a>.</p>
+            </div>
           </div>
         </div>
       </div>
-      
+
       <!-- <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
@@ -486,29 +486,29 @@
                   <div class="para-text">
                     From day one, students at QuantXpress are engaged in impactful projects that contribute to our business. You'll acquire new skills and gain invaluable on-the-job experience while collaborating with colleagues and enjoying the process. Our hands-on approach fosters learning in product development, user interface design, and software engineering aimed at solving real-world problems. Join us today and unlock your passion for making a positive impact on society!
                   </div><br>
- 
+
                 </div>
               </div>
               <div class="para-text primary mt-3">
                 <strong>Software Internships</strong>
               </div>
 
-              <div class="row"> 
+              <div class="row">
                 <div class="col-lg-12 col-md-12 para-text">
-                  Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.  
-                </div> 
+                  Harness your analytical thinking and curiosity to gain hands-on experience in algorithmic trading platform development and critical problem-solving. Immerse yourself in real-time projects that will enhance your technical skills and deepen your understanding of the industry.
+                </div>
               </div>
 
               <div class="para-text primary mt-3">
                 <strong>Business Internships</strong>
               </div>
 
-              <div class="row"> 
+              <div class="row">
                 <div class="col-lg-12 col-md-12 para-text">
-                  Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry. 
-                </div> 
+                  Dive directly into our company’s operations and play a crucial role in achieving our goals. You'll engage with prospective clients, support users on our trading platform, conduct software demonstrations, and ensure exchange compliance. Your contributions will help us make vital decisions that keep us at the forefront of the technology industry.
+                </div>
               </div>
- 
+
             </div>
           </div>
         </div>
@@ -539,11 +539,11 @@
                 <strong>Experience</strong>
               </div>
 
-              <div class="row"> 
+              <div class="row">
                 <div class="col-lg-12 col-md-12 para-text">
-                  The program is open to pursuing engineering students pursuing computer Science, Artificial Intelligence, Machine Learning, or Mathematics.  
+                  The program is open to pursuing engineering students pursuing computer Science, Artificial Intelligence, Machine Learning, or Mathematics.
                 </div>
-                <div class="col-lg-12 col-md-12 para-text pt-3"> 
+                <div class="col-lg-12 col-md-12 para-text pt-3">
                   You should also have strong computer software skills with basic to intermediate competency in python. And most importantly, you need to have a curious and innovative mind  who Live, breathe and love code
                 </div>
               </div>
@@ -588,11 +588,11 @@
                 <strong>Experience</strong>
               </div>
 
-              <div class="row"> 
+              <div class="row">
                 <div class="col-lg-12 col-md-12 para-text">
-                  The program is open to pursuing engineering students pursuing computer Science, Artificial Intelligence, Machine Learning, or Mathematics.  
+                  The program is open to pursuing engineering students pursuing computer Science, Artificial Intelligence, Machine Learning, or Mathematics.
                 </div>
-                <div class="col-lg-12 col-md-12 para-text pt-3"> 
+                <div class="col-lg-12 col-md-12 para-text pt-3">
                   You should also have strong computer software skills with basic to intermediate competency in python. And most importantly, you need to have a curious and innovative mind  who Live, breathe and love code
                 </div>
               </div>
@@ -611,16 +611,16 @@
           </div>
         </div>
       </div> -->
-  </section> 
+  </section>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
- 
+
         <!-- Modal Header -->
         <div class="modal-header px-5">
-          <h4 class="modal-title medium-title primary w-75">C++ Development</h4> 
+          <h4 class="modal-title medium-title primary w-75">C++ Development</h4>
           <button class="dark-btn">Apply Now</button>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
@@ -651,7 +651,7 @@
           </p>
 
           <p class="para-text ">
-            A successful candidate is expected to be having a strong technical background and hands-on experience in server and UI development. The candidate must have a proven background and track record of learning and adapting to new technologies. 
+            A successful candidate is expected to be having a strong technical background and hands-on experience in server and UI development. The candidate must have a proven background and track record of learning and adapting to new technologies.
           </p>
 
           <ul class="para-text  mt-5" style="list-style-type: circle;">
@@ -697,10 +697,10 @@
   <div class="modal" id="myModal2">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
- 
+
         <!-- Modal Header -->
         <div class="modal-header px-5">
-          <h4 class="modal-title medium-title primary w-75">Software Specialist (.NET/C#/C++)</h4> 
+          <h4 class="modal-title medium-title primary w-75">Software Specialist (.NET/C#/C++)</h4>
           <button class="dark-btn">Apply Now</button>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
@@ -731,7 +731,7 @@
           </p>
 
           <p class="para-text ">
-            A successful candidate is expected to be having a strong technical background and hands-on experience in server and UI development. The candidate must have a proven background and track record of learning and adapting to new technologies. 
+            A successful candidate is expected to be having a strong technical background and hands-on experience in server and UI development. The candidate must have a proven background and track record of learning and adapting to new technologies.
           </p>
 
           <ul class="para-text  mt-5" style="list-style-type: circle;">
@@ -772,7 +772,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>
 
   <script  src="assets/js/script.js"></script>
-</body> 
+</body>
 <script type="text/javascript">
   $(function () {
      $('.toggle-menu').click(function(){

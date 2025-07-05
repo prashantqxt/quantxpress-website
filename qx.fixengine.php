@@ -48,7 +48,9 @@
 
                                     <div class="btn-mg">
                                       <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
+                                      <a href="http://192.168.1.6:3002/docs/FIXEngine/QXFIX%20Homepage">
+                                        <button class="light-btn">Documentation</button>
+                                      </a>  
                                     </div>
                                   </div>
                               </div>

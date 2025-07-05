@@ -40,7 +40,9 @@
 
                                     <div class="btn-mg">
                                       <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
+                                      <a href="http://192.168.1.6:3003/docs/FinLib/QXFinLib">
+                                        <button class="light-btn">Documentation</button>
+                                      </a>
                                     </div>
                                   </div>
                               </div>

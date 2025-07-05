@@ -1,1036 +1,820 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
+<!-- index.php -->
+    <?php include 'header.php'; ?>
+    <style>
+        .card:hover{
+            background: rgb(48,94,255);
+            background: linear-gradient(137deg, rgba(48,94,255,1) 0%, rgba(105,120,255,0.8491771708683473) 100%);
+        }
+        .card:hover > .card-body > div > h5, .card:hover > .card-body > p, .card:hover > .card-body > div > p >  svg > path , .card:hover > .card-body > div > p, .card:hover > .card-body > svg > path {
+            color: #fff;
+            stroke: #fff;
+            fill: #fff;
+        }
+        .btn:hover {
+            color: #fff !important;
+        }
+        .cta-btn-blue:hover{
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+            transform: translateX(0%);
+            height: 55px!important;
+            background-color: #ffffff !important;
+            color: #171321 !important;
+            border: 1px solid #171321 !important;
+        }
+        .cta-btn-blue:hover > svg > path{
+            stroke: #171321 !important;
+        }
+        @media (max-width: 767px) {
+            .mob-p-15 {
+                padding: 15px !important;
+            }
+            .carousel {
+                position: relative;
+                width: 100%;
+                height: 125vh !important;
+                overflow: hidden;
+            }
+        }
+        .animation{
+            display: none;
+        }
+        .animation {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            max-width: 0;
+            opacity: 0;
+            transition: max-width 2s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 2s ease;
+        }
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="info-header">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
-
-<?php include 'header.php';?>
-<!-- partial -->
-
-<!-- Section 1-->
-
-  <section id="porque-sec" class="uk-section  uk-light">
-      <div> 
-          <div uk-slider="velocity:1.3; easing: cubic-bezier(.4,0,.2,1)">
-              <div class="uk-position-relative">
-                  <div class="uk-slider-container uk-light">
-                      <ul class="uk-slider-items uk-child-width-1-1">
-                          
-
-                          <li class="banner-bg">
-                              <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
-                                  <div class="text-center">
-                                    <div class="main-title-white">BlitzTrader </div>
-                                    <div class="second-title-white"> 
-                                          Algorithmic Trading Redefined
-                                          Power, Simplicity and BlitzTrader
-                                    </div>
-
-                                    <div class="small-text-white py-4-d px-4"> 
-                                          BlitzTrader empowers clients to conquer the markets with a low-latency, multi-market, multi-asset trading platform. Our groundbreaking strategy development framework streamlines the process, enabling rapid development, testing, deployment, and management of sophisticated trading strategies across any electronic marketplace. 
-                                    </div>
-
-                                    <div class="btn-mg">
-                                      <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
-                                    </div>
-                                  </div>
-                              </div>
-                          </li>
-
-                          <li class="banner-bg">
-                              <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
-                                  <div class="text-center">
-                                    <div class="main-title-white">QXFinLib .NET </div>
-                                    <div class="second-title-white"> 
-                                          Empower your Research, Optimize Back tests,
-                                          Master the Markets
-                                    </div>
-
-                                    <div class="small-text-white py-4-d px-4"> 
-                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.  
-                                    </div>
-
-                                    <div class="btn-mg">
-                                      <button class="dark-btn">Get Started 
-                                        <svg class="ps-3 purple-hover" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
-                                          <path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
-                                        </svg>
-                                      </button>
-                                      <button class="light-btn">Documentation 
-                                        <svg class="ps-3 white-hover" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
-                                          <path fill="#464eb8" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
-                                        </svg>
-                                      </button>
-                                    </div>
-                                  </div>
-                              </div>
-                          </li>
-                          <!-- <li class="banner-bg-2">
-                              <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
-                                  <div class="text-center">
-                                    <div class="main-title">QXFinLib NET2 </div>
-                                    <div class="second-title"> 
-                                          Empower your Research, Optimize Back tests,
-                                          Master the Markets
-                                    </div>
-
-                                    <div class="small-text py-4-d px-4"> 
-                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.  
-                                    </div>
-
-                                    <div class="btn-mg">
-                                      <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
-                                    </div>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="banner-bg-3">
-                              <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
-                                  <div class="text-center">
-                                    <div class="main-title">QXFinLib .NET3 </div>
-                                    <div class="second-title"> 
-                                          Empower your Research, Optimize Back tests,
-                                          Master the Markets
-                                    </div>
-
-                                    <div class="small-text py-4-d px-4"> 
-                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.  
-                                    </div>
-
-                                    <div class="btn-mg">
-                                      <button class="dark-btn">Get Started</button>
-                                      <button class="light-btn">Documentation</button>
-                                    </div>
-                                  </div>
-                              </div>
-                          </li> -->
-                      </ul>
-                      <a class="uk-position-center-left uk-position-medium" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                      <a class="uk-position-center-right uk-position-medium" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                  </div>
-              </div>
-              <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top">
-                  <li></li>
-              </ul>
-          </div>
-      </div>
-  </section>
-
-  <section class="container py-5">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-6">
-          <p class="sec-title">
-            Browse Our <span class="span-title">Technology</span>
-          </p>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-6" style="padding-top: 10px;">
-          <p class="para-text">
-            From our flagship products for enterprise Algorithmic Trading solution named BlitzTrader to next-generation Trading libraries, Market Data and Connectivity solutions, find the answer to your trading business challenge.
-          </p>
-        </div>
-      </div>  
-
-      <div class="d-flex justify-content-between mob-col pt-5">
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/algorithmic.png">
+        .card:hover .animation {
+            max-width: 200px; /* Adjust to fit full text */
+            opacity: 1;
+        }
+        .discover > svg{
+            margin-top:-10px;
+        }
+        .tablet_text {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    </style>
+    <section class="page-top">
+        <div class="carousel">
+            <div class="slide active">
+                <h1>Algorithmic Trading Redefined
+                 Power, Simplicity & BlitzTrader  </h1>
+                <p> Streamline and Optimize your algorithmic trading operations effortlessly with BlitzTrader,
+                    enabling trading desks to build, test, and deploy sophisticated strategies across any electronic
+                    marketplace.
+                </p>
+                <div class="d-flex " style="z-index: 1;">
+                <a href="/products/blitztrader">
+                    <button class="btn">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" d="M12 20V4m0 0l6 6m-6-6l-6 6"/>
+                        </svg>
+                    </button>
+                </a>
+                <a href="http://192.168.1.6:3001/docs/Developer-Guide/Introduction/Getting%20Started">
+                    <button class="btn_2">
+                        Developer
+                    </button>
+                </a>
+                </div>
             </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Algorithmic Trading  Systems
+            <div class="slide">
+                <h1>Empower your Research, Backtest Optimize, Master the Markets with QXFinLib.NET</h1>
+                <p> QXFinLib.NET Library is the ultimate toolkit for quant developers for Backtesting and Trading System Development. Craft sophisticated trading systems with ease on the powerful .NET platform.
+                </p>
+                <div class="d-flex" style="z-index: 1;">
+                <a href="/products/qxfinlib">
+                    <button class="btn">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 20V4m0 0l6 6m-6-6l-6 6"/></svg>
+                    </button>
+                </a>
+                <a href="http://192.168.1.6:3003/docs/FinLib/QXFinLib">
+                    <button class="btn_2">
+                        Developer
+                    </button>
+                </a>
                 </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Automate trade execution, enhance efficiency, and seize market opportunities across diverse asset classes. BlitzTrader stands as the premier trading platform, offering comprehensive solutions for all your trade automation and execution needs
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/fix.png">
             </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                    FIX API and Connectivity
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Utilizing QX.FIX Engine, institutions can efficiently connect to markets, enhancing speed, reliability, and interoperability.
-                </div> 
-              </div>
-            </section>
-          </div>
         </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/exchange.png">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Exchange and Market Connectivity
-                </div>
+    </section>
 
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
+    <section>
+        <div class="container">
+            <div class="main_title text-center">Browse Our Technology</div>
 
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Our exchange and market connectivity solutions leverage advanced technology to seamlessly connect traders with exchanges and markets. These solutions optimize speed, reliability, and interoperability, facilitating efficient trade execution and market access.
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-      <div class="d-flex justify-content-between mob-col">
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/trading.png">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Trading and Backtesting framework
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Our Trading and backtesting frameworks provide robust infrastructures for traders to develop, test, and execute trading strategies. These frameworks integrate historical data and analytical tools, enabling traders to assess strategy performance accurately.
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/market.png">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Market Data solutions
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Live and historical data technology, along with streaming APIs, form the backbone of market data solutions. These solutions offer real-time and historical data feeds, empowering traders with vital insights to make informed decisions in dynamic markets.
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/scalable.png">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Scalable Market Data API
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  The Scalable Market Data API offers both websocket streaming and REST API functionalities. This versatile solution ensures seamless data delivery, catering to diverse needs and enabling efficient integration into various trading systems and applications.
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-      <div class="d-flex justify-content-between mob-col pb-4">
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/strategies.png">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Strategies Development Solutions
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  The Algo Strategies Development Solutions on the Blitz Trading Platform provide a comprehensive toolkit for traders to conceptualize, develop, and implement algorithmic strategies.
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/HFT.png">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  HFT platform
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Delivering consulting and advisory services on HFT trading platforms, we offer expert guidance and strategic insights.
-              </div>
-            </section>
-          </div>
-        </div>
-        <div class="border w-33 hover-box">
-          <div class="img-icon">
-              <img src="assets/img/order.png">
-            </div>
-          <div class="vertical"> 
-            <!--  front side  -->
-            <section class="front"> 
-              
-              <div class="d-flex filp-front-title">
-                <div class="w-75 text">
-                  Order and Risk Management
-                </div>
-
-                <div class="w-25"> 
-                  <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
-                  </svg>
-                </div>
-              </div>
-            </section>
-
-            <!--  back side  -->
-            <section class="back"> 
-              <div class="d-flex filp-front-title">
-                <div class="w-85 gray flip-text ">
-                  Providing comprehensive solutions in Order and Risk Management, our platform facilitates seamless trading streaming Straight Through Processing (STP).
-                </div> 
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <section class="py-5" style="background: #011F3D;">    
-    <div class="container">
-      <div class="row ">
-        <div class="col-12 col-md-6 col-lg-6">
-          <img class="first-comma" src="assets/img/first-comma.png">
-          <p class="sec-title white">
-            Innovation, Transformation <br> and Disruption in your  <br> <span class="span-title white">Automated Trading</span>
-          </p>
-
-          <div class="medium-title white pb-5">Partnerships that create & grow.</div>
-
-          <p class="para-text white font-weight-300">
-            We provides reusable trading software frameworks, components and custom software development services that save lot of your effort and capital in development of customized automated trading solution and drive a profitability and success for you.
-          </p>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-6 div-center"> 
-            <img src="assets/img/create-grow.svg">
-        </div>
-      </div>
-    </div>
-  </section> 
-
-<!--   <section class="container py-5">    
-    <div class="row pt-5">
-      <div class="col-12 col-md-5 col-lg-5">
-        <p class="medium-title">
-          How New Jersey Courts stayed in<br>
-          session during a global pandemic
-        </p>
-        <p class="para-text">
-          NJ Courts was able to go fully virtual almost overnight and swiftly build for tomorrow with Pega Cloud.
-        </p>
-        <button class="dark-btn_2 mob-mt-5  mt-5">Get Started</button>
-      </div>
-
-      <div class="col-12 col-md-7 col-lg-7 border-left-5 mob-mg">
-        <p class="para-text  centerps-5">
-          "Because we were in the cloud, we were able to stand things up in about 48 hours that otherwise would have taken us months to do."
-        </p>
-        <p class="medium-title ps-5">
-          Jack McCarthy <br>
-          <span class="name"> NJ Courts CIO</span>
-        </p>
-      </div> 
-
-    </div>
-  </section> -->
-  
-  <section class="py-5">  
-    <div class="container">  
-      <div class="text-center">
-        <p class="sec-title">
-            QXFinLib <span class="span-title">.NET</span>
-        </p>
-
-        <p class="para-text py-4">
-            Experience the power of our comprehensive trading library and framework, designed to revolutionize your trading <br> system development. Cut costs and time to market drastically compared to building from scratch in .NET <br> technology. Unleash your trading potential like never before.
-        </p>
-      </div>  
-      <div class="row  ">
-        <div class="col-12 col-md-7 col-lg-7 div-center">
-          <img src="assets/img/qxfinLib-img.svg">
-        </div>
-
-        <div class="col-12 col-md-5 col-lg-5 ">  
-
-          <ul class="list-style list-box">
-            <li>
-              <div class="d-flex">
-                <div class="w-10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  	<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
-                  </svg>
-                </div>
-                <div class="para-text ps-3 pt-1px">
-                Time Series library with various compression from seconds, minutes to monthly bar.
-                </div>
-              </div> 
-            </li>
-
-            <li>
-              <div class="d-flex">
-                <div class="w-10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  	<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
-                  </svg>
-                </div>
-                <div class="para-text ps-3 pt-1px">
-                  Technical Indicator framework with pre build 100+ indicators
-                </div>
-              </div> 
-            </li>
-
-            <li>
-              <div class="d-flex">
-                <div class="w-10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  	<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
-                  </svg>
-                </div>
-                <div class="para-text ps-3 pt-1px">
-                  Strategy building and backtesting library
-                </div>
-              </div> 
-            </li>
-
-            <li>
-              <div class="d-flex">
-                <div class="w-10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  	<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
-                  </svg>
-
-                </div>
-                <div class="para-text ps-3 pt-1px"> 
-                  Advance Options strategy backtesting
-                </div>
-              </div> 
-            </li>
-
-            <li>
-              <div class="d-flex">
-                <div class="w-10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  	<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
-                  </svg>
-
-                </div>
-                <div class="para-text ps-3 pt-1px"> 
-                  Strategy optimization
-                </div>
-              </div> 
-            </li>
-
-            <li>
-              <div class="d-flex">
-                <div class="w-10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  	<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
-                  </svg>
-
-                </div>
-                <div class="para-text ps-3 pt-1px"> 
-                    Options pricing
-                </div>
-              </div> 
-            </li>
-
-            <li>
-              <div class="d-flex">
-                <div class="w-10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  	<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
-                  </svg>
-
-                </div>
-                <div class="para-text ps-3 pt-1px"> 
-                  Source code option is available
-                </div>
-              </div> 
-            </li>
-
-          </ul>
-        </div> 
-      </div>
-    </div>
-  </section>
-
-  <section class="container py-5">    
-    <div class="text-center">
-      <p class="sec-title">
-          Blitz<span class="span-title">Trader</span>
-      </p>
-
-      <p class="medium-title">
-          Unleash the Full Potential of Your Trading Ideas
-      </p>
-
-      <p class="para-text">
-          BlitzTrader empowers professional quants and active traders to bring their algorithmic trading visions to life. Our platform streamlines the process from strategy development to real-time execution across multiple assets, Exchanges and Brokers. 
-      </p>
-    </div>   
-
-    <div class="row py-6">
-      <div class="col-lg-5 mob">
-        <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#snit" role="tab" aria-controls="home" aria-selected="true">
-              Why to Choose BlitzTrader
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs" role="tab" aria-controls="profile" aria-selected="false">Asset Neutral, High Performance, Scalable, Open Architecture</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " id="home-tab" data-toggle="tab" href="#snit3" role="tab" aria-controls="home" aria-selected="true">Flexible and Powerful Customization</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs4" role="tab" aria-controls="profile" aria-selected="false">Open Framework and SDK</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " id="home-tab" data-toggle="tab" href="#snit5" role="tab" aria-controls="home" aria-selected="true">Loosely Coupled Market Data Feed Components</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs6" role="tab" aria-controls="profile" aria-selected="false">Framework and Libraries</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " id="home-tab" data-toggle="tab" href="#snit7" role="tab" aria-controls="home" aria-selected="true">Advanced Trade Execution Capabilities</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#devs8" role="tab" aria-controls="profile" aria-selected="false">Integration with External system</a>
-          </li>
-
-        </ul>
-      </div>
-      <div class="col-lg-7 mob">
-        <div class="tab-content" id="experienceTabContent">
-
-          <div class="tab-pane fade show active text-left text-light" id="snit" role="tabpanel" aria-labelledby="home-tab">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-1.png">
-            </div>
-            <p class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
+            <p class="sub_title">Discover our flagship enterprise algorithmic trading solution BlitzTrader engineered to meet the demands of modern trading,<br> along with next-generation trading SDK libraries, market data, and seamless connectivity solutions
             </p>
-          </div>
 
-          <div class="tab-pane fade text-left text-light" id="devs" role="tabpanel" aria-labelledby="profile-tab">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-2.png">
+
+            <div class="row pb-5">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="algorithmic_trading">
+                        <div class="card h-100 text-hover">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_1.png" alt="Tech 1">  -->
+                                <svg width="82" height="55" viewBox="0 0 82 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.0738 47.4309C21.0301 47.4309 22.4972 45.9172 22.4972 43.8989L32.7676 41.2077C33.4197 42.0487 34.3978 42.5532 35.539 42.5532C37.4952 42.5532 38.9624 40.8713 38.9624 39.0212C38.9624 38.6848 38.9624 38.3484 38.7994 38.1802L49.8849 23.379C50.374 23.5472 50.863 23.7154 51.3521 23.7154C52.4932 23.7154 53.6344 23.0426 54.2865 22.2016L59.3401 25.5655C59.0141 26.0701 58.8511 26.7429 58.8511 27.4156C58.8511 29.434 60.4813 30.9478 62.2746 30.9478C64.2308 30.9478 65.698 29.2658 65.698 27.4156C65.698 25.5655 64.0678 23.8836 62.2746 23.8836C61.6225 23.8836 60.9704 24.0517 60.4813 24.3881L54.7755 20.6878C54.7755 20.5196 54.7755 20.5197 54.7755 20.3515C54.7755 18.3332 53.1453 16.8193 51.3521 16.8193C49.3958 16.8193 47.9286 18.5014 47.9286 20.3515C47.9286 21.1925 48.2547 21.8652 48.5807 22.538L37.8213 36.8346C37.1692 36.1619 36.3541 35.6573 35.376 35.6573C33.4197 35.6573 31.9525 37.3392 31.9525 39.1893C31.9525 39.3575 31.9525 39.5258 31.9525 39.8621L22.0082 42.3851C21.5191 41.2077 20.2149 40.3667 18.9108 40.3667C16.9545 40.3667 15.4873 42.0487 15.4873 43.8989C15.4873 45.9172 17.1175 47.4309 19.0738 47.4309Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M0 0V8.74619V10.4282V55H82V10.4282V8.74619V0H0ZM80.2068 53.1499H1.46721V10.26H80.2068V53.1499ZM80.2068 8.57804H1.46721V1.5138H80.2068V8.57804Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.37943 6.3913C6.03152 6.3913 6.52058 5.88679 6.52058 5.21401C6.52058 4.54123 6.03152 4.03662 5.37943 4.03662C4.72734 4.03662 4.23828 4.54123 4.23828 5.21401C4.23828 5.88679 4.72734 6.3913 5.37943 6.3913Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M10.107 6.3913C10.7591 6.3913 11.2481 5.88679 11.2481 5.21401C11.2481 4.54123 10.7591 4.03662 10.107 4.03662C9.45491 4.03662 8.96582 4.54123 8.96582 5.21401C8.96582 5.88679 9.45491 6.3913 10.107 6.3913Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M14.8354 6.3913C15.4875 6.3913 15.9766 5.88679 15.9766 5.21401C15.9766 4.54123 15.4875 4.03662 14.8354 4.03662C14.1833 4.03662 13.6943 4.54123 13.6943 5.21401C13.5313 5.88679 14.1833 6.3913 14.8354 6.3913Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title ">Algorithmic Trading Systems</h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                BlitzTrader stands as the powerful Algo trading platform, offering comprehensive solutions for all your trade automation and execution needs
+                                </p>
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/products/qxfixengine">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_2.png" alt="Tech 1"> -->
+                                <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M37.8476 17.2231H17.4941V37.6616H37.8476V17.2231ZM36.7041 36.5133H18.6376V18.3714H36.7041V36.5133Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M55 13.4342V12.286H44.5946V10.4488H42.7651V0H41.6216V10.4488H36.9335V0H35.79V10.4488H31.1019V0H29.9584V10.4488H25.2703V0H24.1268V10.4488H19.4387V0H18.2952V10.4488H13.7214V0H12.578V10.4488H10.7484V12.286H0V13.4342H10.6341V18.142H0V19.2902H10.6341V23.9979H0V25.1461H10.6341V29.8539H0V31.0021H10.6341V35.7098H0V36.858H10.6341V41.5657H0V42.714H10.6341V44.5512H12.578V55H13.7214V44.5512H18.4096V55H19.553V44.5512H24.2412V55H25.3846V44.5512H30.0728V55H31.2162V44.5512H35.9044V55H37.0478V44.5512H41.736V55H42.8794V44.5512H44.5946V42.714H55V41.5657H44.5946V36.858H55V35.7098H44.5946V31.0021H55V29.8539H44.5946V25.1461H55V23.9979H44.5946V19.2902H55V18.142H44.5946V13.4342H55ZM43.4511 43.2881H11.7775V11.4823H43.4511V43.2881Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">FIX API and Connectivity </h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                    Utilizing QX.FIX Engine, institutions can efficiently connect to markets via FIX protocol, enhancing speed, reliability, and interoperability
+                                </p>
+
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/products/mds">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_3.png" alt="Tech 1"> -->
+                                <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M60.127 29.761C60.127 28.0877 58.8123 26.6534 57.2585 26.4143L56.9 25.5777L55.8243 26.0558L55.9438 26.4143C54.629 26.7729 53.6729 27.8486 53.4338 29.1634H46.0235C45.7844 25.4582 44.3502 21.8725 41.7207 19.1235L46.9796 13.9841C47.4577 14.3426 48.1749 14.4621 48.7725 14.4621C49.3701 14.4621 50.0872 14.2231 50.5653 13.9841L51.641 13.506L51.402 13.0279C51.88 12.4303 52.1191 11.7132 51.9996 10.996C51.9996 10.0399 51.641 9.2032 50.9239 8.60559C50.3263 8.00798 49.4896 7.64943 48.5334 7.64943C47.6968 7.64943 46.9796 7.88841 46.382 8.48602L45.6649 8.24704L45.1868 9.32269L45.5454 9.44226C45.3064 9.92035 45.0673 10.5179 45.0673 11.1155C45.0673 11.8327 45.3063 12.6693 45.7844 13.1474L40.5255 18.2868C37.6569 15.6574 33.9518 14.1036 30.0075 14.1036V6.81276C31.4418 6.69324 32.637 5.61753 32.9956 4.18327H33.1151L33.5932 3.10754L33.1151 2.86855C32.8761 1.19525 31.4418 0 29.7685 0C28.8123 0 27.9757 0.358595 27.3781 1.07573C26.7804 1.67334 26.4219 2.62951 26.4219 3.46616V3.58566C26.4219 4.42231 26.7804 5.25899 27.3781 5.8566C27.8561 6.33469 28.3343 6.57367 28.9319 6.6932V14.1036C25.1072 14.3426 21.641 16.0159 19.0115 18.5259L13.8721 13.2669C14.2307 12.6693 14.4697 12.0717 14.4697 11.3546C14.4697 10.8765 14.3502 10.3984 14.1111 9.9203L14.5892 9.68124L14.1111 8.60559L13.394 8.96414C12.7964 8.36653 11.9598 8.00798 11.0036 8.00798C10.0474 8.00798 9.21075 8.3665 8.61314 9.08363C8.01553 9.68124 7.65694 10.6374 7.65694 11.4741C7.65694 12.1912 7.89599 12.9083 8.37408 13.506L8.01553 14.4621L9.09122 14.9402L9.33024 14.3426C9.80833 14.7012 10.406 14.8207 11.0036 14.8207C11.7207 14.8207 12.3183 14.5817 12.9159 14.2231L18.0554 19.4821C15.5454 22.2311 14.1111 25.8168 13.9916 29.761H6.70078C6.46174 28.2072 5.14699 27.0119 3.59321 27.0119L2.9956 26.7729L2.87607 27.0119C1.20276 27.251 -0.111972 28.6853 0.00754985 30.3586C0.00754985 32.1514 1.32229 33.4661 2.9956 33.7052L3.11513 34.0637L4.19082 33.5856C4.78842 33.4661 5.2665 33.1076 5.74459 32.749C6.22267 32.2709 6.58126 31.6733 6.70078 30.9562H14.1111C14.3502 34.7809 15.904 38.3665 18.4139 40.996L13.155 46.1354C12.6769 45.7769 12.0793 45.6574 11.3621 45.6574C10.7645 45.6574 10.1669 45.8964 9.68883 46.1354L9.5693 45.7769L8.49361 46.255L8.85216 46.9721C8.37407 47.5697 8.13502 48.2868 8.13502 49.004C8.13502 49.9601 8.49362 50.7968 9.21075 51.3944C9.92788 51.992 10.7645 52.3506 11.6012 52.3506C12.4378 52.3506 13.394 51.992 13.9916 51.2749L14.1111 51.1553L14.5892 51.3944L15.0673 50.3187L14.7087 50.1992C14.8282 49.8406 14.9478 49.3625 14.9478 49.004C14.9478 48.2868 14.7087 47.4502 14.2306 46.9721L19.4896 41.8327C22.2386 44.3426 25.9438 46.0159 30.0075 46.0159V53.3067C29.1709 53.4263 28.4538 53.6654 27.9757 54.263C27.6171 54.6215 27.378 54.9801 27.2585 55.4582L26.7804 56.5338L27.0195 56.6534C27.0195 58.5658 28.5733 60 30.3661 60C32.0394 60 33.4737 58.6852 33.7127 57.1314L33.9518 57.012L33.7127 56.5338C33.7127 54.98 32.637 53.7849 31.2028 53.4263V46.0159C35.0275 45.7769 38.4936 44.1036 41.1231 41.5936L46.2625 46.8526C45.4259 48.0478 45.4259 49.6016 46.2625 50.6773L45.6649 50.9163L46.143 51.992L47.2187 51.5139C47.8163 51.8725 48.4139 52.1115 49.0115 52.1115C49.9677 52.1115 50.8043 51.753 51.402 51.0359C52.5972 49.7211 52.7167 47.6892 51.5215 46.3745L51.641 46.0159L50.5653 45.5378C50.0872 45.2988 49.4896 45.1793 49.0115 45.1793C48.2944 45.1793 47.6968 45.4183 47.0992 45.7769L41.9597 40.5179C44.4697 37.7689 45.904 34.1832 46.0235 30.239H53.3143C53.4338 30.9562 53.7924 31.5538 54.2705 32.0318C54.629 32.3904 55.2267 32.749 55.7048 32.8685L55.5852 33.2271L56.6609 33.7052L56.9 32.988C57.7366 32.8685 58.4537 32.6295 59.0514 32.0318C59.7685 31.4342 60.127 30.5976 60.127 29.761ZM5.14698 31.7928C4.78841 32.2709 4.19082 32.3904 3.59321 32.51C2.39799 32.51 1.44183 31.5538 1.44183 30.3586C1.44183 29.1634 2.39799 28.0876 3.59321 28.0876C4.78842 28.0876 5.74459 29.0438 5.74459 30.239C5.86411 30.8366 5.62506 31.3147 5.14698 31.7928ZM23.6729 36.5737C24.0314 38.247 24.5095 39.6812 25.1071 40.996C25.7048 42.4303 26.4219 43.506 27.2585 44.2231C21.641 43.0279 17.2187 38.7251 15.9039 33.1076C17.4577 34.7809 20.2067 35.9761 23.6729 36.5737ZM15.5454 30.1195C15.5454 28.6853 16.9797 27.1315 19.6091 25.9363C20.6848 25.4582 21.9996 24.9801 23.4338 24.741C23.1948 26.4144 23.0753 28.2071 23.0753 30C23.0753 31.7928 23.1948 33.5856 23.5534 35.259C18.7725 34.3028 15.5454 32.3904 15.5454 30.1195ZM30.2466 44.7012C28.6928 44.7012 27.2585 43.2669 26.0633 40.6374C25.5852 39.5617 25.1071 38.247 24.8681 36.8127C26.4219 37.0518 28.0952 37.1713 29.7685 37.1713C29.888 37.1713 30.0076 37.1713 30.1271 37.1713C31.9199 37.1713 33.7127 37.0518 35.386 36.6932C35.147 38.1275 34.6689 39.3227 34.1908 40.5179C33.2346 43.1474 31.8004 44.7012 30.2466 44.7012ZM30.2466 35.9761C28.3342 35.9761 26.4219 35.8565 24.7486 35.6175C24.39 33.9442 24.2705 32.0319 24.2705 30.1195C24.2705 28.2072 24.39 26.2948 24.6291 24.6215C26.3024 24.2629 28.2147 24.1434 30.1271 24.1434C32.0394 24.1434 33.9517 24.2629 35.6251 24.502C35.9836 26.1753 36.1032 28.0876 36.1032 30C36.1032 31.9123 35.9836 33.8247 35.7446 35.498C33.9518 35.7371 32.1589 35.9761 30.2466 35.9761ZM30.0075 15.2988C31.4418 15.2988 32.9956 16.7331 34.1908 19.3626C34.6689 20.4383 35.147 21.753 35.386 23.1873C33.7127 22.9482 31.9199 22.8286 30.1271 22.8286C28.3343 22.8286 26.5414 22.9482 24.8681 23.3068C25.8243 18.6454 27.7366 15.2988 30.0075 15.2988ZM36.8203 24.6215C38.2545 24.8605 39.4498 25.3386 40.645 25.8167C43.2745 26.8924 44.8283 28.4462 44.8283 29.8805C44.8283 31.3147 43.394 32.8685 40.7645 34.0637C39.6888 34.5418 38.3741 35.0199 36.9398 35.259C37.1788 33.5856 37.2984 31.7928 37.2984 30C37.2984 28.0876 37.1788 26.2948 36.8203 24.6215ZM48.7725 8.84465C49.3701 8.84465 49.9677 9.08369 50.3263 9.44226C50.8044 9.80082 50.9239 10.3984 51.0434 10.996C51.0434 11.5936 50.8044 12.1912 50.4458 12.5498C50.0872 13.0279 49.4896 13.1474 48.892 13.2669C48.2944 13.2669 47.8163 13.0279 47.3382 12.6693C46.8601 12.3107 46.7406 11.7131 46.6211 11.1155C46.6211 10.5179 46.8601 9.92032 47.2187 9.56175C47.5773 9.08366 48.1749 8.84465 48.7725 8.84465ZM44.4697 26.7729C43.6331 26.0558 42.5573 25.3387 41.1231 24.741C39.8083 24.1434 38.2546 23.7848 36.5813 23.4263C36.2227 21.753 35.7446 20.3187 35.147 19.004C34.5494 17.5697 33.8322 16.494 32.9956 15.6573C35.7446 16.2549 38.2546 17.5697 40.2864 19.6016C42.4378 21.514 43.8721 24.0239 44.4697 26.7729ZM27.7366 3.46616C27.7366 2.86855 27.9757 2.27089 28.3343 1.91232C28.6928 1.55376 29.2904 1.31474 29.888 1.19522C30.4856 1.19522 30.9637 1.43426 31.4418 1.79283C31.9199 2.15139 32.0394 2.74899 32.1589 3.3466C32.1589 4.54182 31.2028 5.61754 30.0075 5.61754C29.4099 5.61754 28.8123 5.3785 28.4537 5.01993C27.9757 4.66137 27.7366 4.06377 27.7366 3.46616ZM26.9 15.6573C25.3462 17.3306 24.151 20.0797 23.5534 23.5458C21.8801 23.9044 20.4458 24.3825 19.1311 24.9801C17.6968 25.5777 16.6211 26.2948 15.9039 27.1315C16.5016 24.3825 17.8163 21.8725 19.8482 19.8406C21.641 17.6892 24.151 16.2549 26.9 15.6573ZM11.2426 13.6255C10.7645 13.6255 10.0474 13.3865 9.68883 13.0279C9.21074 12.6693 9.09121 12.0717 8.97169 11.4741C8.97169 10.8765 9.21074 10.2789 9.5693 9.9203C9.92787 9.44221 10.5255 9.32272 11.1231 9.2032C11.7207 9.2032 12.1988 9.44224 12.6769 9.80081C13.155 10.1594 13.2745 10.757 13.394 11.3546C13.394 11.9522 13.155 12.5498 12.7964 12.9083C12.4378 13.3864 11.8402 13.6255 11.2426 13.6255ZM10.0474 50.5577C9.56929 50.1992 9.44976 49.6016 9.33024 49.004C9.33024 48.4064 9.56929 47.8088 9.92785 47.4502C10.2864 46.9721 10.884 46.8525 11.4817 46.733C12.0793 46.733 12.5573 46.9721 13.0354 47.3306C13.5135 47.6892 13.633 48.2869 13.7526 48.8845C13.7526 49.4821 13.5135 50.0797 13.155 50.4382C12.3183 51.3944 10.884 51.3944 10.0474 50.5577ZM32.637 56.5338C32.637 57.7291 31.6808 58.8048 30.4856 58.8048C29.2904 58.8048 28.3343 57.8486 28.3343 56.6534C28.3343 56.0558 28.5733 55.4581 28.9319 55.0996C29.2904 54.6215 29.888 54.502 30.4856 54.3825C31.6808 54.2629 32.637 55.3386 32.637 56.5338ZM33.4737 44.3426C34.1908 43.5059 34.908 42.4303 35.5056 40.996C36.1032 39.6812 36.4617 38.1275 36.8203 36.4542C38.4936 36.0956 39.9279 35.6175 41.3621 35.0199C42.7964 34.4223 43.8721 33.7052 44.5892 32.8685C43.9916 35.6175 42.6769 38.1274 40.645 40.1593C38.6131 42.3107 36.1032 43.6255 33.4737 44.3426ZM49.1311 46.3745C49.7287 46.3745 50.3263 46.6135 50.6848 46.9721C51.5215 47.8087 51.5215 49.243 50.6848 50.0797C50.3263 50.5578 49.7287 50.6773 49.1311 50.7968C48.5334 50.7968 47.9358 50.5578 47.5772 50.1992C47.0992 49.8406 46.9797 49.243 46.8601 48.6454C46.8601 48.0478 47.0992 47.4502 47.4578 47.0916C47.9358 46.6136 48.5334 46.3745 49.1311 46.3745ZM58.3342 31.3147C57.9756 31.7928 57.3781 31.9123 56.7804 32.0318C56.1828 32.0318 55.5852 31.7928 55.2267 31.4342C54.7486 31.0757 54.6291 30.4781 54.5095 29.8805C54.39 29.2829 54.7486 28.6853 55.1071 28.3267C55.4657 27.8486 56.0633 27.729 56.6609 27.6095C57.8561 27.6095 58.8123 28.5658 58.8123 29.761C58.9319 30.3586 58.6928 30.8367 58.3342 31.3147Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.922 36.7985L4.82275 37.2676L5.29188 38.3668L6.39112 37.8977L5.922 36.7985Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M4.94592 34.5382L3.84668 35.0073L4.3158 36.1066L5.41505 35.6374L4.94592 34.5382Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M8.67249 43.3986L7.57324 43.8677L8.04237 44.9669L9.14161 44.4978L8.67249 43.3986Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M6.85706 38.9484L5.75781 39.4175L6.22694 40.5167L7.32618 40.0476L6.85706 38.9484Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M7.83164 41.336L6.73145 41.8032L7.19866 42.9034L8.29886 42.4362L7.83164 41.336Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M18.7335 6.85204L17.6294 7.30957L18.0869 8.41371L19.1911 7.95618L18.7335 6.85204Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M16.5543 7.67235L15.4502 8.12988L15.9077 9.23403L17.0119 8.7765L16.5543 7.67235Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M20.9821 5.88183L19.8779 6.33936L20.3355 7.4435L21.4396 6.98597L20.9821 5.88183Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M25.4245 4.07958L24.3203 4.53711L24.7778 5.64125L25.882 5.18372L25.4245 4.07958Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M23.1222 4.94774L22.0181 5.40527L22.4756 6.50942L23.5797 6.05189L23.1222 4.94774Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M41.4292 6.28941L40.9717 7.39355L42.0758 7.85108L42.5334 6.74694L41.4292 6.28941Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M43.6558 7.26597L43.1982 8.37012L44.3024 8.82765L44.7599 7.7235L43.6558 7.26597Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M37.0503 4.47691L36.5928 5.58105L37.6969 6.03858L38.1544 4.93444L37.0503 4.47691Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M34.7788 3.59801L34.3213 4.70215L35.4254 5.15968L35.883 4.05554L34.7788 3.59801Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M39.2725 5.45933L38.8149 6.56348L39.9191 7.02101L40.3766 5.91686L39.2725 5.45933Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M16.1431 50.7196L15.6855 51.8237L16.7897 52.2813L17.2472 51.1771L16.1431 50.7196Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M22.7471 53.5199L22.2896 54.624L23.3937 55.0816L23.8512 53.9774L22.7471 53.5199Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M18.3682 51.7035L17.9106 52.8076L19.0148 53.2651L19.4723 52.161L18.3682 51.7035Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M25.023 54.3915L24.5654 55.4956L25.6696 55.9531L26.1271 54.849L25.023 54.3915Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M20.523 52.5282L20.0654 53.6323L21.1696 54.0899L21.6271 52.9857L20.523 52.5282Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M37.945 53.9321L36.8408 54.3896L37.2984 55.4938L38.4025 55.0363L37.945 53.9321Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M35.8063 54.8696L34.7021 55.3271L35.1597 56.4313L36.2638 55.9738L35.8063 54.8696Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M40.0846 53.0029L38.9805 53.4604L39.438 54.5646L40.5421 54.1071L40.0846 53.0029Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M42.3869 52.1426L41.2827 52.6001L41.7402 53.7042L42.8444 53.2467L42.3869 52.1426Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M44.5265 51.2075L43.4224 51.665L43.8799 52.7692L44.984 52.3117L44.5265 51.2075Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M6.82533 17.7729L6.37939 18.8818L7.48832 19.3278L7.93426 18.2188L6.82533 17.7729Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M4.15785 24.5044L3.71191 25.6133L4.82084 26.0592L5.26678 24.9503L4.15785 24.5044Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.0309 22.2041L4.58496 23.313L5.69389 23.7589L6.13982 22.65L5.0309 22.2041Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.96498 20.0649L5.51904 21.1738L6.62797 21.6198L7.0739 20.5108L5.96498 20.0649Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M7.75844 15.6342L7.3125 16.7432L8.42142 17.1891L8.86736 16.0802L7.75844 15.6342Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M54.2682 36.6435L53.8223 37.7524L54.9312 38.1984L55.3771 37.0895L54.2682 36.6435Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M53.4 38.9438L52.9541 40.0527L54.063 40.4987L54.509 39.3897L53.4 38.9438Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M55.1989 34.5029L54.7529 35.6118L55.8619 36.0578L56.3078 34.9488L55.1989 34.5029Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M52.4625 41.0839L52.0166 42.1929L53.1255 42.6388L53.5715 41.5299L52.4625 41.0839Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M51.6007 43.3784L51.1548 44.4873L52.2637 44.9332L52.7096 43.8243L51.6007 43.3784Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M54.9323 21.1598L53.833 21.6289L54.3021 22.7281L55.4014 22.259L54.9323 21.1598Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M55.9708 23.3941L54.8706 23.8613L55.3378 24.9615L56.438 24.4943L55.9708 23.3941Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M53.9479 18.9029L52.8486 19.3721L53.3178 20.4713L54.417 20.0022L53.9479 18.9029Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M52.1447 14.4523L51.0454 14.9214L51.5145 16.0206L52.6138 15.5515L52.1447 14.4523Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M53.1168 16.8336L52.0166 17.3008L52.4838 18.401L53.584 17.9338L53.1168 16.8336Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">Exchange and Market Connectivity</h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                Our professional services help you to build any worldwide exchange connectivity adapter. We are specialized in Indian exchanges connectivity solutions.
+                                </p>
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/products/qxfinlib">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_4.png" alt="Tech 1"> -->
+                                <svg width="85" height="55" viewBox="0 0 85 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M36.1617 35.8258L27.2473 32.2937L36.1617 28.9298V26.7432L24.8926 31.2845V33.471L36.1617 37.8441V35.8258Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M47.599 19.8472H45.4125L37.1709 43.731H39.3574L47.599 19.8472Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M59.7095 31.2845L48.4404 26.7432V28.9298L57.3548 32.2937L48.4404 35.8258V37.8441L59.7095 33.471V31.2845Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M0 0V8.74619V10.4282V55H84.6024V10.4282V8.74619V0H0ZM82.9205 53.1498H1.68196V10.2599H82.9205V53.1498ZM1.68196 8.74619V1.68196H82.9205V8.74619H1.68196Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.71838 3.86865C5.0456 3.86865 4.54102 4.37326 4.54102 5.04604C4.54102 5.71883 5.0456 6.22343 5.71838 6.22343C6.39117 6.22343 6.89575 5.71883 6.89575 5.04604C6.89575 4.54146 6.39117 3.86865 5.71838 3.86865Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M10.5963 3.86865C9.92353 3.86865 9.41895 4.37326 9.41895 5.04604C9.41895 5.71883 9.92353 6.22343 10.5963 6.22343C11.2691 6.22343 11.7737 5.71883 11.7737 5.04604C11.7737 4.54146 11.2691 3.86865 10.5963 3.86865Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M15.3053 3.86865C14.6325 3.86865 14.1279 4.37326 14.1279 5.04604C14.1279 5.71883 14.6325 6.22343 15.3053 6.22343C15.9781 6.22343 16.4827 5.71883 16.4827 5.04604C16.6509 4.54146 15.9781 3.86865 15.3053 3.86865Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">Trading and Backtesting Framework</h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                    We empower quants to validate their trading ideas, enabling them to effortlessly develop, backtest, and execute sophisticated trading strategies.
+                                </p>
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/mds">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_5.png" alt="Tech 1"> -->
+                                <svg width="61" height="55" viewBox="0 0 61 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M55.1671 2.90749V2.30176H5.83249V2.90749C5.83249 4.48238 4.49584 5.81501 2.91616 5.81501H2.30859V24.7137H2.91616C4.49584 24.7137 5.83249 26.0463 5.83249 27.6212V28.2269H55.2886V27.5C55.2886 25.9251 56.6253 24.7137 58.205 24.7137H58.8126V6.05731H58.205C56.5038 5.81502 55.1671 4.48238 55.1671 2.90749ZM57.4759 23.2599C55.6532 23.5022 54.195 24.9559 54.0735 26.8943H7.04763C6.8046 25.0771 5.34641 23.7445 3.64522 23.5022V7.02646C5.46793 6.78417 6.8046 5.33044 7.04763 3.6344H54.0735C54.3165 5.45158 55.7747 6.78417 57.4759 7.02646V23.2599Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M30.5004 9.81299C27.4625 9.81299 25.0322 12.2359 25.0322 15.2645C25.0322 18.2932 27.4625 20.7161 30.5004 20.7161C33.5382 20.7161 35.9685 18.2932 35.9685 15.2645C35.9685 12.2359 33.5382 9.81299 30.5004 9.81299ZM30.5004 19.3835C28.1916 19.3835 26.2474 17.5663 26.2474 15.1434C26.2474 12.7205 28.0701 10.9033 30.5004 10.9033C32.9306 10.9033 34.7533 12.7205 34.7533 15.1434C34.7533 17.5663 32.8091 19.3835 30.5004 19.3835Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M44.9597 12.2358C43.2585 12.2358 41.9219 13.5684 41.9219 15.2645C41.9219 16.9605 43.2585 18.2931 44.9597 18.2931C46.6609 18.2931 47.9976 16.9605 47.9976 15.2645C47.9976 13.5684 46.6609 12.2358 44.9597 12.2358ZM44.9597 16.9605C43.9876 16.9605 43.137 16.1125 43.137 15.1434C43.137 14.1742 43.9876 13.3262 44.9597 13.3262C45.9318 13.3262 46.7824 14.1742 46.7824 15.1434C46.7824 16.1125 45.9318 16.9605 44.9597 16.9605Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M16.0398 12.2358C14.3386 12.2358 13.002 13.5684 13.002 15.2645C13.002 16.9605 14.3386 18.2931 16.0398 18.2931C17.741 18.2931 19.0776 16.9605 19.0776 15.2645C19.0776 13.5684 17.741 12.2358 16.0398 12.2358ZM16.0398 16.9605C15.0677 16.9605 14.2171 16.1125 14.2171 15.1434C14.2171 14.1742 15.0677 13.3262 16.0398 13.3262C17.0119 13.3262 17.8625 14.1742 17.8625 15.1434C17.8625 16.1125 17.0119 16.9605 16.0398 16.9605Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M47.2689 30.5286H61V0H0V30.5286H12.0299V38.0396H7.8984C7.65538 37.4339 7.04782 36.9494 6.31874 36.9494C5.34663 36.9494 4.61755 37.6762 4.61755 38.6454C4.61755 39.6145 5.34663 40.3414 6.31874 40.3414C7.04782 40.3414 7.65538 39.8568 7.8984 39.2511H13.245V30.5286H19.1992V44.4603H15.9183C15.6753 43.8546 15.0677 43.3701 14.3387 43.3701C13.3666 43.3701 12.6375 44.0969 12.6375 45.0661C12.6375 46.0352 13.3666 46.7621 14.3387 46.7621C15.0677 46.7621 15.6753 46.2775 15.9183 45.6718H20.4144V30.5286H24.9104V51.7291C24.3028 51.9713 23.8167 52.5771 23.8167 53.304C23.8167 54.2732 24.5458 55 25.5179 55C26.49 55 27.2191 54.2732 27.2191 53.304C27.2191 52.5771 26.7331 51.9713 26.1255 51.7291V30.5286H32.0797V42.4009C31.4721 42.6432 30.986 43.2489 30.986 43.9758C30.986 44.945 31.7152 45.6718 32.6873 45.6718C33.6594 45.6718 34.3885 44.945 34.3885 43.9758C34.3885 43.2489 33.9024 42.6432 33.2948 42.4009V30.5286H38.8845V49.5485L42.1653 49.6696C42.2869 50.3965 43.0159 51.0022 43.8665 51.0022C44.8386 51.0022 45.5677 50.2753 45.5677 49.3061C45.5677 48.337 44.8386 47.6102 43.8665 47.6102C43.259 47.6102 42.6514 47.9736 42.4084 48.4582H40.2211V30.6498H46.1753V37.4339H53.1016C53.3446 38.0396 53.9522 38.5242 54.6813 38.5242C55.6534 38.5242 56.3825 37.7973 56.3825 36.8282C56.3825 35.859 55.6534 35.1322 54.6813 35.1322C53.9522 35.1322 53.3446 35.6167 53.1016 36.2225H47.3904L47.2689 30.5286ZM1.21514 1.21145H59.7849V29.3171H1.21514V1.21145Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">Market Data Solutions</h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                We provide low latency technology for centralized live and historical market data with streaming APIs, empowering institutions and trading desks to make informed decisions in dynamic markets.
+                                </p>
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/qxmarket">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_6.png" alt="Tech 1"> -->
+                                <svg width="60" height="55" viewBox="0 0 60 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M51.8376 19.9117C51.3576 19.9117 50.8776 19.9117 50.3976 20.0331C49.9177 14.691 45.4779 10.5629 40.0781 10.6843C38.6382 4.49226 33.1184 0 26.7587 0C20.999 0 15.9592 3.64239 13.9193 9.10596C13.7993 9.10596 13.7994 9.10596 13.6794 9.10596C6.11971 9.10596 0 15.298 0 22.947C0 24.1611 0.119994 25.2539 0.479977 26.468H0V30.9603V32.1744V55H43.078V36.7881H51.7176C56.2774 36.7881 59.9972 33.0242 59.9972 28.4106C60.1172 23.6755 56.3973 19.9117 51.8376 19.9117ZM1.19994 27.6821H41.878V30.9603H1.19994V27.6821ZM41.878 53.6645H1.19994V32.0529H41.878V53.6645ZM51.8376 35.5739H43.198V32.1744V30.9603V26.468H1.91991C1.55993 25.3753 1.43993 24.1611 1.43993 22.947C1.43993 16.0265 6.95967 10.3201 13.9193 10.3201C14.1593 10.3201 14.2793 10.3201 14.5193 10.3201H14.9993L15.1193 9.83441C16.7992 4.61366 21.479 1.21413 26.8787 1.21413C32.8785 1.21413 37.9182 5.46353 39.1182 11.4128L39.2382 11.8984H39.8381C40.0781 11.8984 40.3181 11.8984 40.5581 11.8984C45.3579 11.8984 49.3177 15.9051 49.3177 20.7616V21.4901L50.0376 21.2472C50.6376 21.1258 51.2376 21.0044 51.8376 21.0044C55.7974 21.0044 58.9172 24.2826 58.9172 28.1678C58.9172 32.2958 55.6774 35.5739 51.8376 35.5739Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M3.11999 29.8674C3.45135 29.8674 3.71996 29.5957 3.71996 29.2604C3.71996 28.9251 3.45135 28.6533 3.11999 28.6533C2.78864 28.6533 2.52002 28.9251 2.52002 29.2604C2.52002 29.5957 2.78864 29.8674 3.11999 29.8674Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.51989 29.8674C5.85125 29.8674 6.11987 29.5957 6.11987 29.2604C6.11987 28.9251 5.85125 28.6533 5.51989 28.6533C5.18854 28.6533 4.91992 28.9251 4.91992 29.2604C4.91992 29.5957 5.18854 29.8674 5.51989 29.8674Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M7.9198 29.8674C8.25115 29.8674 8.51977 29.5957 8.51977 29.2604C8.51977 28.9251 8.25115 28.6533 7.9198 28.6533C7.58844 28.6533 7.31982 28.9251 7.31982 29.2604C7.31982 29.5957 7.58844 29.8674 7.9198 29.8674Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M31.7984 47.2297C31.7984 47.2297 31.9184 47.2297 31.7984 47.2297C32.9984 47.2297 34.0783 46.744 34.9183 45.8941C35.7582 45.0443 36.1182 43.9515 36.1182 42.8588C36.1182 41.7661 35.6383 40.6734 34.7983 39.8235C33.9583 38.9736 32.8784 38.6094 31.7984 38.6094C29.3985 38.6094 27.5986 40.6734 27.5986 42.9802C27.5986 45.2871 29.5185 47.2297 31.7984 47.2297ZM31.7984 39.7021C33.4784 39.7021 34.9183 41.0377 34.9183 42.7374C34.9183 43.5873 34.6783 44.3158 34.0783 44.9229C33.4784 45.5299 32.7584 45.8941 31.9184 45.8941C31.0785 45.8941 30.3585 45.6513 29.7585 45.0442C29.1586 44.4372 28.7986 43.7087 28.7986 42.8588C28.6786 41.159 30.1185 39.8235 31.7984 39.7021Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M23.519 41.2804V44.4371L25.439 44.6799C25.5589 45.1656 25.7989 45.6512 26.0389 46.0154L24.959 47.5939L27.1189 49.7793L28.6788 48.5651C29.1588 48.808 29.6388 49.0508 30.1187 49.1722L30.4787 50.9934H33.5986L33.8386 49.0508C34.3185 48.9293 34.7985 48.6865 35.2785 48.4437L36.8384 49.5364L38.9983 47.351L37.7984 45.7727C38.0384 45.287 38.1584 44.8013 38.2784 44.3157L40.1983 43.9515V40.7947L38.1584 40.5519C38.0384 40.0662 37.7984 39.702 37.5584 39.2163L38.7583 37.5165L36.5984 35.3311L34.9185 36.6667C34.5585 36.4239 34.0785 36.3024 33.7186 36.181L33.3586 33.9956H30.2387L29.9987 36.181C29.6388 36.3024 29.1588 36.5453 28.7988 36.6667L26.9989 35.4526L24.839 37.638L26.0389 39.3377C25.7989 39.702 25.6789 40.1877 25.5589 40.6733L23.519 41.2804ZM26.3989 38.1236L27.1189 37.3952L28.6788 38.4879L29.0388 38.2451C29.5188 37.8808 30.1187 37.6379 30.5987 37.5165L30.9587 37.3952L31.1987 35.574H32.1586L32.5186 37.5165L32.8786 37.638C33.4786 37.7594 33.9586 38.0022 34.4385 38.2451L34.7985 38.4879L36.3584 37.2738L37.0784 38.0022L35.9985 39.5806L36.2384 39.9448C36.5984 40.4304 36.8384 41.0375 36.9584 41.6446L37.0784 42.0088L38.8783 42.2517V43.223L37.0784 43.4658L36.9584 43.83C36.8384 44.4371 36.5984 45.0441 36.2384 45.6512L35.9985 46.0154L37.0784 47.351L36.3584 48.0795L35.0385 47.1082L34.6785 47.351C34.0785 47.7153 33.4786 47.9581 32.8786 48.2009L32.5186 48.3223L32.2786 50.0221H31.3187L31.0787 48.3223L30.7187 48.2009C30.1187 48.0795 29.3988 47.8366 28.9188 47.4724L28.5588 47.2296L27.2389 48.3223L26.5189 47.5939L27.4789 46.1369L27.2389 45.7727C26.8789 45.1656 26.6389 44.6799 26.5189 43.9515L26.3989 43.5872L24.599 43.3444V42.373L26.3989 42.0088L26.5189 41.6446C26.6389 41.0375 26.8789 40.4304 27.2389 39.9448L27.4789 39.5806L26.3989 38.1236Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M19.4391 36.6665H3.35986V39.8232H19.4391V36.6665ZM18.2392 38.4877H4.55981V37.7592H18.2392V38.4877Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M19.4391 41.1587H3.35986V44.3155H19.4391V41.1587ZM18.2392 43.1013H4.55981V42.3728H18.2392V43.1013Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M19.4391 45.7725H3.35986V48.9292H19.4391V45.7725ZM18.2392 47.5937H4.55981V46.8651H18.2392V47.5937Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">Scalable Market Data API</h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                    The Scalable Market Data API provides websocket streaming and REST API functionalities for seamless data delivery, enabling efficient integration into diverse trading systems and applications.
+                                </p>
+
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/products/blitztrader">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_7.png" alt="Tech 1"> -->
+                                <svg width="85" height="55" viewBox="0 0 85 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M84.6024 54.9999H0V8.74609H84.6024V54.9999ZM1.68196 53.3179H82.9204V10.4281H1.68196V53.3179Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M84.6024 10.4282H0V0H84.6024V10.4282ZM1.68196 8.74619H82.9204V1.68196H1.68196V8.74619Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.71841 6.3914C6.36865 6.3914 6.89574 5.86425 6.89574 5.21401C6.89574 4.56377 6.36865 4.03662 5.71841 4.03662C5.06816 4.03662 4.54102 4.56377 4.54102 5.21401C4.54102 5.86425 5.06816 6.3914 5.71841 6.3914Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M10.4283 6.3914C11.0786 6.3914 11.6057 5.86425 11.6057 5.21401C11.6057 4.56377 11.0786 4.03662 10.4283 4.03662C9.77807 4.03662 9.25098 4.56377 9.25098 5.21401C9.25098 5.86425 9.77807 6.3914 10.4283 6.3914Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M15.3053 6.3914C15.9555 6.3914 16.4827 5.86425 16.4827 5.21401C16.4827 4.56377 15.9555 4.03662 15.3053 4.03662C14.655 4.03662 14.1279 4.56377 14.1279 5.21401C14.1279 5.86425 14.655 6.3914 15.3053 6.3914Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M60.0449 47.7679L59.3722 44.2358C58.1948 43.8994 57.1856 43.563 56.1765 42.8902L53.3171 45.0768L49.4486 41.2082L51.6352 38.1807C51.1306 37.1715 50.626 36.1624 50.2896 35.1532L46.4211 34.6487L46.2529 29.0982L50.1214 28.4254C50.4578 27.4162 50.7942 26.407 51.2988 25.566L48.7759 22.3704L52.6443 18.5018L56.0083 20.8566C56.8492 20.352 57.8584 20.0156 58.6994 19.6792L59.204 15.4743L64.7545 15.3062L65.4272 19.3428C66.4364 19.511 67.2774 20.0156 68.1184 20.352L71.4823 17.8291L75.3508 21.6976L72.996 25.0615C73.5006 25.9025 74.0052 26.9117 74.3416 27.9208L78.2101 28.4254L78.3783 33.9758L74.678 34.6487C74.5098 35.6578 74.0052 36.8352 73.5006 37.6762L75.8553 40.7037L71.9868 44.5721L68.9593 42.3856C67.9502 43.0584 66.941 43.3948 65.7636 43.7312L65.259 47.2633L60.0449 47.7679ZM56.1765 40.7037L56.681 41.0401C57.8584 41.7129 59.0358 42.2175 60.3814 42.5539L60.8859 42.722L61.3905 46.0859H63.9135L64.418 42.722L64.9226 42.5539C66.2682 42.2175 67.4456 41.7129 68.6229 40.8719L69.1275 40.5355L71.8186 42.5539L73.6688 40.7037L71.6504 38.0126L71.9868 37.508C72.6596 36.3306 73.1642 35.1532 73.3324 33.8077L73.5006 33.3031L77.0327 32.6303V30.1074L73.5006 29.6028L73.3324 29.0982C72.996 27.9208 72.4914 26.7435 71.8186 25.7343L71.4823 25.2296L73.6688 22.2021L71.8186 20.352L68.7911 22.7067L68.2865 22.3704C67.2773 21.6976 66.1 21.3611 64.9226 21.0247L64.418 20.8566L63.7453 16.9881H61.2223L60.7177 20.8566L60.2131 21.0247C59.0358 21.3611 58.0266 21.6976 57.0174 22.3704L56.5128 22.7067L53.3171 20.5202L51.467 22.3704L53.8217 25.3979L53.4853 25.9025C52.8125 26.9116 52.308 28.089 52.1398 29.2664L51.9716 29.7709L48.4395 30.4438V32.9667L51.9716 33.4713L52.1398 33.9758C52.4762 35.1532 52.9807 36.4988 53.6535 37.508L53.9899 38.0126L51.9716 40.8719L53.8217 42.722L56.1765 40.7037ZM62.5679 39.8627C58.1948 39.8627 54.4945 36.3305 54.4945 31.9575C54.4945 29.7709 55.3355 27.7526 56.681 26.2389C58.1948 24.7251 60.2131 23.8841 62.3997 23.7159C64.5862 23.7159 66.6046 24.5569 68.1184 25.9025C69.6321 27.4162 70.4731 29.4346 70.6413 31.6212C70.6413 36.1624 67.1092 39.8627 62.5679 39.8627ZM62.5679 25.3979C62.3997 25.3979 62.3997 25.3979 62.5679 25.3979C60.7177 25.3979 59.204 26.0707 58.0266 27.4163C56.8493 28.5936 56.1765 30.2755 56.1765 31.9575C56.1765 35.4896 59.204 38.3489 62.7361 38.1807C66.2682 38.1807 69.1275 35.1533 68.9593 31.6212C68.7911 28.2572 65.9318 25.3979 62.5679 25.3979Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M37.844 25.3979H6.55957V20.0156H37.844V25.3979ZM8.24153 23.716H36.162V21.6976H8.24153V23.716Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M37.844 34.3125H6.55957V28.9302H37.844V34.3125ZM8.24153 32.6305H36.162V30.6121H8.24153V32.6305Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M37.844 43.2265H6.55957V37.8442H37.844V43.2265ZM8.24153 41.5446H36.162V39.5262H8.24153V41.5446Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">Strategies Development Solutions</h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                    Our Algo Strategies Development Solutions on the BlitzTrader platform provide quants with a comprehensive toolkit to design, develop, and implement advanced algorithmic and execution strategies.
+                                </p>
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/HFT">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_8.png" alt="Tech 1"> -->
+                                <svg width="85" height="55" viewBox="0 0 85 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M84.6024 54.9999H0V8.74609H84.6024V54.9999ZM1.68196 53.3179H82.9204V10.4281H1.68196V53.3179Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M84.6024 10.4282H0V0H84.6024V10.4282ZM1.68196 8.74619H82.9204V1.68196H1.68196V8.74619Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M5.71841 6.3914C6.36865 6.3914 6.89574 5.86425 6.89574 5.21401C6.89574 4.56377 6.36865 4.03662 5.71841 4.03662C5.06816 4.03662 4.54102 4.56377 4.54102 5.21401C4.54102 5.86425 5.06816 6.3914 5.71841 6.3914Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M10.4283 6.3914C11.0786 6.3914 11.6057 5.86425 11.6057 5.21401C11.6057 4.56377 11.0786 4.03662 10.4283 4.03662C9.77807 4.03662 9.25098 4.56377 9.25098 5.21401C9.25098 5.86425 9.77807 6.3914 10.4283 6.3914Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M15.3053 6.3914C15.9555 6.3914 16.4827 5.86425 16.4827 5.21401C16.4827 4.56377 15.9555 4.03662 15.3053 4.03662C14.655 4.03662 14.1279 4.56377 14.1279 5.21401C14.1279 5.86425 14.655 6.3914 15.3053 6.3914Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M75.844 25.3979H44.5596V20.0156H75.844V25.3979ZM46.2415 23.716H74.162V21.6976H46.2415V23.716Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M75.844 34.3125H44.5596V28.9302H75.844V34.3125ZM46.2415 32.6305H74.162V30.6121H46.2415V32.6305Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M75.844 43.2265H44.5596V37.8442H75.844V43.2265ZM46.2415 41.5446H74.162V39.5262H46.2415V41.5446Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M8.50302 43.497V19H8V44H33.4024V43.497H8.50302Z" fill="#202223" fill-opacity="0.8"/>
+                                    <path d="M12.5784 39.4225C13.3329 39.4225 13.9365 38.8188 13.9365 38.0643V38.014L17.9607 37.008C18.2122 37.3601 18.6146 37.6116 19.0673 37.6116C19.8218 37.6116 20.4255 37.008 20.4255 36.2535C20.4255 36.1026 20.3751 35.9516 20.3751 35.851L24.7011 30.2172C24.9023 30.3178 25.1035 30.4184 25.355 30.4184C25.8581 30.4184 26.3108 30.1669 26.512 29.7645L28.524 31.0221C28.3731 31.2233 28.2725 31.5251 28.2725 31.7766C28.2725 32.5311 28.8762 33.1347 29.6307 33.1347C30.3852 33.1347 30.9888 32.5311 30.9888 31.7766C30.9888 31.0221 30.3852 30.4184 29.6307 30.4184C29.3289 30.4184 29.0774 30.5191 28.8762 30.67L26.6629 29.2615C26.6629 29.2112 26.6629 29.1106 26.6629 29.0603C26.6629 28.3058 26.0593 27.7021 25.3047 27.7021C24.5502 27.7021 23.9466 28.3058 23.9466 29.0603C23.9466 29.4124 24.0472 29.6639 24.2484 29.9154L20.023 35.3983C19.7715 35.0965 19.4194 34.9456 19.017 34.9456C18.2625 34.9456 17.6589 35.5492 17.6589 36.3038C17.6589 36.4044 17.6589 36.505 17.7092 36.6056L13.7856 37.6116C13.5844 37.1086 13.0814 36.7565 12.5281 36.7565C11.7735 36.7565 11.1699 37.3601 11.1699 38.1146C11.2202 38.8188 11.8238 39.4225 12.5784 39.4225Z" fill="#202223" fill-opacity="0.8"/>
+                                </svg>
+
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">HFT Platform</h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                We offer trading solutions for high-frequency trading (HFT) execution. Our solutions help institutions reduce HFT technology costs, enabling them to quickly implement effective HFT strategies.
+                                </p>
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="/products/blitztrader">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <!-- <img class="icon_image" src="assets/img/tech_9.png" alt="Tech 1"> -->
+                                <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.6044 0H2.0984C0.883544 0 0 0.994003 0 2.09842V52.9016C0 54.1165 0.993986 55 2.0984 55H28.6044C29.8193 55 30.7028 54.0061 30.7028 52.9016V2.09842C30.7028 0.994003 29.8193 0 28.6044 0ZM29.5984 53.0121C29.5984 53.5643 29.1566 54.0061 28.6044 54.0061H2.0984C1.5462 54.0061 1.10442 53.5643 1.10442 53.0121V2.20884C1.10442 1.65663 1.5462 1.21483 2.0984 1.21483H28.6044C29.1566 1.21483 29.5984 1.65663 29.5984 2.20884V53.0121Z" fill="#231F20"/>
+                                        <path d="M2.65039 52.6809H28.052V5.19092H2.65039V52.6809ZM3.75481 6.18485H26.9476V51.466H3.75481V6.18485Z" fill="#231F20"/>
+                                        <path d="M15.3513 4.41792C15.7931 4.41792 16.2348 4.08661 16.2348 3.5344C16.2348 2.98219 15.9035 2.65088 15.3513 2.65088C14.7991 2.65088 14.4678 2.98219 14.4678 3.5344C14.4678 4.08661 14.9095 4.41792 15.3513 4.41792Z" fill="#231F20"/>
+                                        <path d="M37.192 27.8022C41.5932 27.8022 45.0962 24.2993 45.0962 19.8981C45.0962 15.4969 41.5932 11.9939 37.192 11.9939C32.7908 11.9939 29.2878 15.4969 29.2878 19.8981C29.2878 24.2993 32.8806 27.8022 37.192 27.8022ZM37.192 12.8921C41.0543 12.8921 44.198 16.0358 44.198 19.8981C44.198 23.7603 41.0543 26.904 37.192 26.904C33.3297 26.904 30.186 23.7603 30.186 19.8981C30.186 16.0358 33.3297 12.8921 37.192 12.8921Z" fill="#010101"/>
+                                        <path d="M26.5031 26.545L24.0779 29.8684L27.5809 33.3714L30.9043 30.8564C31.8923 31.4851 32.9701 31.8444 34.1378 32.2037L34.7666 36.3354H39.7067L40.3354 32.2037C41.4133 31.9343 42.5809 31.4851 43.5689 30.8564L46.8923 33.3714L50.3953 29.8684L47.9702 26.545C48.5989 25.557 49.048 24.3893 49.4073 23.2217L53.3594 22.5929V17.6528L49.4971 17.1139C49.2276 15.8564 48.7785 14.6887 48.06 13.5211L50.3055 10.4672L46.8025 6.9642L43.8384 9.11989C42.6707 8.40132 41.5031 7.8624 40.1558 7.59294L39.6168 4.00012H34.6767L34.1378 7.59294C32.7905 7.95222 31.6229 8.40132 30.4552 9.11989L27.4911 6.9642L23.9881 10.4672L26.2336 13.5211C25.6049 14.6887 25.066 15.8564 24.7965 17.1139L20.9342 17.6528V22.5929L24.8863 23.2217C25.3354 24.3893 25.8743 25.557 26.5031 26.545ZM22.0121 18.4612L25.6947 17.9223L25.7845 17.6528C26.054 16.3055 26.5929 15.048 27.3115 13.7905L27.4911 13.5211L25.3354 10.557L27.7606 8.13186L30.6348 10.1977L30.9043 10.0181C32.072 9.20971 33.4193 8.67078 34.8564 8.3115L35.1258 8.22168L35.6648 4.71869H39.0779L39.6168 8.22168L39.8863 8.3115C41.3235 8.58096 42.5809 9.20971 43.8384 10.0181L44.1079 10.1977L46.9821 8.13186L49.1378 10.557L46.9821 13.5211L47.1617 13.7905C47.8803 14.9582 48.4192 16.3055 48.6887 17.6528L48.7785 17.9223L52.4612 18.4612V21.8744L48.6887 22.4133L48.5989 22.6828C48.2396 23.9402 47.7905 25.1977 47.072 26.2756L46.8923 26.545L49.2276 29.6887L46.8025 32.1139L43.5689 29.7786L43.2995 29.9582C42.2216 30.5869 41.054 31.1259 39.7965 31.3953L39.527 31.4851L38.8983 35.4372H35.4851L34.8564 31.4851L34.5869 31.3953C33.3294 31.1259 32.1618 30.6768 31.0839 29.9582L30.8145 29.7786L27.5809 32.1139L25.1558 29.6887L27.4911 26.545L27.3115 26.2756C26.5929 25.1977 26.054 23.9402 25.7845 22.6828L25.6947 22.4133L21.9223 21.8744V18.4612H22.0121Z" fill="#010101"/>
+                                        <path d="M10.1557 38.9401C10.0659 39.5689 10.0659 40.1078 10.1557 40.7365L8.08982 41.994L9.34732 44.8683L11.6826 44.2395C12.0419 44.6886 12.491 45.1377 12.9401 45.497L12.4012 47.8323L15.3653 49L16.5329 46.9341C17.1617 47.024 17.7904 47.024 18.4192 46.9341L19.6767 48.9102L22.5509 47.6527L22.012 45.497C22.5509 45.1377 23 44.5988 23.4491 44.0599L25.6048 44.5988L26.7725 41.6347L24.8862 40.5569C24.976 39.8383 24.976 39.1198 24.8862 38.491L26.6826 37.3234L25.4252 34.4491L23.3593 34.988C22.9102 34.4491 22.4611 33.9102 21.8323 33.5509L22.3713 31.485L19.4072 30.3174L18.2395 32.2036C17.521 32.1138 16.8922 32.1138 16.2635 32.2934L15.0958 30.4072L12.2216 31.6647L12.7605 33.9102C12.3114 34.2695 11.8623 34.8084 11.503 35.2575L9.16767 34.7186L8.00002 37.6826L10.1557 38.9401ZM9.79642 35.7964L11.9521 36.3353L12.1317 36.0659C12.5808 35.4371 13.0299 34.8982 13.6587 34.4491L13.9281 34.2695L13.3892 32.2036L14.9162 31.5749L15.994 33.3713L16.2635 33.2814C16.982 33.1018 17.7904 33.1018 18.5988 33.1916L18.8683 33.2814L19.9461 31.485L21.4731 32.1138L21.024 34.0898L21.2934 34.2695C22.012 34.7186 22.5509 35.2575 23 35.9761L23.1796 36.2455L25.0659 35.7964L25.6946 37.3234L23.988 38.4012L24.0779 38.6707C24.2575 39.479 24.2575 40.2874 24.0779 41.0958L23.988 41.3653L25.6946 42.3533L25.0659 43.8802L23.0898 43.4311L22.9102 43.7006C22.4611 44.3293 21.9222 44.8683 21.2934 45.3174L21.024 45.497L21.5629 47.5629L20.0359 48.1916L18.8683 46.3054L18.5988 46.3952C17.8802 46.485 17.1617 46.485 16.4431 46.3952L16.1736 46.3054L15.006 48.1916L13.479 47.5629L14.018 45.3174L13.7485 45.1377C13.2096 44.6886 12.6707 44.2395 12.2216 43.6108L12.0419 43.3413L9.79642 43.8802L9.16767 42.3533L11.1437 41.1856L11.0539 40.9162C10.9641 40.1976 10.8743 39.479 11.0539 38.7605V38.491L9.07784 37.3234L9.79642 35.7964Z" fill="#010101"/>
+                                        <path d="M15.8142 44.1495C16.9818 44.5986 18.2393 44.5986 19.407 44.1495C20.5746 43.6106 21.4729 42.7124 21.922 41.5447C22.3711 40.377 22.3711 39.1196 21.922 37.9519C21.383 36.7842 20.4848 35.886 19.3172 35.4369C18.7782 35.1675 18.1495 35.0776 17.5207 35.0776C16.892 35.0776 16.2633 35.1675 15.6345 35.4369C14.4669 35.9759 13.5687 36.8741 13.1196 38.0417C12.6705 39.2094 12.6705 40.4669 13.1196 41.6345C13.7483 42.7124 14.6465 43.6106 15.8142 44.1495ZM14.0178 38.3112C14.377 37.3232 15.0956 36.6046 16.0836 36.2453C17.0717 35.886 18.0597 35.7962 19.0477 36.2453C20.0357 36.6046 20.7543 37.3232 21.1136 38.3112C21.4728 39.2992 21.5627 40.2872 21.1136 41.2753C20.7543 42.2633 20.0357 42.9818 19.0477 43.3411C18.5986 43.5208 18.0597 43.6106 17.5207 43.6106C17.0716 43.6106 16.5327 43.5208 16.0836 43.3411C15.0956 42.9818 14.377 42.2633 14.0178 41.2753C13.6585 40.2872 13.6585 39.2094 14.0178 38.3112Z" fill="#010101"/>
+                                </svg>
+
+
+                                <div class="d-flex align-items-center mb-3">
+                                    <h5 class="ml-3 card_title">Order and Risk Management </h5>
+                                </div>
+                                <p class="sub_title p-0 text-start">
+                                    Our platform delivers comprehensive asset neutral Order and Risk Management solutions, enabling seamless Direct Market Access (DMA) and Straight Through Processing (STP).
+                                </p>
+
+                                <div class="d-flex">
+                                    <p class="discover">
+                                        <span class="animation">Discover now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#305EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <p class="para-text">
-              BlitzTrader's architecture is designed to accommodate various asset classes with high performance and scalability, ensuring seamless integration and operation in any trading environment.
-            </p>
-          </div>
 
-          <div class="tab-pane fade text-left text-light" id="snit3" role="tabpanel" aria-labelledby="home-tab3">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-3.png">
-            </div><br><br>
-            <p class="para-text">
-              Our Blitz trading platform offers robust customization options to adapt to changing market conditions and evolving business needs, empowering traders to stay ahead of the curve. Users can tailor the application.
-            </p>
-          </div>
+        </div>
+    </section>
 
-          <div class="tab-pane fade text-left text-light" id="devs4" role="tabpanel" aria-labelledby="profile-tab4">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-4.jpg">
-            </div><br><br>
-            <p class="para-text">
-              Developers can leverage our open framework and SDK to develop and integrate powerful algorithmic strategies and market connectivity adapters tailored to their specific requirements.
-            </p>
-          </div>
-
-          <div class="tab-pane fade text-left text-light" id="snit5" role="tabpanel" aria-labelledby="home-tab5">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-5.png">
+    <section>
+        <div class="container-fluid py-5" style="background-color: #F4F6FF">
+            <div class="row py-5 centered-content">
+                <div class="col-12 col-md-12 col-lg-6 ">
+                    <div class="main_title text-start p-0 pe-5">BlitzTrader<br>
+                            Unleash the Full Potential of<br>
+                            Your Trading Ideas
+                    </div>
+                    <p class="sub_title text-start px-0 pe-5"> BlitzTrader empowers professional quants and active traders to build,
+                        deploy, and scale algorithmic strategies for optimal execution, giving you more time to focus on innovation
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 ps-5">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed p-20" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Why to choose BiltzTrader
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body p-20">
+                                BlitzTrader has a proven track record of automating complex trading strategies in a single day,
+                                a feat that some proprietary desks struggled to achieve over months. In the fast-paced world of
+                                trading, time to market is essential for deploying backtested strategies effectively. BlitzTrader
+                                stands unmatched in its efficiency and speed
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed p-20" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Asset neutral, High Performance, Scalable, Open Architecture
+                        </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body p-20">
+                                BlitzTrader is Asset neutral, high performance trading platform that can efficiently handles increased demand and expanding portfolio’s.  Our open architecture encourages integration and customization, allowing you to tailor the system to your unique strategic needs, ensuring flexibility and growth.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed p-20" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Standardized the process of Algorithmic trading Development
+                        </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body p-20">
+                                Blitz's standardized trading platform SDK (Software Development Kit) and framework play a vital role in enriching learning, upskilling, and boosting your productivity. Through standardized tools and methodologies, Blitz ensures a consistent and efficient environment for crafting and deploying trading strategies.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingfour">
+                        <button class="accordion-button collapsed p-20" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Advance trade Execution Capabilities
+                        </button>
+                        </h2>
+                        <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body p-20">BlitzTrader offers advanced trade execution capabilities that can be easily customized and integrated into trading strategies, allowing for efficient order routing and execution. Our execution framework empowers your strategy to quote the market like HFT player
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-            <p class="para-text">
-              BlitzTrader features loosely coupled market data feed components and a dissemination infrastructure, providing traders with real-time, accurate market data for informed decision-making.
-            </p>
-          </div>
-
-          <div class="tab-pane fade text-left text-light" id="devs6" role="tabpanel" aria-labelledby="profile-tab6">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-6.png">
-            </div><br><br>
-            <p class="para-text">
-               We provide a comprehensive suite of frameworks and libraries for TimeData Series, Technical Indicators, and options pricing, enabling traders to conduct advanced analysis and modeling with ease.
-            </p>
-          </div>
-
-          <div class="tab-pane fade text-left text-light" id="snit7" role="tabpanel" aria-labelledby="home-tab7">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-7.png">
-            </div><br><br>
-            <p class="para-text">
-              Our platform offers advanced trade execution capabilities that can be easily customized and integrated into trading strategies, allowing for efficient order routing and execution. Our execution framework empowers your strategy to quote at any level, on any order side, and at any price point.
-            </p>
-          </div>
-
-          <div class="tab-pane fade text-left text-light" id="devs8" role="tabpanel" aria-labelledby="profile-tab8">
-            <div class="text-center">
-              <img class="w-75" src="assets/img/blitztrader-8.png">
-            </div><br><br>
-            <p class="para-text">
-              BlitzTrader Strategies are developed using .NET programming languages, opening up immense possibilities for you to connect with any external system for signals or advanced calculations. This makes the system open and customizable without any limitations.
-            </p>
-          </div>
         </div>
-      </div>
-    </div>
+    </section>
+    <section class="pt-5">
+        <div class="container-fluid py-5" >
+            <div class="p-5 h-55 my-img">
+                <div>
+                    <center><img class="w-25 bit_logo" src="assets/img/mid-logo.svg" alt=""></center>
+                </div>
 
-    <div class="container accordion desk" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Why to Choose BlitzTrader
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body"> 
-            <div class="para-text">
-              BlitzTrader has a proven track record of automating complex trading strategies in a single day, a feat that some proprietary desks struggled to achieve over months. Time to market is a crucial factor when deploying backtested strategies, and we guarantee that BlitzTrader's efficiency cannot be surpassed by any other platform. Our mission is to establish BlitzTrader as the premier algorithmic trading platform for proprietary desks and professional traders.
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="p-40 big-title text-white">Empower and Transform your trading journey with cutting edge automation.</p>
+                    </div>
+                </div>
+
             </div>
-          </div>
         </div>
-      </div>
-      <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Asset Neutral, High Performance, Scalable, Open Architecture
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-               
-              <div class="para-text">
-                BlitzTrader's architecture is designed to accommodate various asset classes with high performance and scalability, ensuring seamless integration and operation in any trading environment.
+        <div class="imageCarousel">
+            <img class="slide-box" src="assets/img/home_image_1.png">
+
+            <div id="prev-button" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none"   stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 12h-15m0 0l5.625-6M4.5 12l5.625 6"/></svg>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Flexible and Powerful Customization
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-               
-              <div class="para-text">
-                
-                Our platform offers robust customization options to adapt to changing market conditions and evolving trading business needs, empowering traders to stay ahead of the curve.
+
+            <div id="next-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"/></svg>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-          <h2 class="accordion-header" id="headingfour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
-              Open Framework and SDK
-            </button>
-          </h2>
-          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-               
-              <div class="para-text">
-                
-                Developers can leverage our open framework and SDK to develop and integrate powerful algorithmic strategies and market connectivity adapters tailored to their specific requirements.
+
             </div>
-          </div>
         </div>
-      </div> 
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingfive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedfive" aria-expanded="false" aria-controls="collapsedfive">
-            Loosely Coupled Market Data Feed Components
-          </button>
-        </h2>
-        <div id="collapsedfive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-               
-              <div class="para-text">
-                
-                BlitzTrader features loosely coupled market data feed components and a dissemination infrastructure, providing traders with real-time, accurate market data for informed decision-making.
+    </section>
+
+    <section>
+        <div class="container-fluid py-5" style="background-color: #171321">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6">
+                    <h1 class="main_title text-start p-0 pe-5 text-white">QXFinLib .NET</h1>
+                    <p class="sub_title text-start px-0 pe-5 text-white  mb-4">
+                        Unlock the potential of our extensive trading library and framework, specifically engineered to transform your trading system research and development. Significantly reduce costs and accelerate time-to-market compared to building from scratch using .NET technology.
+                    </p>
+                    <ul class="list-unstyled list-home mb-4">
+                        <li class="d-flex align-items-start mb-2 py-2">
+                            <svg style="margin-right:15px;" width="24" height="24" viewBox="0 0 18 18" stroke:="" #ffffff;="" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.11888 5.36017C5.06113 3.08774 8.26673 2.36348 10.9973 3.58015C11.3757 3.74873 11.819 3.57868 11.9876 3.20033C12.1562 2.82197 11.9862 2.37859 11.6078 2.21001C8.27044 0.722963 4.35249 1.60817 1.97862 4.38559C-0.395241 7.16301 -0.659527 11.171 1.32908 14.2361C3.3177 17.3012 7.08549 18.6932 10.5892 17.6572C14.0929 16.6213 16.498 13.4037 16.5 9.75008V9.05258C16.5 8.63836 16.1643 8.30258 15.75 8.30258C15.3358 8.30258 15 8.63836 15 9.05258V9.74965C14.9983 12.739 13.0306 15.3712 10.1639 16.2188C7.29722 17.0664 4.21449 15.9275 2.58744 13.4197C0.960396 10.9119 1.17663 7.6326 3.11888 5.36017Z" fill="white" fill-opacity="0.7"></path>
+                                <path d="M17.0304 3.53041C17.3233 3.23751 17.3233 2.76264 17.0304 2.46975C16.7375 2.17685 16.2626 2.17685 15.9697 2.46975L8.25005 10.1894L6.53038 8.46975C6.23748 8.17685 5.76261 8.17685 5.46972 8.46975C5.17682 8.76264 5.17682 9.23751 5.46972 9.53041L7.71972 11.7804C8.01261 12.0733 8.48748 12.0733 8.78038 11.7804L17.0304 3.53041Z" fill="white" fill-opacity="0.7"></path>
+                            </svg>
+                            <span class="text-white font-weight-normal">Time Series library with various time compression.</span>
+                        </li>
+                        <li class="d-flex align-items-start mb-2 py-2">
+                            <svg style="margin-right:15px;" width="24" height="24" viewBox="0 0 18 18" stroke:="" #ffffff;="" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.11888 5.36017C5.06113 3.08774 8.26673 2.36348 10.9973 3.58015C11.3757 3.74873 11.819 3.57868 11.9876 3.20033C12.1562 2.82197 11.9862 2.37859 11.6078 2.21001C8.27044 0.722963 4.35249 1.60817 1.97862 4.38559C-0.395241 7.16301 -0.659527 11.171 1.32908 14.2361C3.3177 17.3012 7.08549 18.6932 10.5892 17.6572C14.0929 16.6213 16.498 13.4037 16.5 9.75008V9.05258C16.5 8.63836 16.1643 8.30258 15.75 8.30258C15.3358 8.30258 15 8.63836 15 9.05258V9.74965C14.9983 12.739 13.0306 15.3712 10.1639 16.2188C7.29722 17.0664 4.21449 15.9275 2.58744 13.4197C0.960396 10.9119 1.17663 7.6326 3.11888 5.36017Z" fill="white" fill-opacity="0.7"></path>
+                                <path d="M17.0304 3.53041C17.3233 3.23751 17.3233 2.76264 17.0304 2.46975C16.7375 2.17685 16.2626 2.17685 15.9697 2.46975L8.25005 10.1894L6.53038 8.46975C6.23748 8.17685 5.76261 8.17685 5.46972 8.46975C5.17682 8.76264 5.17682 9.23751 5.46972 9.53041L7.71972 11.7804C8.01261 12.0733 8.48748 12.0733 8.78038 11.7804L17.0304 3.53041Z" fill="white" fill-opacity="0.7"></path>
+                            </svg>
+                            <span class="text-white font-weight-normal">Technical Indicator framework with pre build 100+ indicators.</span>
+                        </li>
+                        <li class="d-flex align-items-start mb-2 py-2">
+                            <svg style="margin-right:15px;" width="24" height="24" viewBox="0 0 18 18" stroke:="" #ffffff;="" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.11888 5.36017C5.06113 3.08774 8.26673 2.36348 10.9973 3.58015C11.3757 3.74873 11.819 3.57868 11.9876 3.20033C12.1562 2.82197 11.9862 2.37859 11.6078 2.21001C8.27044 0.722963 4.35249 1.60817 1.97862 4.38559C-0.395241 7.16301 -0.659527 11.171 1.32908 14.2361C3.3177 17.3012 7.08549 18.6932 10.5892 17.6572C14.0929 16.6213 16.498 13.4037 16.5 9.75008V9.05258C16.5 8.63836 16.1643 8.30258 15.75 8.30258C15.3358 8.30258 15 8.63836 15 9.05258V9.74965C14.9983 12.739 13.0306 15.3712 10.1639 16.2188C7.29722 17.0664 4.21449 15.9275 2.58744 13.4197C0.960396 10.9119 1.17663 7.6326 3.11888 5.36017Z" fill="white" fill-opacity="0.7"></path>
+                                <path d="M17.0304 3.53041C17.3233 3.23751 17.3233 2.76264 17.0304 2.46975C16.7375 2.17685 16.2626 2.17685 15.9697 2.46975L8.25005 10.1894L6.53038 8.46975C6.23748 8.17685 5.76261 8.17685 5.46972 8.46975C5.17682 8.76264 5.17682 9.23751 5.46972 9.53041L7.71972 11.7804C8.01261 12.0733 8.48748 12.0733 8.78038 11.7804L17.0304 3.53041Z" fill="white" fill-opacity="0.7"></path>
+                            </svg>
+                            <span class="text-white font-weight-normal">Develop, test, and refine your trading strategies with our powerful back-testing library.</span>
+                        </li>
+                        <li class="d-flex align-items-start mb-2 py-2">
+                            <svg style="margin-right:15px;" width="24" height="24" viewBox="0 0 18 18" stroke:="" #ffffff;="" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.11888 5.36017C5.06113 3.08774 8.26673 2.36348 10.9973 3.58015C11.3757 3.74873 11.819 3.57868 11.9876 3.20033C12.1562 2.82197 11.9862 2.37859 11.6078 2.21001C8.27044 0.722963 4.35249 1.60817 1.97862 4.38559C-0.395241 7.16301 -0.659527 11.171 1.32908 14.2361C3.3177 17.3012 7.08549 18.6932 10.5892 17.6572C14.0929 16.6213 16.498 13.4037 16.5 9.75008V9.05258C16.5 8.63836 16.1643 8.30258 15.75 8.30258C15.3358 8.30258 15 8.63836 15 9.05258V9.74965C14.9983 12.739 13.0306 15.3712 10.1639 16.2188C7.29722 17.0664 4.21449 15.9275 2.58744 13.4197C0.960396 10.9119 1.17663 7.6326 3.11888 5.36017Z" fill="white" fill-opacity="0.7"></path>
+                                <path d="M17.0304 3.53041C17.3233 3.23751 17.3233 2.76264 17.0304 2.46975C16.7375 2.17685 16.2626 2.17685 15.9697 2.46975L8.25005 10.1894L6.53038 8.46975C6.23748 8.17685 5.76261 8.17685 5.46972 8.46975C5.17682 8.76264 5.17682 9.23751 5.46972 9.53041L7.71972 11.7804C8.01261 12.0733 8.48748 12.0733 8.78038 11.7804L17.0304 3.53041Z" fill="white" fill-opacity="0.7"></path>
+                            </svg>
+                            <span class="text-white font-weight-normal">Advance Options strategy back-testing framework to evaluate complex options strategies.</span>
+                        </li>
+                        <li class="d-flex align-items-start mb-2 py-2">
+                            <svg style="margin-right:15px;" width="24" height="24" viewBox="0 0 18 18" stroke:="" #ffffff;="" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.11888 5.36017C5.06113 3.08774 8.26673 2.36348 10.9973 3.58015C11.3757 3.74873 11.819 3.57868 11.9876 3.20033C12.1562 2.82197 11.9862 2.37859 11.6078 2.21001C8.27044 0.722963 4.35249 1.60817 1.97862 4.38559C-0.395241 7.16301 -0.659527 11.171 1.32908 14.2361C3.3177 17.3012 7.08549 18.6932 10.5892 17.6572C14.0929 16.6213 16.498 13.4037 16.5 9.75008V9.05258C16.5 8.63836 16.1643 8.30258 15.75 8.30258C15.3358 8.30258 15 8.63836 15 9.05258V9.74965C14.9983 12.739 13.0306 15.3712 10.1639 16.2188C7.29722 17.0664 4.21449 15.9275 2.58744 13.4197C0.960396 10.9119 1.17663 7.6326 3.11888 5.36017Z" fill="white" fill-opacity="0.7"></path>
+                                <path d="M17.0304 3.53041C17.3233 3.23751 17.3233 2.76264 17.0304 2.46975C16.7375 2.17685 16.2626 2.17685 15.9697 2.46975L8.25005 10.1894L6.53038 8.46975C6.23748 8.17685 5.76261 8.17685 5.46972 8.46975C5.17682 8.76264 5.17682 9.23751 5.46972 9.53041L7.71972 11.7804C8.01261 12.0733 8.48748 12.0733 8.78038 11.7804L17.0304 3.53041Z" fill="white" fill-opacity="0.7"></path>
+                            </svg>
+                            <span class="text-white font-weight-normal">Optimize your trading strategies for maximum performance and profitability.</span>
+                        </li>
+                    </ul>
+                    <a href="/products/qxfinlib" class="btn btn-light text-dark btn-no-hover fw-semibold" style="background: #ffffff;color: #171321;">Learn more</a>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img src="assets/img/cta_img_1.png" alt="CTA" class="img-fluid px-5 slide-box">
+                </div>
             </div>
-          </div>
         </div>
-      </div>  
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingsix">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedsix" aria-expanded="false" aria-controls="collapseThree">
-            Framework and Libraries
-          </button>
-        </h2>
-        <div id="collapsedsix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-               
-              <div class="para-text">
-                 
-                 Our platform offers advanced trade execution capabilities that can be easily customized and integrated into trading strategies, allowing for efficient order routing and execution. Our execution framework empowers your strategy to quote at any level, on any order side, and at any price point.
+    </section>
+
+    <section class="pt-5">
+        <div class="container-fluid py-5">
+            <div
+            class="p-5 d-flex flex-column justify-content-center"
+            style="background: url('assets/img/cta-bg.png') no-repeat center center/cover; min-height: 50vh; border-radius: 12px;"
+            >
+            <div class="row   align-items-center">
+                <div class="col-12 col-md-12 col-lg-6 py-3">
+                <div class="main_title text-start p-0 pe-md-5">
+                    QuantXpress Consulting and Professional Services
+                </div>
+                <p class="sub_title text-start p-0 pe-md-5">
+                    As a leading technology firm, QuantXpress Technologies excels in algorithmic trading and trade lifecycle
+                    automation. We serve as your go-to technology partner, delivering complete solutions for all your algorithmic,
+                    automation trading and market connectivity challenges.
+                </p>
+                <a href="about">
+                    <button class="btn btn-primary p-2">
+                    Learn More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 20V4m0 0l6 6m-6-6l-6 6"></path>
+                    </svg>
+                    </button>
+                </a>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block"></div>
+                <div class="col-12 col-md-12 col-lg-4 py-3 text-center">
+                <img src="assets/img/cta_img_2.svg" alt="CTA" class="img-fluid w-100" />
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingseven">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedseven" aria-expanded="false" aria-controls="collapseseven">
-            Advanced Trade Execution Capabilities
-          </button>
-        </h2>
-        <div id="collapsedseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-               
-              <div class="para-text">
-                
-                BlitzTrader Strategies are developed using .NET programming languages, opening up immense possibilities for you to connect with any external system for signals or advanced calculations. This makes the system open and customizable without any limitations.
             </div>
-          </div>
         </div>
-      </div>  
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingeight">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedeight" aria-expanded="false" aria-controls="collapseeight">
-            Integration with External system
-          </button>
-        </h2>
-        <div id="collapsedeight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-               
-              <div class="para-text">
-                 
-                 Our platform offers robust customization options to adapt to changing market conditions and evolving trading business needs, empowering traders to stay ahead of the curve.
+        </section>
+
+
+    <section class="pt-5">
+        <div class="container-fluid   mob-p5" >
+           <div class="container-fluid  ">
+                <div class="row g-4 d-flex align-items-stretch">
+
+                    <!-- Left Column -->
+                    <div class="col-12 col-lg-4 p-5 cta-bg mob-p10 r-l-65 d-flex flex-column justify-content-center">
+                    <div class="main_title text-start p-0 pe-5">
+                        Tailored <br>
+                        <span style="color: #7759C2;"> Automated </span> <br>
+                        Trading Platform <br> for Enterprise <br> Needs
+                    </div>
+                    <p class="sub_title text-start px-0 pe-5">
+                        BlitzTrader empowers professional quants and active traders to build, deploy, and scale their algorithmic strategies, leading to better execution and more time for innovation.
+                    </p>
+
+                    <div class="d-flex flex-column gap-3 mt-4">
+                        <div class="d-flex justify-content-start align-items-center bg-white rounded-pill shadow p-3 ps-5 mob-p-15">
+                        <i class="fas fa-arrow-up text-muted"></i>
+                        <span class="ms-2 tablet_text"> CI pipelines : Build for Quants, Tuned for Speed</span>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center bg-white rounded-pill shadow p-3 ps-5 mob-p-15">
+                        <i class="fas fa-arrow-up text-muted"></i>
+                        <span class="ms-2 tablet_text">
+                            CI pipelines : Code, Deploy, Test and Execute
+                        </span>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-12 col-lg-8 d-flex">
+                    <div class="row g-3 flex-grow-1">
+                        <!-- Card 1 -->
+                        <div class="col-12 col-md-6 d-flex">
+                        <div class="cta-bg p-4 w-100 d-flex flex-column">
+                            <img class="icon_image_2 mb-3" src="assets/img/icon_1.svg" alt="Icon">
+                            <h2 class="card_title_2">Automated and Algorithmic Trading</h2>
+                            <p class="sub_title_2 text-start mt-auto">
+                            Transform and elevate your performance by automating your rule-based strategies with BlitzTrader – the ultimate solution for precision and efficiency in automated trading!
+                            </p>
+                        </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-12 col-md-6 d-flex">
+                        <div class="cta-bg p-4 w-100 d-flex flex-column">
+                            <img class="icon_image_2 mb-3" src="assets/img/icon_2.svg" alt="Icon">
+                            <h2 class="card_title_2">HFT Platform</h2>
+                            <p class="sub_title_2 text-start mt-auto">
+                            We provide bespoke HFT trading platforms with optional source code (C++) and professional services to customize them for high-performance execution.
+                            </p>
+                        </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-12 col-md-6 d-flex">
+                        <div class="cta-bg p-4 w-100 d-flex flex-column">
+                            <img class="icon_image_2 mb-3" src="assets/img/icon_3.svg" alt="Icon">
+                            <h2 class="card_title_2">Market Connectivity</h2>
+                            <p class="sub_title_2 text-start mt-auto">
+                            Expand your trading strategy globally with our Market Connectivity Solutions, enabling seamless access to any market and asset class worldwide.
+                            </p>
+                        </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="col-12 col-md-6 d-flex">
+                        <div class="cta-bg p-4 w-100 d-flex flex-column">
+                            <img class="icon_image_2 mb-3" src="assets/img/icon_4.svg" alt="Icon">
+                            <h2 class="card_title_2">Market Data Solutions</h2>
+                            <p class="sub_title_2 text-start mt-auto">
+                            We provide market data dissemination technology customized for high-performance trading systems and retail platforms.
+                            </p>
+                        </div>
+                        </div>
+
+                        <!-- Card 5 Full Width -->
+                        <div class="col-12 d-flex">
+                        <div class="cta-bg p-4 w-100 d-flex flex-column">
+                            <img class="icon_image_2 mb-3" src="assets/img/icon_5.svg" alt="Icon">
+                            <h2 class="card_title_2">Consultancy and Professional Services</h2>
+                            <p class="sub_title_2 text-start mt-auto">
+                            We offer consultancy and advisory support to traders, prop desks, and brokers establishing algorithmic trading across various markets.
+                            </p>
+                        </div>
+                        </div>
+
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+        </div>
+    </section>
+
+    <?php include 'testimonials.php'; ?>
+
+    <section  >
+        <div class="container-fluid py-5" >
+            <div class="d-flex align-items-center" style=" background: url('assets/img/cta-bg.png') no-repeat center center/cover;padding: 0 !important;">
+                <div class="container content d-flex flex-column flex-md-row justify-content-between">
+                    <div class="text-container text-center text-md-start w-100 p-4 ">
+                         <div class="main_title text-start p-0 pe-5 pt-5">Careers at  QuantXpress</div>
+                        <p class="sub_title text-start px-0 pe-5  ">Join a group of passionate professionals who are transforming trading industries through Product Engineering, and automation.                    </p>
+                        <a href="/careers">
+                            <button class="btn p-2" style="width: 255px;">
+                                Visit our careers page
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 20V4m0 0l6 6m-6-6l-6 6"></path></svg>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="image-container text-end">
+                        <img  src="assets/img/careers_man.png" alt="Smiling professional holding a laptop, with a background featuring a large 'X' design" class="img-fluid w-75">
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
- 
-  
-  
-  <section class="bg-gray py-5 ">  
-    <div class="container">  
-      <div class="row  ">
-        
-        <div class="col-12 col-md-6 col-lg-6 div-center">
-          <p class="sec-title">
-            <span class="span-title">QuantXpress</span> Consulting and Professional Services
-          </p>
+    </section>
 
-          <p class="para-text py-3">
-            QuantXpress Technologies is a leading technology firm specializing in algorithmic trading and trade lifecycle automation.
-            We are your one-stop shop for all your algorithmic trading needs.
-          </p>
-
-          <!-- <p class="para-text  centerpy-3">
-            With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking custom trading software development, algorithmic trading, high-frequency trading (HFT), custom quantitative strategies development on Blitz, exchange connectivity, FIX Engine, and market data solutions. Our team also specializes in electronic connectivity solutions for all major Indian and global exchanges. Trust QuantXpress to elevate your trading experience and optimize your performance in today's dynamic markets.
-          </p> -->
-
-          <button class="dark-btn_2 mob-mt-5 "> Learn More 
-            <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
-	           <path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
-            </svg>
-          </button>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-6 div-center">
-          <img src="assets/img/consulting.webp">
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="container py-5">
-    <div class="row pt-5">
-      <div class="col-12 col-md-5 col-lg-5 div-center">
-        <p class="sec-title">
-           What Our <span class="span-title"><br>Customers Says</span>
-        </p>
-
-        <p class="para-text">
-          With extensive experience and expertise in the capital markets, we offer innovative solutions, consulting, and advisory support to trading firms seeking 
-        </p>
-
-        <!-- <button class="dark-btn_2 mob-mt-5 mt-5 "> Learn More <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
-	       <path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
-            </svg>
-        </button> -->
-      </div>
-      <div class="col-12 col-md-7 col-lg-7">
-        <div class="testimonial-container">
-          <div class="progress-bar"></div>
-          <div class="fas fa-quote-left fa-quote"></div>
-          <div class="fas fa-quote-right fa-quote"></div>
-          <p class="testimonial mt-5 para-text">
-            Since applying the Coppercoat system I have been delighted with its performance. There's been much less weed build-up than in previous years, and what did appear has been easy to remove. It’s quite a high initial outlay, but a lot of money will be saved over the years and it seems to work as a very effective anti-fouling with the bonus of offering good hull protection.
-          </p>
-          <div class="text-left mt-5"> 
-            <div class="user-details">
-              <h4 class="username">Mia Asano</h4>
-              <p class="role">Sales</p>
+    <section class="container-fluid py-5" style="background: rgb(75,0,198);
+                    background: linear-gradient(45deg, rgba(75,0,198,1) 0%, rgba(83,0,219,1) 50%, rgba(91,0,241,1) 100%);">
+            <div class="row py-5 centered-content">
+                <div class="col-12 col-md-12 col-lg-6 ">
+                    <div class="main_title text-start p-0 pe-5 pt-5 text-white">Experience the world most advance Algorithmic Trading Platform
+                    </div>
+                    <p class="sub_title text-start px-0 pe-5 pb-5 text-white">Transform complex trading strategies and execution models across any market and asset class into reality in just days! Our autonomous trading platform leverages cutting-edge technology to elevate your trading experiences, drive success, and keep you competitive in the market.
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 position-relative ps-5">
+                    <a href="contact-us.php">
+                        <button class="btn cta-btn-blue p-2" style="width: 300px;background: #171321;">
+                            Request a demo
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 20V4m0 0l6 6m-6-6l-6 6"></path></svg>
+                        </button>
+                    </a>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="container pt-5 career-bg px-5">    
+    <?php include 'footer.php'; ?>
+    <script>
+        let currentIndex = 0; // Declare currentIndex only once
+        const slides = document.querySelectorAll('.slide');
+        const img = document.querySelector(".slide-box");
+        const next = document.querySelector("#next-button");
+        const prev = document.getElementById('prev-button');
 
-    <div class="row">
-      <div class="col-12 col-md-8 col-lg-8">
-        <p class="sec-title py-4">
-          <span class="span-title">Career </span>Opportunities
-        </p> 
+        const images = [
+            "assets/img/home_image_1.png",
+            "assets/img/home_image_2.png",
+            "assets/img/home_image_3.png",
+            "assets/img/home_image_4.png",
+            "assets/img/home_image_5.png",
+            "assets/img/home_image_6.png",
+            "assets/img/home_image_7.png"
+        ];
 
-        <p class="para-text py-4">
-          Join a group of passionate professionals who are transforming trading industries through Product Engineering, and automation.
-        </p>
+        function updateCarousel() {
+            slides.forEach((slide, index) => {
+                slide.classList.toggle('active', index === currentIndex);
+            });
+        }
 
-        <a href="career.php"><button class="dark-btn_2 mob-mt-5  mt-5">Visit our career page <svg class="ps-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
-	<path fill="white" fill-rule="evenodd" d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z" clip-rule="evenodd" />
-</svg></button></a>
-      </div>
-      <div class="col-12 col-md-4 col-lg-4">
-        <img src="assets/img/career-home.png">
-      </div>
-    </div> 
-    
-  </section> <br><br><br>
+        function autoSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateCarousel();
+        }
 
-  <?php include 'footer.php';?>
+        setInterval(autoSlide, 15000);
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>
+        // Image slider functions
+        function incrementIndex() {
+            currentIndex = (currentIndex + 1) % images.length;
+            img.setAttribute("src", images[currentIndex]);
+        }
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js'></script>
+        function decrementIndex() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            img.setAttribute("src", images[currentIndex]);
+        }
 
-  <script  src="assets/js/script.js"></script>
-  <script type="text/javascript">
-    $(function () {
-       $('.toggle-menu').click(function(){
-        $('.exo-menu').toggleClass('display');
-       });
-    });
+        // Event Listeners
+        next.onclick = incrementIndex;
+        prev.onclick = decrementIndex;
 
-    const testimonialsContainer = document.querySelector(".testimonials-container");
-    const testimonial = document.querySelector(".testimonial");
-    // const userImage = document.querySelector(".user-image");
-    const username = document.querySelector(".username");
-    const role = document.querySelector(".role");
-
-    const testimonials = [
-      {
-        name: "Miyah Myles",
-        position: "Marketing",
-        text:
-          "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, every time."
-      },
-      {
-        name: "June Cha",
-        position: "Software Engineer",
-        text:
-          "This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!"
-      },
-      {
-        name: "Iida Niskanen",
-        position: "Data Entry",
-        text:
-          "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him."
-      },
-      {
-        name: "Renee Sims",
-        position: "Receptionist",
-        text:
-          "This guy does everything he can to get the job done and done right. This is the second time I've hired him, and I'll hire him again in the future."
-      },
-      {
-        name: "Jonathan Nunfiez",
-        position: "Graphic Designer",
-        text:
-          "I had my concerns that due to a tight deadline this project can't be done. But this guy proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I'm looking forward to work with him again and I totally recommend him. Thanks again!"
-      },
-      {
-        name: "Sasha Ho",
-        position: "Accountant",
-        text:
-          "This guy is a top notch designer and front end developer. He communicates well, works fast and produces quality work. We have been lucky to work with him!"
-      },
-      {
-        name: "Veeti Seppanen",
-        position: "Director",
-        text:
-          "This guy is a young and talented IT professional, proactive and responsible, with a strong work ethic. He is very strong in PSD2HTML conversions and HTML/CSS technology. He is a quick learner, eager to learn new technologies. He is focused and has the good dynamics to achieve due dates and outstanding results."
-      }
-    ];
-
-    let idx = 1;
-
-    function updateTestimonial() {
-      const { name, position, photo, text } = testimonials[idx];
-
-      testimonial.innerHTML = text;
-      userImage.src = photo;
-      username.innerHTML = name;
-      role.innerHTML = position;
-
-      idx++;
-
-      if (idx > testimonials.length - 1) {
-        idx = 0;
-      }
-    }
-
-    setInterval(updateTestimonial, 10000);
-  </script>
-</body> 
-</html>
+    </script>

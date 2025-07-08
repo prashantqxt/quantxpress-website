@@ -1,26 +1,26 @@
-<?php include 'header.php'; ?> 
+<?php include 'header.php'; ?>
 <style>
        .text-primary{
    color: #3D23A7!important;
    }
     .no-hover:hover {
       width: 215px!important;
-      border-radius: 50px!important; 
+      border-radius: 50px!important;
       background: rgb(121,79,209)!important;
-      background: linear-gradient(-31deg, rgb(121 79 209 / 25%) 0%, rgb(204 163 105 / 25%) 100%)!important; 
+      background: linear-gradient(-31deg, rgb(121 79 209 / 25%) 0%, rgb(204 163 105 / 25%) 100%)!important;
       border: 2px solid #ffffff40!important;
       color: #ffffff!important;
    }
 
    .learn_more_hover > a > div > .learn_more_span{
       display: none;
-   } 
+   }
    .learn_more_hover:hover >  a > div > .learn_more_span{
       display: block;
       font-size: 18px;
       font-weight: 600;
       margin: 3px;
-   } 
+   }
 
    .list-group > .card:hover{
       background-color: #d6c7fa26;
@@ -36,7 +36,7 @@
    <div class="row">
       <div class="col-12 col-md-12 col-lg-12 py-5 mgt-5">
          <div class="main_title text-start px-0 py-3 f-64">Blogs</div>
-         <p class="sub_title text-start px-0 m-0">  
+         <p class="sub_title text-start px-0 m-0">
             Quantxpress platform ------------- --------
          </p>
       </div>
@@ -146,10 +146,10 @@
                 <img alt="Abstract purple shapes" class="card-img-top" src="assets/img/blog_1.png"/>
                 <div class="card-body">
                     <h5 class="card-title">
-                        Streamlining Algorithmic Trading: How Blitz Unlocks Efficiency and Cost Savings
+                    Algorithmic Trading: The Future of Financial Markets
                     </h5>
                     <p class="card-text fs-18">
-                        Algorithmic trading is a cornerstone of modern finance, allowing for swift, precise, and efficient execution of trades. However, building and maintaining custom trading solutions often create significant roadblocks for institutions.
+                    Algorithmic trading, or "algo trading," refers to the use of computer programs to automatically execute trades in financial markets based on predefined rules and strategies. This method has revolutionized the way trading is conducted, enabling traders to operate with unprecedented speed and efficiency
                     </p>
                 </div>
                 <a href="blog_2.php" class="text-primary mt-3 px-3">
@@ -174,10 +174,10 @@
                 <img alt="Abstract blue shapes" class="card-img-top" src="assets/img/blog_2.png"/>
                 <div class="card-body">
                     <h5 class="card-title">
-                        BlitzTrader: Unlock Your Inner Quant with the Future of Algorithmic Trading
+                    Don't Trade in the Dark: Backtesting  and Optimization Light Your Way
                     </h5>
                     <p class="card-text fs-18">
-                        In the landscape of algorithmic trading platforms, Blitz stands out as a revolutionary solution. Unlike traditional platforms that offer limited flexibility with predefined strategies, Blitz allows traders to create their own unique trading strategies autonomously.
+                    Algorithmic trading has become a game-changer in the financial markets, allowing for speed, precision, and the automation of complex trading strategies. To leverage these benefits, traders need robust backtesting and optimization methods to ensure their strategies are effective and sustainable. Alongside these processes, performance metrics play a critical role in assessing the success of trading strategies.
                     </p>
                 </div>
                 <a href="blog_2.php" class="text-primary mt-3 px-3">
@@ -192,7 +192,7 @@
                   </a>
                 </div>
             </a>
-         </div> 
+         </div>
       </div>
    </div>
 </section>

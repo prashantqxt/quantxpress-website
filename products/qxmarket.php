@@ -392,10 +392,9 @@ require_once APP_ROOT . '/header.php';
         <div class="container-fluid" style=" background: url('assets/img/exchange.png') no-repeat center center/cover;">
             <div class="row py-1 centered-content">
                 <div class="col-12 col-md-12 col-lg-12 p-0 pt-5">
-                    <div class="main_title text-start p-0 pe-5 ">Build your first application in 4 lines of code</div>
+                    <div class="main_title text-start p-0 pe-5 ">Seamless Market Data Integration. From API to Execution fast</div>
                     <p class="sub_title text-start px-0 pe-5 mb-0">
-                        We work with any language through our raw API, which uses a binary protocol over TCP,
-                        and our HTTP API we also provide client libraries for python, c++, rust.
+                    Engineered for quants and developers to build faster with seamless access to live and historical market data.
                     </p>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3 ">

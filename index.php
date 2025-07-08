@@ -56,10 +56,19 @@
         .discover > svg{
             margin-top:-10px;
         }
-        .tablet_text {
+        /* .tablet_text {
             font-size: 14px;
             font-weight: 500;
-        }
+        } */
+
+        .tablet_text {
+  white-space: normal;     /* allow wrapping */
+  font-size: 0.95rem;
+  line-height: 1.3;        /* better spacing */
+}
+
+
+
     </style>
     <section class="page-top">
         <div class="carousel">
@@ -647,17 +656,17 @@
                     </p>
 
                     <div class="d-flex flex-column gap-3 mt-4">
-                        <div class="d-flex justify-content-start align-items-center bg-white rounded-pill shadow p-3 ps-5 mob-p-15">
-                        <i class="fas fa-arrow-up text-muted"></i>
-                        <span class="ms-2 tablet_text"> CI pipelines : Build for Quants, Tuned for Speed</span>
-                        </div>
-                        <div class="d-flex justify-content-start align-items-center bg-white rounded-pill shadow p-3 ps-5 mob-p-15">
-                        <i class="fas fa-arrow-up text-muted"></i>
-                        <span class="ms-2 tablet_text">
-                            CI pipelines : Code, Deploy, Test and Execute
-                        </span>
-                        </div>
-                    </div>
+  <div class="d-flex justify-content-start align-items-center bg-white rounded-pill shadow p-3 ps-5 mob-p-15">
+    <i class="fas fa-arrow-up text-muted"></i>
+    <span class="ms-2 tablet_text">CI pipelines : Build for Quants, Tuned for Speed</span>
+  </div>
+  <div class="d-flex justify-content-start align-items-center bg-white rounded-pill shadow p-3 ps-5 mob-p-15">
+    <i class="fas fa-arrow-up text-muted"></i>
+    <span class="ms-2 tablet_text">CI pipelines : Code, Deploy, Test and Execute</span>
+  </div>
+</div>
+
+
                     </div>
 
                     <!-- Right Column -->

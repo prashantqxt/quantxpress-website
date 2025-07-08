@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?> 
+<?php include 'header.php'; ?>
 <style>
    .code-block {
    background: rgba(31, 41, 55, 0.5);
@@ -37,22 +37,22 @@
    }
    .no-hover:hover {
       width: 215px!important;
-      border-radius: 50px!important; 
+      border-radius: 50px!important;
       background: rgb(121,79,209)!important;
-      background: linear-gradient(-31deg, rgb(121 79 209 / 25%) 0%, rgb(204 163 105 / 25%) 100%)!important; 
+      background: linear-gradient(-31deg, rgb(121 79 209 / 25%) 0%, rgb(204 163 105 / 25%) 100%)!important;
       border: 2px solid #ffffff40!important;
       color: #ffffff!important;
    }
 
    .learn_more_hover > a > div > .learn_more_span{
       display: none;
-   } 
+   }
    .learn_more_hover:hover >  a > div > .learn_more_span{
       display: block;
       font-size: 18px;
       font-weight: 600;
       margin: 3px;
-   } 
+   }
 
    .list-group > .card:hover{
       background-color: #d6c7fa26;
@@ -89,7 +89,7 @@
    <div class="container-fluid py-5">
       <div class="row align-items-center">
          <div class="col-md-6 text-center">
-            <img alt="Illustration of a person sitting on a server with a cloud upload icon and various tech elements around" 
+            <img alt="Illustration of a person sitting on a server with a cloud upload icon and various tech elements around"
                class="img-fluid" src="assets/img/explore_products.svg"/>
          </div>
          <div class="col-md-6 mt-4 mt-md-0">
@@ -195,7 +195,7 @@
                      <h5 class="text-primary mb-5">API</h5>
                      <h3 class="card-title">Strategy Development</h3>
                      <p class="card-text h-100"> Discover QX.FinLib SDK to build a backtest strategy and put them to work.</p>
-                     <a href="#" class="text-primary mt-5 "> 
+                     <a href="#" class="text-primary mt-5 ">
                         <div class="d-flex ">
                            <div class="learn_more_span">Learn More</div>
                            <div>
@@ -286,7 +286,7 @@
          </div>
       </div>
    </div>
-</section> 
+</section>
 
 
 <section class=" ">
@@ -335,7 +335,7 @@
                             <path d="M0 14.9729L7.5 7.5L9.26777 9.26138L3.53554 14.9729L9.26777 20.7124L7.5 22.4738L0 14.9729Z" fill="#3D23A7"/>
                             <path d="M30 15.0288L22.4982 22.5L20.7301 20.739L26.4636 15.0288L20.7301 9.29069L22.4982 7.52973L30 15.0288Z" fill="#3D23A7"/>
                             <path d="M17.3762 7.52808L10.0047 21.3598L12.2418 22.4738L19.6133 8.64207L17.3762 7.52808Z" fill="#3D23A7"/>
-                        </svg> 
+                        </svg>
                      </div>
                   </div>
                   <div class="d-flex mt-3">
@@ -399,12 +399,12 @@
                            The QX.FinLib framework offers an easy setup for utilizing standard indicators as well as developing proprietary indicators tailored to your specific needs.</p>
                     </div>
                     <hr>
-                    
+
                     <div class="p-4">
                         <h3 class="h5 font-weight-bold text-primary">Blitz Smart Order based Execution</h3>
                         <p>The Smart Order feature is a core component of the SDK, designed to streamline and enhance the robustness of your order execution logic, providing greater control over your trading operations.</p>
                     </div>
-                    
+
                     <hr>
                     <div class="p-4">
                         <h3 class="h5 font-weight-bold text-primary">My First Strategy in Blitz</h3>
@@ -462,13 +462,13 @@
                   <img alt="Abstract purple shapes" class="card-img-top" src="assets/img/blog_1.png"/>
                   <div class="card-body">
                      <h5 class="card-title">
-                        Streamlining Algorithmic Trading: How Blitz Unlocks Efficiency and Cost Savings
+                     Algorithmic Trading: The Future of Financial Markets
                      </h5>
                      <p class="card-text">
-                        Algorithmic trading is a cornerstone of modern finance, allowing for swift, precise, and efficient execution of trades. However, building and maintaining custom trading solutions often create significant roadblocks for institutions.
+                     Algorithmic trading, or "algo trading," refers to the use of computer programs to automatically execute trades in financial markets based on predefined rules and strategies. This method has revolutionized the way trading is conducted, enabling traders to operate with unprecedented speed and efficiency.
                      </p>
                   </div>
-                  <a href="blog_1.php" class="text-primary mt-3 px-3">
+                  <a href="blog_4.php" class="text-primary mt-3 px-3">
                      <div class="d-flex ">
                         <div class="learn_more_span">Read More</div>
                         <div>
@@ -478,11 +478,11 @@
                         </div>
                      </div>
                   </a>
-               </div> 
+               </div>
             </a>
          </div>
          <div class="col-md-4 mb-4 pb-5">
-            <a href="blog_1.php">
+            <a href="blog_2.php">
                 <div class="card h-100 hover-animation learn_more_hover">
                 <p class="text-primary" style="font-weight: bold;">
                     Technology
@@ -495,9 +495,9 @@
                     <p class="card-text">
                         In the landscape of algorithmic trading platforms, Blitz stands out as a revolutionary solution. Unlike traditional platforms that offer limited flexibility with predefined strategies, Blitz allows traders to create their own unique trading strategies autonomously.
                     </p>
-                     
+
                 </div>
-                <a href="blog_1.php" class="text-primary mt-3 px-3">
+                <a href="blog_2.php" class="text-primary mt-3 px-3">
                      <div class="d-flex ">
                         <div class="learn_more_span">Read More</div>
                         <div>
@@ -511,7 +511,7 @@
             </a>
          </div>
          <div class="col-md-4 mb-4 pb-5">
-            <a href="blog_1.php">
+            <a href="blog_3.php">
                 <div class="card h-100 hover-animation learn_more_hover">
                 <p class="text-primary" style="font-weight: bold;">
                     Technology
@@ -523,9 +523,9 @@
                     </h5>
                     <p class="card-text">
                         In the ever-evolving landscape of financial markets, technology plays a pivotal role, revolutionizing the way trading is conducted. The advent of electronic trading marked a significant turning point, transitioning markets from manual outcry systems to automated electronic networks.
-                    </p> 
+                    </p>
                 </div>
-                <a href="blog_1.php" class="text-primary mt-3 px-3">
+                <a href="blog_3.php" class="text-primary mt-3 px-3">
                      <div class="d-flex ">
                         <div class="learn_more_span">Read More</div>
                         <div>
@@ -537,7 +537,7 @@
                   </a>
                 </div>
             </a>
-         </div> 
+         </div>
       </div>
    </div>
 </section>

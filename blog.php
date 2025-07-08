@@ -39,7 +39,7 @@
 <!-- Section 1-->
 
   <section id="porque-sec" class="uk-section  uk-light">
-      <div> 
+      <div>
           <div uk-slider="velocity:1.3; easing: cubic-bezier(.4,0,.2,1)">
               <div class="uk-position-relative">
                   <div class="uk-slider-container uk-light">
@@ -47,11 +47,11 @@
                           <li class="blog-bg">
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
-                                    <div class="main-title-white blue">QuantXpress blogs </div> 
+                                    <div class="main-title-white blue">QuantXpress blogs </div>
 
-                                    <div class="small-text-white blue py-4-d px-4"> 
+                                    <div class="small-text-white blue py-4-d px-4">
                                        Discover exciting stories from our bloggers: From Trading technologies, general Information, technical insight, latest trends,  this is the place where new ideas come alive.
-                                    </div> 
+                                    </div>
                                   </div>
                               </div>
                           </li>
@@ -59,13 +59,13 @@
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
                                     <div class="main-title">QXFinLib NET2 </div>
-                                    <div class="second-title"> 
+                                    <div class="second-title">
                                           Empower your Research, Optimize Back tests,
                                           Master the Markets
                                     </div>
 
-                                    <div class="small-text py-4-d px-4"> 
-                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.  
+                                    <div class="small-text py-4-d px-4">
+                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.
                                     </div>
 
                                     <div class="btn-mg">
@@ -79,13 +79,13 @@
                               <div class="uk-container uk-container-small" uk-slider-parallax="opacity: 0,1,0">
                                   <div class="text-center">
                                     <div class="main-title">QXFinLib .NET3 </div>
-                                    <div class="second-title"> 
+                                    <div class="second-title">
                                           Empower your Research, Optimize Back tests,
                                           Master the Markets
                                     </div>
 
-                                    <div class="small-text py-4-d px-4"> 
-                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.  
+                                    <div class="small-text py-4-d px-4">
+                                          QXFinLib.NET is the ultimate toolkit for quant developers. Craft sophisticated trading systems with ease on the powerful .NET platform.
                                     </div>
 
                                     <div class="btn-mg">
@@ -118,14 +118,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
-              Streamlining Algorithmic Trading: How Blitz Unlocks Efficiency and Cost Savings</h2>
-              
-              <p class="para-text py-3 height-15" >Algorithmic trading is a cornerstone of modern finance, allowing for swift, precise, and efficient execution of trades. However, building and maintaining custom trading solutions often create significant roadblocks for institutions, leading to high costs and limited flexibility.</p>
-              
+              Algorithmic Trading: The Future of Financial Markets   </h2>
+
+              <p class="para-text py-3 height-15" > Algorithmic trading, or "algo trading," refers to the use of computer programs to automatically execute trades in financial markets based on predefined rules and strategies. This method has revolutionized the way trading is conducted, enabling traders to operate with unprecedented speed and efficiency</p>
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -133,12 +133,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -153,14 +153,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               BlitzTrader: Unlock Your Inner Quant with the Future of Algorithmic Trading</h2>
-              
+
               <p class="para-text py-3 height-15" >In the landscape of algorithmic trading platforms, Blitz stands out as a revolutionary solution. Unlike traditional platforms that offer limited flexibility with predefined strategies, </p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -168,12 +168,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -188,14 +188,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               The Transformative Role of Technology in Modern Trading <br> </h2>
-              
+
               <p class="para-text py-3 height-15" >In the ever-evolving landscape of financial markets, technology plays a pivotal role, revolutionizing the way trading is conducted. The advent of electronic trading marked a significant turning point, transitioning markets from manual outcry systems to automated electronic networks</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -203,12 +203,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -223,14 +223,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               Algorithmic Trading: The Future of Financial Markets    </h2>
-              
+
               <p class="para-text py-3 height-15" >Algorithmic trading, or "algo trading," refers to the use of computer programs to automatically execute trades in financial markets based on predefined rules and strategies. This method has revolutionized the way trading is conducted, enabling traders to operate with unprecedented speed and efficiency</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -238,12 +238,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -258,14 +258,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               Don't Trade in the Dark: Backtesting and Optimization Light Your Way</h2>
-              
+
               <p class="para-text py-3 height-15" >Algorithmic trading has become a game-changer in the financial markets, allowing for speed, precision, and the automation of complex trading strategies. To leverage these benefits, traders need robust backtesting and optimization methods to ensure their strategies are effective and sustainable.</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -273,12 +273,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -293,14 +293,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               Market Data Insight <br>  &nbsp </h2>
-              
+
               <p class="para-text py-3 height-15" >In today’s fast-paced and ever-changing financial markets, the access of accurate and timely market data empowers traders to make informed decisions and seize fleeting opportunities, propelling them towards success.</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -308,12 +308,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -328,14 +328,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               QX.MDS Market Data Platform: Empowering Brokers and Financial Institutions ...</h2>
-              
+
               <p class="para-text py-3 height-15" >In the fast-paced world of trading, access to real-time market data is essential for making informed decisions and seizing profitable opportunities. Whether you're a retail trader or a professional investor, having reliable and timely market information can make all the difference</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -343,12 +343,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -363,14 +363,14 @@
                 <!-- <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div> -->
                 <div class="primary para-text "><strong> Technology </strong></div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               FIX Engine – Demystifying FIX Message <br>  &nbsp </h2>
-              
+
               <p class="para-text py-3 height-15" >The Financial Information Exchange (FIX) protocol emerged in the 1990s as a standardized means for financial firms to communicate. Unlike proprietary solutions, FIX offers a global standard, promoting interoperability.  </p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -378,20 +378,20 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
       </div>
     </div>
-  </section> 
- 
- 
+  </section>
+
+
   <?php include 'footer.php';?>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -400,7 +400,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>
 
   <script  src="assets/js/script.js"></script>
-</body> 
+</body>
 <script type="text/javascript">
   $(function () {
      $('.toggle-menu').click(function(){

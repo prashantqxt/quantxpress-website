@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <style type="text/css">
- 
+
     .main-title-white {
       font-size: 5rem;
     }
@@ -60,7 +60,7 @@
         </div>
 
         <div class="para-text mt-5">
-          QuantXpress addresses these challenges head-on by providing cutting-edge market data solutions. Our REST and real-time Streaming APIs, built on websocket technology, offer straightforward, dependable, and cost-effective solutions for seamlessly integrating Exchange provided market data directly into your systems. With QuantXpress, you can trust that you'll have access to accurate and up-to-date market information to support your trading strategies and decision-making processes. 
+          QuantXpress addresses these challenges head-on by providing cutting-edge market data solutions. Our REST and real-time Streaming APIs, built on websocket technology, offer straightforward, dependable, and cost-effective solutions for seamlessly integrating Exchange provided market data directly into your systems. With QuantXpress, you can trust that you'll have access to accurate and up-to-date market information to support your trading strategies and decision-making processes.
         </div>
 
         <div class="para-text mt-5">
@@ -68,91 +68,91 @@
         </div>
 
         <div class="para-text mt-5">
-          Recognizing these challenges, QuantXpress has developed a cutting-edge market data platform, QX.MDS, designed to address the shortcomings of traditional market data dissemination systems with Intuitive and easy to use API. With a focus on robustness, standardization, and scalability, QuantXpress is revolutionizing the way market data is accessed and utilized in trading environments.  This solution is designed for brokers to immediately enabled their quant traders and API users with informed information and normalized data at all level and capitalize on market opportunities 
+          Recognizing these challenges, QuantXpress has developed a cutting-edge market data platform, QX.MDS, designed to address the shortcomings of traditional market data dissemination systems with Intuitive and easy to use API. With a focus on robustness, standardization, and scalability, QuantXpress is revolutionizing the way market data is accessed and utilized in trading environments.  This solution is designed for brokers to immediately enabled their quant traders and API users with informed information and normalized data at all level and capitalize on market opportunities
         </div>
 
-        <div class="para-text mt-5"> 
+        <div class="para-text mt-5">
           <div class="para-text mt-5">
             <strong class="blue"> Unveiling the Architecture of QX.MDS</strong><br>
-            
+
             QX.MDS is a comprehensive market data solution built with several key components:
 
-          </div><br> 
+          </div><br>
           <ul style="list-style-type: number;" class="ps-5">
-            <li> 
+            <li>
               <strong class="blue"> Feed Receiver:</strong>
                This module continuously monitors multiple exchange data feeds across various UDP ports, processing raw data feeds and transforming them into a unified messaging format for internal services.
-            </li><br> 
+            </li><br>
 
-            <li> 
+            <li>
               <strong class="blue"> Market Data Server: </strong>
                 Analyzes the normalized data, enriches it with analytical information, and stores it to serve as needed by systems.
             </li><br>
 
-            <li> 
+            <li>
               <strong class="blue"> API Gateway and Authentication Middleware: </strong>
                QX.MDS utilizes WebSocket and RESTful APIs for data dissemination, ensuring secure access through robust authentication middleware and API key generation
             </li><br>
- 
 
-          </ul> 
-        </div>
 
-        <div class="para-text mt-5"> 
-          
-          For real-time market data dissemination, QX.MDS leverages two key protocols:
- 
-        </div><br> 
-
-        <div class="para-text mt-5"> 
-
-          <ul style="list-style-type: circle;" class="ps-5">
-            <li> 
-              <strong class="blue">  Websocket API: </strong>
-              Establishing a real-time, two-way communication channel between clients and the server, this modern API enables low-latency data exchange, ideal for streaming real-time market updates and push notifications..
-            </li><br> 
-
-            <li> 
-              <strong class="blue"> RESTful API:   </strong>
-              Primarily used for delivering historical data, such as candlestick data with various compression levels, instrument information, and analytical data, this API handles request-response based messaging.
-            </li> 
           </ul>
         </div>
 
-        <div class="para-text mt-5"> 
+        <div class="para-text mt-5">
+
+          For real-time market data dissemination, QX.MDS leverages two key protocols:
+
+        </div><br>
+
+        <div class="para-text mt-5">
+
+          <ul style="list-style-type: circle;" class="ps-5">
+            <li>
+              <strong class="blue">  Websocket API: </strong>
+              Establishing a real-time, two-way communication channel between clients and the server, this modern API enables low-latency data exchange, ideal for streaming real-time market updates and push notifications..
+            </li><br>
+
+            <li>
+              <strong class="blue"> RESTful API:   </strong>
+              Primarily used for delivering historical data, such as candlestick data with various compression levels, instrument information, and analytical data, this API handles request-response based messaging.
+            </li>
+          </ul>
+        </div>
+
+        <div class="para-text mt-5">
           <div class="para-text mt-5">
             <strong class="blue"> The Benefits of Utilizing QX.MDS</strong><br>
-            
+
             By implementing QX.MDS, brokers can unlock a multitude of benefits for themselves and their API users:
 
-          </div><br> 
+          </div><br>
           <ul style="list-style-type: circle;" class="ps-5">
-            <li> 
+            <li>
               <strong class="blue"> Unparalleled Reliability:</strong>
                 Advanced monitoring and failover mechanisms ensure uninterrupted access to real-time market data, minimizing disruptions and empowering informed trading decisions.
-            </li><br> 
+            </li><br>
 
-            <li> 
+            <li>
               <strong class="blue"> Enhanced Consistency: </strong>
                  Standardization is a cornerstone of QX.MDS. By eliminating the need for multiple APIs, brokers can offer a consistent and seamless experience for all users, simplifying data integration and analysis.
             </li><br>
 
-            <li> 
+            <li>
               <strong class="blue"> Seamless Scalability: </strong>
                 The ever-growing world of trading demands a scalable data platform. QX.MDS is built to handle large volumes of market data with ease, making it suitable for small brokerages and large financial institutions alike.
             </li><br>
 
-            <li> 
+            <li>
               <strong class="blue"> Operational Efficiency:</strong>
                   Streamlining market data dissemination through QX.MDS reduces complexities and the risk of errors associated with managing multiple APIs. This translates to improved operational efficiency for brokers.
             </li><br>
 
-            <li> 
+            <li>
               <strong class="blue"> Competitive Advantage: </strong>
                  In the fast-paced world of finance, access to reliable and timely market data is a game-changer. With QX.MDS, brokers empower their traders with a competitive edge by providing a robust and dependable source of market information.
-            </li><br>  
-          </ul> 
-        </div> 
+            </li><br>
+          </ul>
+        </div>
 
         <div class="para-text mt-5">
           QuantXpress, through its innovative QX.MDS platform, is revolutionizing the way market data is accessed and utilized in trading environments. By providing a robust, standardized, and scalable solution, QX.MDS empowers brokers and traders to make informed decisions and seize lucrative market opportunities with confidence and agility. <br><br>
@@ -164,7 +164,7 @@
         <div class="border-line mt-5"></div>
     </div>
 
-    
+
 
     <div class="row py-6 recent">
       <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800 pb-5">
@@ -180,14 +180,14 @@
             <div class="d-flex items-center mt-2 p-4">
                 <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               BlitzTrader: Unlock Your Inner Quant with the Future of Algorithmic Trading</h2>
-              
+
               <p class="para-text py-3" >In the landscape of algorithmic trading platforms, Blitz stands out as a revolutionary solution. Unlike....</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -195,12 +195,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -214,14 +214,14 @@
             <div class="d-flex items-center mt-2 p-4">
                 <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               The Transformative Role of Technology in Modern Trading <br> &nbsp</h2>
-              
+
               <p class="para-text py-3" >In the ever-evolving landscape of financial markets, technology plays a pivotal role, revolutionizing the  ....</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -229,12 +229,12 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
@@ -248,14 +248,14 @@
             <div class="d-flex items-center mt-2 p-4">
                 <img src="assets/img/profile.jpg" alt="Author Avatar"  class="h-8 w-8 rounded-full">
                 <div class="para-text ml-2" style="font-size: 1.2rem!important;">By Author Name <br> 13th Mar 2023</div>
-            </div> 
-   
+            </div>
+
             <div class="p-4">
               <h2 class="my-1 small-title-dark font-bold leading-tight text-gray-800">
               Algorithmic Trading: The Future of Financial Markets  <br> &nbsp  </h2>
-              
+
               <p class="para-text py-3" >Algorithmic trading, or "algo trading," refers to the use of computer programs to automatically execute trades   ....</p>
-              
+
               <div class="border-line"></div>
 
               <div class="d-flex mt-3">
@@ -263,20 +263,20 @@
                   Read More
                 </div>
 
-                <div class="w-25"> 
+                <div class="w-25">
                   <svg style="color: #595959;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path>
                   </svg>
                 </div>
-            </div> 
+            </div>
             </div>
           </div>
         </a>
       </div>
     </div>
-  </section> 
- 
- 
+  </section>
+
+
   <?php include 'footer.php';?>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -285,7 +285,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js'></script>
 
   <script  src="assets/js/script.js"></script>
-</body> 
+</body>
 <script type="text/javascript">
   $(function () {
      $('.toggle-menu').click(function(){

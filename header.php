@@ -68,7 +68,7 @@ function activePage($page) {
                                 <li class="m-0"><a class="dropdown-item" href="/products/qxmarket" <?php echo activePage('qxmarket'); ?>>QX.Market Data API</a></li>
                                 <li class="m-0"><a class="dropdown-item" href="http://192.168.1.6:3006/">Fix Parser Tool</a></li>
                                 <li class="m-0"><a class="dropdown-item" href="http://192.168.1.6:3006/calculators/option-value-calculator">Option Value Calculator</a></li>
-                                <li class="m-0"><a class="dropdown-item" href="http://192.168.1.6:30i06/calculators/implied-volatility-calculator">IV Calculator</a></li>
+                                <li class="m-0"><a class="dropdown-item" href="http://192.168.1.6:3006/calculators/implied-volatility-calculator">IV Calculator</a></li>
 
                             </ul>
                         </li>
